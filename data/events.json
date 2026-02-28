@@ -1,6 +1,606 @@
 {
   "events": [
     {
+      "id": "2027890017868157363",
+      "type": "intel",
+      "country": "israel",
+      "title": "🔴 Si ets a l'Orient Mitjà i et trobes en una situació d'emergència, pots trucar als següents telèfon",
+      "desc": "🔴 Si ets a l'Orient Mitjà i et trobes en una situació d'emergència, pots trucar als següents telèfons d'emergència consular:\n\n🇮🇷 Iran: +98 0912 139 37 03\n🇮🇱 Israel: +972 50 577 2641 i +972 599 276538\n🇦🇪 Emirats Àrabs Units: +971 506120260 i +971 24079000\n🇶🇦 Qatar: +974 55862411\n🇰🇼 Kuwait: +965 97210578\n🇧🇭 Bahrein: +965 97210578\n🇮🇶 Iraq: +964 780 109 9364\n🇯🇴 Jordània: +962 775 555 105 i +962 777 212 267\n\nUnitat d'emergència consular del @MAECgob (operativa 24h): +34 910001249",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:51 +0000 2026",
+      "source": "@exteriorscat",
+      "tweetId": "2027890017868157363",
+      "url": "https://twitter.com/exteriorscat/status/2027890017868157363",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🔴 Si ets a l'Orient Mitjà i et trobes en una situació d'emergència, pots trucar als següents telèfon",
+          "desc": "🔴 Si ets a l'Orient Mitjà i et trobes en una situació d'emergència, pots trucar als següents telèfons d'emergència consular:\n\n🇮🇷 Iran: +98 0912 139 37 03\n🇮🇱 Israel: +972 50 577 2641 i +972 599 276538\n🇦🇪 Emirats Àrabs Units: +971 506120260 i +971 24079000\n🇶🇦 Qatar: +974 55862411\n🇰🇼 Kuwait: +965 97210578\n🇧🇭 Bahrein: +965 97210578\n🇮🇶 Iraq: +964 780 109 9364\n🇯🇴 Jordània: +962 775 555 105 i +962 777 212 267\n\nUnitat d'emergència consular del @MAECgob (operativa 24h): +34 910001249",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890017213747321",
+      "type": "intel",
+      "country": "israel",
+      "title": "Kürtler adına teşekkürler Trump✌🏼\n\n#Hamaney #savas #Iran #Israel #israil",
+      "desc": "Kürtler adına teşekkürler Trump✌🏼\n\n#Hamaney #savas #Iran #Israel #israil",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:51 +0000 2026",
+      "source": "@aksakallimarxx",
+      "tweetId": "2027890017213747321",
+      "url": "https://twitter.com/aksakallimarxx/status/2027890017213747321",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Kürtler adına teşekkürler Trump✌🏼\n\n#Hamaney #savas #Iran #Israel #israil",
+          "desc": "Kürtler adına teşekkürler Trump✌🏼\n\n#Hamaney #savas #Iran #Israel #israil",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890016253579312",
+      "type": "intel",
+      "country": "israel",
+      "title": "Thank you Russia ￼\nRussia has demanded that the United States and Israel end their military actions ",
+      "desc": "Thank you Russia ￼\nRussia has demanded that the United States and Israel end their military actions against Iran. https://t.co/fBax8yMYgr",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:50 +0000 2026",
+      "source": "@MAhmed78784612",
+      "tweetId": "2027890016253579312",
+      "url": "https://twitter.com/MAhmed78784612/status/2027890016253579312",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Thank you Russia ￼\nRussia has demanded that the United States and Israel end their military actions ",
+          "desc": "Thank you Russia ￼\nRussia has demanded that the United States and Israel end their military actions against Iran. https://t.co/fBax8yMYgr",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890014433218742",
+      "type": "intel",
+      "country": "israel",
+      "title": "ईरान दुआरा अवीव में एक और सफल हिट Another successful hit in Tel Aviv #iran #Israel #WorldWar3 https:",
+      "desc": "ईरान दुआरा अवीव में एक और सफल हिट Another successful hit in Tel Aviv #iran #Israel #WorldWar3 https://t.co/rtALCVq0n7",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:50 +0000 2026",
+      "source": "@Erfarazsayed",
+      "tweetId": "2027890014433218742",
+      "url": "https://twitter.com/Erfarazsayed/status/2027890014433218742",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "ईरान दुआरा अवीव में एक और सफल हिट Another successful hit in Tel Aviv #iran #Israel #WorldWar3 https:",
+          "desc": "ईरान दुआरा अवीव में एक और सफल हिट Another successful hit in Tel Aviv #iran #Israel #WorldWar3 https://t.co/rtALCVq0n7",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890012860100899",
+      "type": "intel",
+      "country": "israel",
+      "title": "@AllCR7_ @KiyanSo Don't bring me fake polls. Bring me why Iranians kicked out the Shah and embraced ",
+      "desc": "@AllCR7_ @KiyanSo Don't bring me fake polls. Bring me why Iranians kicked out the Shah and embraced Khomeini afterwards—and why they still embrace the Islamic Revolution today.\n\nExcept mossad agents who are leading protests but they never protested in Iran before, bcz Israel was yet to fund them",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:50 +0000 2026",
+      "source": "@Zx12Jr",
+      "tweetId": "2027890012860100899",
+      "url": "https://twitter.com/Zx12Jr/status/2027890012860100899",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@AllCR7_ @KiyanSo Don't bring me fake polls. Bring me why Iranians kicked out the Shah and embraced ",
+          "desc": "@AllCR7_ @KiyanSo Don't bring me fake polls. Bring me why Iranians kicked out the Shah and embraced Khomeini afterwards—and why they still embrace the Islamic Revolution today.\n\nExcept mossad agents who are leading protests but they never protested in Iran before, bcz Israel was yet to fund them",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889998784303376",
+      "type": "intel",
+      "country": "israel",
+      "title": "Death toll in attack in Iranian girl’s school rises\nThe governor of Minab, a city in southern Iran, ",
+      "desc": "Death toll in attack in Iranian girl’s school rises\nThe governor of Minab, a city in southern Iran, announced that the death toll from the US-Israeli bombing of a school in the city has risen to 115\n\n#Iran #IranWar",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:46 +0000 2026",
+      "source": "@syedshryarpk",
+      "tweetId": "2027889998784303376",
+      "url": "https://twitter.com/syedshryarpk/status/2027889998784303376",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Death toll in attack in Iranian girl’s school rises\nThe governor of Minab, a city in southern Iran, ",
+          "desc": "Death toll in attack in Iranian girl’s school rises\nThe governor of Minab, a city in southern Iran, announced that the death toll from the US-Israeli bombing of a school in the city has risen to 115\n\n#Iran #IranWar",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889985953632414",
+      "type": "intel",
+      "country": "israel",
+      "title": "@DillyHussain88 Coincidentally Afghanistan also launched a conventual military attack on the border ",
+      "desc": "@DillyHussain88 Coincidentally Afghanistan also launched a conventual military attack on the border of Pakistan, a day before the USA and Israel attack on Iran.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:43 +0000 2026",
+      "source": "@smi_see",
+      "tweetId": "2027889985953632414",
+      "url": "https://twitter.com/smi_see/status/2027889985953632414",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@DillyHussain88 Coincidentally Afghanistan also launched a conventual military attack on the border ",
+          "desc": "@DillyHussain88 Coincidentally Afghanistan also launched a conventual military attack on the border of Pakistan, a day before the USA and Israel attack on Iran.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889978823303544",
+      "type": "intel",
+      "country": "israel",
+      "title": "@EmmanuelMacron Your problem is that you don’t focus for France 🇫🇷!Every time you involve in another",
+      "desc": "@EmmanuelMacron Your problem is that you don’t focus for France 🇫🇷!Every time you involve in another’s countries!Iran want to build nuclear weapons and for so many years they attack Israel!A lot of people die because Iran and Trump want to stop this and you know but you continue to involve!",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:41 +0000 2026",
+      "source": "@AndreeaNic53526",
+      "tweetId": "2027889978823303544",
+      "url": "https://twitter.com/AndreeaNic53526/status/2027889978823303544",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@EmmanuelMacron Your problem is that you don’t focus for France 🇫🇷!Every time you involve in another",
+          "desc": "@EmmanuelMacron Your problem is that you don’t focus for France 🇫🇷!Every time you involve in another’s countries!Iran want to build nuclear weapons and for so many years they attack Israel!A lot of people die because Iran and Trump want to stop this and you know but you continue to involve!",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889976705487295",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iranian school attack DEBUNKED #iran #freeiran https://t.co/MxFUbuYDzM via @YouTube",
+      "desc": "Iranian school attack DEBUNKED #iran #freeiran https://t.co/MxFUbuYDzM via @YouTube",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:41 +0000 2026",
+      "source": "@Tamar_onX",
+      "tweetId": "2027889976705487295",
+      "url": "https://twitter.com/Tamar_onX/status/2027889976705487295",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iranian school attack DEBUNKED #iran #freeiran https://t.co/MxFUbuYDzM via @YouTube",
+          "desc": "Iranian school attack DEBUNKED #iran #freeiran https://t.co/MxFUbuYDzM via @YouTube",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889961517641930",
+      "type": "intel",
+      "country": "israel",
+      "title": "All those Iranians living abroad and praising US &amp; Israeli attack on Iran, you all are pathetic!",
+      "desc": "All those Iranians living abroad and praising US &amp; Israeli attack on Iran, you all are pathetic!\n\nUS &amp; Israel killed 75+ school girls. Iran wont get democracy, its just going to have its oil stolen by the US.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:37 +0000 2026",
+      "source": "@Batman8371",
+      "tweetId": "2027889961517641930",
+      "url": "https://twitter.com/Batman8371/status/2027889961517641930",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "All those Iranians living abroad and praising US &amp; Israeli attack on Iran, you all are pathetic!",
+          "desc": "All those Iranians living abroad and praising US &amp; Israeli attack on Iran, you all are pathetic!\n\nUS &amp; Israel killed 75+ school girls. Iran wont get democracy, its just going to have its oil stolen by the US.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889952407552397",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Pvt_insaann Iran just jealous of Gulf states. Saudi has nothing to do with the war in Iran",
+      "desc": "@Pvt_insaann Iran just jealous of Gulf states. Saudi has nothing to do with the war in Iran",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:35 +0000 2026",
+      "source": "@Mym1991Y",
+      "tweetId": "2027889952407552397",
+      "url": "https://twitter.com/Mym1991Y/status/2027889952407552397",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Pvt_insaann Iran just jealous of Gulf states. Saudi has nothing to do with the war in Iran",
+          "desc": "@Pvt_insaann Iran just jealous of Gulf states. Saudi has nothing to do with the war in Iran",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889922628047234",
+      "type": "intel",
+      "country": "israel",
+      "title": "Khomeni is probably dead.\n\nGHW Bush's approval rating was over 80% after winning the first Gulf War.",
+      "desc": "Khomeni is probably dead.\n\nGHW Bush's approval rating was over 80% after winning the first Gulf War.\n\nTrump has to win fast for his gambit to work. He is depending on a quick victory in Iran, American success in the World Cup, and patriotism from USA 250 to win midterm elections.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:28 +0000 2026",
+      "source": "@DennisJustice",
+      "tweetId": "2027889922628047234",
+      "url": "https://twitter.com/DennisJustice/status/2027889922628047234",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Khomeni is probably dead.\n\nGHW Bush's approval rating was over 80% after winning the first Gulf War.",
+          "desc": "Khomeni is probably dead.\n\nGHW Bush's approval rating was over 80% after winning the first Gulf War.\n\nTrump has to win fast for his gambit to work. He is depending on a quick victory in Iran, American success in the World Cup, and patriotism from USA 250 to win midterm elections.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889779568779664",
+      "type": "intel",
+      "country": "israel",
+      "title": "#Iran Missiles Brings War to Gulf Doorstep\nhttps://t.co/O6ZWgQJfTN https://t.co/v0RVpVNODO",
+      "desc": "#Iran Missiles Brings War to Gulf Doorstep\nhttps://t.co/O6ZWgQJfTN https://t.co/v0RVpVNODO",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:32:54 +0000 2026",
+      "source": "@Kataeb_Eng",
+      "tweetId": "2027889779568779664",
+      "url": "https://twitter.com/Kataeb_Eng/status/2027889779568779664",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "#Iran Missiles Brings War to Gulf Doorstep\nhttps://t.co/O6ZWgQJfTN https://t.co/v0RVpVNODO",
+          "desc": "#Iran Missiles Brings War to Gulf Doorstep\nhttps://t.co/O6ZWgQJfTN https://t.co/v0RVpVNODO",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889728146604203",
+      "type": "intel",
+      "country": "israel",
+      "title": "Presidents from both parties have ordered military actions without a formal congressional declaratio",
+      "desc": "Presidents from both parties have ordered military actions without a formal congressional declaration of war—the last was WWII in 1941. \n\nDem examples: Truman's Korea intervention (1950), LBJ's Vietnam escalation (Gulf of Tonkin Resolution, not declaration), Clinton's 78-day Kosovo bombing (1999, no approval), Obama's Libya campaign (2011, no authorization).\n\nTrump's Iran strikes follow the same pattern seen under prior admins, governed by War Powers Resolution notifications rather than pure Article I text. King has repeatedly called for Trump's impeachment since 2016 on multiple issues.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:32:42 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027889728146604203",
+      "url": "https://twitter.com/grok/status/2027889728146604203",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Presidents from both parties have ordered military actions without a formal congressional declaratio",
+          "desc": "Presidents from both parties have ordered military actions without a formal congressional declaration of war—the last was WWII in 1941. \n\nDem examples: Truman's Korea intervention (1950), LBJ's Vietnam escalation (Gulf of Tonkin Resolution, not declaration), Clinton's 78-day Kosovo bombing (1999, no approval), Obama's Libya campaign (2011, no authorization).\n\nTrump's Iran strikes follow the same pattern seen under prior admins, governed by War Powers Resolution notifications rather than pure Article I text. King has repeatedly called for Trump's impeachment since 2016 on multiple issues.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889674375528587",
+      "type": "intel",
+      "country": "israel",
+      "title": "@brianlilley Trump ended the JCPOA at the urging of Netanyahu. Everything flows from that. We are no",
+      "desc": "@brianlilley Trump ended the JCPOA at the urging of Netanyahu. Everything flows from that. We are not yet 24 hours into\n the war. The Straits of Hormuz are closed. Israel is being hit with Iranian missiles repeatedly and so are the Gulf States, including strikes on US bases. Not good",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:32:29 +0000 2026",
+      "source": "@tominwindsor",
+      "tweetId": "2027889674375528587",
+      "url": "https://twitter.com/tominwindsor/status/2027889674375528587",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@brianlilley Trump ended the JCPOA at the urging of Netanyahu. Everything flows from that. We are no",
+          "desc": "@brianlilley Trump ended the JCPOA at the urging of Netanyahu. Everything flows from that. We are not yet 24 hours into\n the war. The Straits of Hormuz are closed. Israel is being hit with Iranian missiles repeatedly and so are the Gulf States, including strikes on US bases. Not good",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889986528522558",
+      "type": "intel",
+      "country": "israel",
+      "title": "Twenty-one injured in Tel Aviv amid intensified Iranian missile strikes https://t.co/rLJpjTudu9 via ",
+      "desc": "Twenty-one injured in Tel Aviv amid intensified Iranian missile strikes https://t.co/rLJpjTudu9 via @AJEnglish",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:43 +0000 2026",
+      "source": "@_mohamedimad",
+      "tweetId": "2027889986528522558",
+      "url": "https://twitter.com/_mohamedimad/status/2027889986528522558",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Twenty-one injured in Tel Aviv amid intensified Iranian missile strikes https://t.co/rLJpjTudu9 via ",
+          "desc": "Twenty-one injured in Tel Aviv amid intensified Iranian missile strikes https://t.co/rLJpjTudu9 via @AJEnglish",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889919885029646",
+      "type": "intel",
+      "country": "israel",
+      "title": "@MarioNawfal Unconfirmed footage from Tel Aviv shows flattened buildings, burning cars and fires eve",
+      "desc": "@MarioNawfal Unconfirmed footage from Tel Aviv shows flattened buildings, burning cars and fires everywhere — if real, this is one of the heaviest Iranian missile impacts on urban Israel yet.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:27 +0000 2026",
+      "source": "@HiddenggGG",
+      "tweetId": "2027889919885029646",
+      "url": "https://twitter.com/HiddenggGG/status/2027889919885029646",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@MarioNawfal Unconfirmed footage from Tel Aviv shows flattened buildings, burning cars and fires eve",
+          "desc": "@MarioNawfal Unconfirmed footage from Tel Aviv shows flattened buildings, burning cars and fires everywhere — if real, this is one of the heaviest Iranian missile impacts on urban Israel yet.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889831129272331",
+      "type": "intel",
+      "country": "israel",
+      "title": "This is footage from an Iranian ballistic missile impact in central Tel Aviv tonight, Feb 28 2026. \n",
+      "desc": "This is footage from an Iranian ballistic missile impact in central Tel Aviv tonight, Feb 28 2026. \n\nIran launched multiple waves of missiles at Israel in retaliation for joint US-Israeli airstrikes on Iranian targets earlier today (which Trump says killed Supreme Leader Khamenei; Iran disputes this). \n\nIsraeli defenses intercepted most, but some got through, starting fires, damaging buildings/cars, and injuring ~20-80 people per reports from Magen David Adom, Reuters, and Times of Israel. Sirens sounded across the country.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:06 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027889831129272331",
+      "url": "https://twitter.com/grok/status/2027889831129272331",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "This is footage from an Iranian ballistic missile impact in central Tel Aviv tonight, Feb 28 2026. \n",
+          "desc": "This is footage from an Iranian ballistic missile impact in central Tel Aviv tonight, Feb 28 2026. \n\nIran launched multiple waves of missiles at Israel in retaliation for joint US-Israeli airstrikes on Iranian targets earlier today (which Trump says killed Supreme Leader Khamenei; Iran disputes this). \n\nIsraeli defenses intercepted most, but some got through, starting fires, damaging buildings/cars, and injuring ~20-80 people per reports from Magen David Adom, Reuters, and Times of Israel. Sirens sounded across the country.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889806252855306",
+      "type": "intel",
+      "country": "israel",
+      "title": "#BREAKING: 🚨🇮🇷🇮🇱 Israel Iron Dome\nFailed here!\n\nMore footage emerges showing Iranian ballistic missi",
+      "desc": "#BREAKING: 🚨🇮🇷🇮🇱 Israel Iron Dome\nFailed here!\n\nMore footage emerges showing Iranian ballistic missile impact on Tel Aviv.\n#Iran #IranWar #TelAviv #Israel #MiddleEastCrisis https://t.co/1rOB1UXRHB",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:00 +0000 2026",
+      "source": "@stiwari1510",
+      "tweetId": "2027889806252855306",
+      "url": "https://twitter.com/stiwari1510/status/2027889806252855306",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "#BREAKING: 🚨🇮🇷🇮🇱 Israel Iron Dome\nFailed here!\n\nMore footage emerges showing Iranian ballistic missi",
+          "desc": "#BREAKING: 🚨🇮🇷🇮🇱 Israel Iron Dome\nFailed here!\n\nMore footage emerges showing Iranian ballistic missile impact on Tel Aviv.\n#Iran #IranWar #TelAviv #Israel #MiddleEastCrisis https://t.co/1rOB1UXRHB",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889792126529733",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iranian missiles strike deep into Israel and violent explosions rock Tel Aviv  Israeli Channel 12: R",
+      "desc": "Iranian missiles strike deep into Israel and violent explosions rock Tel Aviv  Israeli Channel 12: Roar of massive explosions in central Israel after a missile barrage from #Iran",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:32:57 +0000 2026",
+      "source": "@CathyNo83216225",
+      "tweetId": "2027889792126529733",
+      "url": "https://twitter.com/CathyNo83216225/status/2027889792126529733",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iranian missiles strike deep into Israel and violent explosions rock Tel Aviv  Israeli Channel 12: R",
+          "desc": "Iranian missiles strike deep into Israel and violent explosions rock Tel Aviv  Israeli Channel 12: Roar of massive explosions in central Israel after a missile barrage from #Iran",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890028140233165",
+      "type": "intel",
+      "country": "israel",
+      "title": "https://t.co/TrewENxEIk\nIt would certainly help for the verification of proof of death of Supreme Le",
+      "desc": "https://t.co/TrewENxEIk\nIt would certainly help for the verification of proof of death of Supreme Leader Ayatollah Ali Khamenei, not just the chest thumping of Trump.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:53 +0000 2026",
+      "source": "@GroundZeroPet",
+      "tweetId": "2027890028140233165",
+      "url": "https://twitter.com/GroundZeroPet/status/2027890028140233165",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "https://t.co/TrewENxEIk\nIt would certainly help for the verification of proof of death of Supreme Le",
+          "desc": "https://t.co/TrewENxEIk\nIt would certainly help for the verification of proof of death of Supreme Leader Ayatollah Ali Khamenei, not just the chest thumping of Trump.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027890022523801610",
+      "type": "intel",
+      "country": "israel",
+      "title": "🥳Israeli official: Khamenei killed in strike on Tehran https://t.co/MrGU9Kl8nr via @JNS_org",
+      "desc": "🥳Israeli official: Khamenei killed in strike on Tehran https://t.co/MrGU9Kl8nr via @JNS_org",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:52 +0000 2026",
+      "source": "@TruthJusticeKat",
+      "tweetId": "2027890022523801610",
+      "url": "https://twitter.com/TruthJusticeKat/status/2027890022523801610",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🥳Israeli official: Khamenei killed in strike on Tehran https://t.co/MrGU9Kl8nr via @JNS_org",
+          "desc": "🥳Israeli official: Khamenei killed in strike on Tehran https://t.co/MrGU9Kl8nr via @JNS_org",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889956975214751",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Partisangirl Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Kham",
+      "desc": "@Partisangirl Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:36 +0000 2026",
+      "source": "@KohlerDB",
+      "tweetId": "2027889956975214751",
+      "url": "https://twitter.com/KohlerDB/status/2027889956975214751",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Partisangirl Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Kham",
+          "desc": "@Partisangirl Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889934174974227",
+      "type": "intel",
+      "country": "israel",
+      "title": "Another silly man, spewing gnats while the strike Trump ordered has already taken out key terrorist ",
+      "desc": "Another silly man, spewing gnats while the strike Trump ordered has already taken out key terrorist regime senior officials. \n\nIncluding the Butcher of Tehran! \n\nI would be laughing at your feeble commentary were it not so senseless and so sad. I remind you, however, as I have had reason to remind others, you do not speak for the American people. \n\nKeep our thoughts and determinations out of your mouth.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:31 +0000 2026",
+      "source": "@IsobelSottoVoce",
+      "tweetId": "2027889934174974227",
+      "url": "https://twitter.com/IsobelSottoVoce/status/2027889934174974227",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Another silly man, spewing gnats while the strike Trump ordered has already taken out key terrorist ",
+          "desc": "Another silly man, spewing gnats while the strike Trump ordered has already taken out key terrorist regime senior officials. \n\nIncluding the Butcher of Tehran! \n\nI would be laughing at your feeble commentary were it not so senseless and so sad. I remind you, however, as I have had reason to remind others, you do not speak for the American people. \n\nKeep our thoughts and determinations out of your mouth.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027889885038673933",
+      "type": "intel",
+      "country": "israel",
+      "title": "High chance I'd say 80-90%. Trump, Netanyahu, Israeli officials, Reuters, CNN, AP, NPR, WaPo all rep",
+      "desc": "High chance I'd say 80-90%. Trump, Netanyahu, Israeli officials, Reuters, CNN, AP, NPR, WaPo all report Khamenei killed in today's US-Israeli strike on his Tehran compound, body recovered from rubble. Iran denies (state media: \"commanding the field\") but offers zero proof/photos. No independent verification yet, but intel consensus is strong. Developing fast—I'll update here.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:33:19 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027889885038673933",
+      "url": "https://twitter.com/grok/status/2027889885038673933",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "High chance I'd say 80-90%. Trump, Netanyahu, Israeli officials, Reuters, CNN, AP, NPR, WaPo all rep",
+          "desc": "High chance I'd say 80-90%. Trump, Netanyahu, Israeli officials, Reuters, CNN, AP, NPR, WaPo all report Khamenei killed in today's US-Israeli strike on his Tehran compound, body recovered from rubble. Iran denies (state media: \"commanding the field\") but offers zero proof/photos. No independent verification yet, but intel consensus is strong. Developing fast—I'll update here.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027887494008586297",
       "type": "intel",
       "country": "israel",
@@ -27179,5 +27779,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-02-28T23:23:57.849043+00:00"
+  "lastUpdated": "2026-02-28T23:33:58.555278+00:00"
 }
