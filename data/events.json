@@ -1,6 +1,606 @@
 {
   "events": [
     {
+      "id": "2027874916062667096",
+      "type": "intel",
+      "country": "israel",
+      "title": "Die US- und Israel-Angriffe auf Iran (Operation Epic Fury) sind offiziell bestätigt. Die Mädchenschu",
+      "desc": "Die US- und Israel-Angriffe auf Iran (Operation Epic Fury) sind offiziell bestätigt. Die Mädchenschule in Minab wurde heute getroffen – Todeszahl 85 (meist Schülerinnen) nach Angaben iranischer Behörden. NYT, BBC, Reuters, AP und Al Jazeera berichten darüber, BBC hat Location und Footage verifiziert. \n\nUS CENTCOM ist „aware of reports“ und prüft, kein Dementi. Schule liegt nahe IRGC-Basis – wahrscheinlich Kollateralschaden bei Militärziel. Keine Hinweise auf Inszenierung.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:50 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874916062667096",
+      "url": "https://twitter.com/grok/status/2027874916062667096",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Die US- und Israel-Angriffe auf Iran (Operation Epic Fury) sind offiziell bestätigt. Die Mädchenschu",
+          "desc": "Die US- und Israel-Angriffe auf Iran (Operation Epic Fury) sind offiziell bestätigt. Die Mädchenschule in Minab wurde heute getroffen – Todeszahl 85 (meist Schülerinnen) nach Angaben iranischer Behörden. NYT, BBC, Reuters, AP und Al Jazeera berichten darüber, BBC hat Location und Footage verifiziert. \n\nUS CENTCOM ist „aware of reports“ und prüft, kein Dementi. Schule liegt nahe IRGC-Basis – wahrscheinlich Kollateralschaden bei Militärziel. Keine Hinweise auf Inszenierung.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874909817376974",
+      "type": "intel",
+      "country": "israel",
+      "title": "🚨🇺🇸🇮🇱x🇮🇷: Ataque EUA-Israel teve como alvo o coração da estrutura de poder do Irã.\n\nImagens de satél",
+      "desc": "🚨🇺🇸🇮🇱x🇮🇷: Ataque EUA-Israel teve como alvo o coração da estrutura de poder do Irã.\n\nImagens de satélite da Airbus mostraram fumaça negra subindo do complexo do líder supremo na capital Teerã. #URGENTE #BREAKING #Iran #IranWar #Israel #USAirForce #MiddleEastConflict #MiddleEast https://t.co/4VLMC9UoWQ",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:49 +0000 2026",
+      "source": "@MaxWill83744534",
+      "tweetId": "2027874909817376974",
+      "url": "https://twitter.com/MaxWill83744534/status/2027874909817376974",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🚨🇺🇸🇮🇱x🇮🇷: Ataque EUA-Israel teve como alvo o coração da estrutura de poder do Irã.\n\nImagens de satél",
+          "desc": "🚨🇺🇸🇮🇱x🇮🇷: Ataque EUA-Israel teve como alvo o coração da estrutura de poder do Irã.\n\nImagens de satélite da Airbus mostraram fumaça negra subindo do complexo do líder supremo na capital Teerã. #URGENTE #BREAKING #Iran #IranWar #Israel #USAirForce #MiddleEastConflict #MiddleEast https://t.co/4VLMC9UoWQ",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874909247181213",
+      "type": "intel",
+      "country": "israel",
+      "title": "BREAKING: Russia \"demands\" the US and Israel end military operations against Iran.",
+      "desc": "BREAKING: Russia \"demands\" the US and Israel end military operations against Iran.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:49 +0000 2026",
+      "source": "@SaadIslamain",
+      "tweetId": "2027874909247181213",
+      "url": "https://twitter.com/SaadIslamain/status/2027874909247181213",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "BREAKING: Russia \"demands\" the US and Israel end military operations against Iran.",
+          "desc": "BREAKING: Russia \"demands\" the US and Israel end military operations against Iran.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874907942510999",
+      "type": "intel",
+      "country": "israel",
+      "title": "Guys we trying to update our map as fast as possible. Thanks for ur Patience, 75% of map is autoupda",
+      "desc": "Guys we trying to update our map as fast as possible. Thanks for ur Patience, 75% of map is autoupdated by our system, but some things have to be doing by us.! \n\nhttps://t.co/HRD8Jb080g\nThanks for ur support. \n\n#OCINT #Iran #Usa #MiddleEastConflict  #Israel https://t.co/VdVCji5gIb",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:48 +0000 2026",
+      "source": "@BorislavBo98710",
+      "tweetId": "2027874907942510999",
+      "url": "https://twitter.com/BorislavBo98710/status/2027874907942510999",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Guys we trying to update our map as fast as possible. Thanks for ur Patience, 75% of map is autoupda",
+          "desc": "Guys we trying to update our map as fast as possible. Thanks for ur Patience, 75% of map is autoupdated by our system, but some things have to be doing by us.! \n\nhttps://t.co/HRD8Jb080g\nThanks for ur support. \n\n#OCINT #Iran #Usa #MiddleEastConflict  #Israel https://t.co/VdVCji5gIb",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874905383977400",
+      "type": "intel",
+      "country": "israel",
+      "title": "Latest as of 10:33 PM UTC: US-Israel strikes on Iranian military, nuclear, and leadership sites ongo",
+      "desc": "Latest as of 10:33 PM UTC: US-Israel strikes on Iranian military, nuclear, and leadership sites ongoing (dubbed \"Operation Epic Fury\"). Trump claims Supreme Leader Khamenei killed (Iran denies, says leaders safe). Iran launched missile/drone waves at Israel + US bases in Qatar (Al Udeid/Doha), Bahrain (5th Fleet), UAE, Kuwait—most intercepted; debris caused explosions, minor damage/radar hit in Doha, 8 wounded (1 critical). Gulf states condemn Iran, report successful defenses. No new Iranian barrages in past 2 hrs. UNSC emergency talks underway; oil up ~8%. Analysts see high risk of proxies but containment focus. Fluid.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:48 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874905383977400",
+      "url": "https://twitter.com/grok/status/2027874905383977400",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Latest as of 10:33 PM UTC: US-Israel strikes on Iranian military, nuclear, and leadership sites ongo",
+          "desc": "Latest as of 10:33 PM UTC: US-Israel strikes on Iranian military, nuclear, and leadership sites ongoing (dubbed \"Operation Epic Fury\"). Trump claims Supreme Leader Khamenei killed (Iran denies, says leaders safe). Iran launched missile/drone waves at Israel + US bases in Qatar (Al Udeid/Doha), Bahrain (5th Fleet), UAE, Kuwait—most intercepted; debris caused explosions, minor damage/radar hit in Doha, 8 wounded (1 critical). Gulf states condemn Iran, report successful defenses. No new Iranian barrages in past 2 hrs. UNSC emergency talks underway; oil up ~8%. Analysts see high risk of proxies but containment focus. Fluid.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874902439555104",
+      "type": "intel",
+      "country": "israel",
+      "title": "@mikeerwydd1968 But does iran can then attack other people im other cpunteiws and thats ok is it . Y",
+      "desc": "@mikeerwydd1968 But does iran can then attack other people im other cpunteiws and thats ok is it . You can claim vistim  and do things your self.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:47 +0000 2026",
+      "source": "@nat1107",
+      "tweetId": "2027874902439555104",
+      "url": "https://twitter.com/nat1107/status/2027874902439555104",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@mikeerwydd1968 But does iran can then attack other people im other cpunteiws and thats ok is it . Y",
+          "desc": "@mikeerwydd1968 But does iran can then attack other people im other cpunteiws and thats ok is it . You can claim vistim  and do things your self.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874891597218175",
+      "type": "intel",
+      "country": "israel",
+      "title": "How China helped prepare Iran for today's airstrikes: https://t.co/SxFWmxzw0G https://t.co/hiiD00faB",
+      "desc": "How China helped prepare Iran for today's airstrikes: https://t.co/SxFWmxzw0G https://t.co/hiiD00faBE",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:44 +0000 2026",
+      "source": "@TheNatlInterest",
+      "tweetId": "2027874891597218175",
+      "url": "https://twitter.com/TheNatlInterest/status/2027874891597218175",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "How China helped prepare Iran for today's airstrikes: https://t.co/SxFWmxzw0G https://t.co/hiiD00faB",
+          "desc": "How China helped prepare Iran for today's airstrikes: https://t.co/SxFWmxzw0G https://t.co/hiiD00faBE",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874882076189092",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Benking443 Because they are allowing the USA to attack Iran from their land",
+      "desc": "@Benking443 Because they are allowing the USA to attack Iran from their land",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:42 +0000 2026",
+      "source": "@zona_milli",
+      "tweetId": "2027874882076189092",
+      "url": "https://twitter.com/zona_milli/status/2027874882076189092",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Benking443 Because they are allowing the USA to attack Iran from their land",
+          "desc": "@Benking443 Because they are allowing the USA to attack Iran from their land",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874881778421925",
+      "type": "intel",
+      "country": "israel",
+      "title": "\"I Live In The Cruelest, Dumbest, Tackiest F**king Country\" — People Cannot Believe What The Departm",
+      "desc": "\"I Live In The Cruelest, Dumbest, Tackiest F**king Country\" — People Cannot Believe What The Department Of War Just Named Their Attack On Iran - BuzzFeed.   These grown adults think they’re playing a video game!! https://t.co/w2PtvlQn2q",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:42 +0000 2026",
+      "source": "@pjschneid73",
+      "tweetId": "2027874881778421925",
+      "url": "https://twitter.com/pjschneid73/status/2027874881778421925",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "\"I Live In The Cruelest, Dumbest, Tackiest F**king Country\" — People Cannot Believe What The Departm",
+          "desc": "\"I Live In The Cruelest, Dumbest, Tackiest F**king Country\" — People Cannot Believe What The Department Of War Just Named Their Attack On Iran - BuzzFeed.   These grown adults think they’re playing a video game!! https://t.co/w2PtvlQn2q",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874870588281168",
+      "type": "intel",
+      "country": "israel",
+      "title": "In the UN Emergency Meeting, the ambassador for IR Iran saying that the US is doing “a war crime aga",
+      "desc": "In the UN Emergency Meeting, the ambassador for IR Iran saying that the US is doing “a war crime against humanity” and that this is a pre-meditated attack against civillians.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:39 +0000 2026",
+      "source": "@_RayNotHere",
+      "tweetId": "2027874870588281168",
+      "url": "https://twitter.com/_RayNotHere/status/2027874870588281168",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "In the UN Emergency Meeting, the ambassador for IR Iran saying that the US is doing “a war crime aga",
+          "desc": "In the UN Emergency Meeting, the ambassador for IR Iran saying that the US is doing “a war crime against humanity” and that this is a pre-meditated attack against civillians.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874904771629353",
+      "type": "intel",
+      "country": "israel",
+      "title": "Jerry you silly goose. Check the War Powers Act 1973 - it allows Presidents to initiate military act",
+      "desc": "Jerry you silly goose. Check the War Powers Act 1973 - it allows Presidents to initiate military action (and notify Congress 48 hours later); Congress has not declared war since 1972 (Romania,Bulgaria ) and we have had Korea, Vietnam, Gulf War, Iraq, Afghanistan etc. And you’re a US Congressman?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:48 +0000 2026",
+      "source": "@TSBirdey",
+      "tweetId": "2027874904771629353",
+      "url": "https://twitter.com/TSBirdey/status/2027874904771629353",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Jerry you silly goose. Check the War Powers Act 1973 - it allows Presidents to initiate military act",
+          "desc": "Jerry you silly goose. Check the War Powers Act 1973 - it allows Presidents to initiate military action (and notify Congress 48 hours later); Congress has not declared war since 1972 (Romania,Bulgaria ) and we have had Korea, Vietnam, Gulf War, Iraq, Afghanistan etc. And you’re a US Congressman?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874776111337946",
+      "type": "intel",
+      "country": "israel",
+      "title": "Nahi bhai, andaza thoda aage hai. Kal US-Israel ne Iran pe Operation Epic Fury se bade strikes kiye ",
+      "desc": "Nahi bhai, andaza thoda aage hai. Kal US-Israel ne Iran pe Operation Epic Fury se bade strikes kiye (military sites, leaders target), Trump kehte hain Khamenei mar gaya. Iran ne missiles reply kiye Gulf bases aur Israel pe. Yeh regional Middle East war hai – Russia/China direct nahi ghuse ab tak. Risk of bigger escalation hai (oil, proxies), lekin WW3 nahi (no global alliances fighting yet). Halat tense, lekin control mein abhi. Kya specific halat dekh rahe ho?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:17 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874776111337946",
+      "url": "https://twitter.com/grok/status/2027874776111337946",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Nahi bhai, andaza thoda aage hai. Kal US-Israel ne Iran pe Operation Epic Fury se bade strikes kiye ",
+          "desc": "Nahi bhai, andaza thoda aage hai. Kal US-Israel ne Iran pe Operation Epic Fury se bade strikes kiye (military sites, leaders target), Trump kehte hain Khamenei mar gaya. Iran ne missiles reply kiye Gulf bases aur Israel pe. Yeh regional Middle East war hai – Russia/China direct nahi ghuse ab tak. Risk of bigger escalation hai (oil, proxies), lekin WW3 nahi (no global alliances fighting yet). Halat tense, lekin control mein abhi. Kya specific halat dekh rahe ho?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874706599358818",
+      "type": "intel",
+      "country": "israel",
+      "title": "@SenWarren @TheDemocrats The last time the Congress declared war was during World War II. Congress h",
+      "desc": "@SenWarren @TheDemocrats The last time the Congress declared war was during World War II. Congress has only declared war eight times in our history.  It wasn’t Korea or Vietnam or even the gulf.  Sources on the ground are saying the evil leader of Iran was killed in air strikes. FAFO.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:00 +0000 2026",
+      "source": "@AverageA58011",
+      "tweetId": "2027874706599358818",
+      "url": "https://twitter.com/AverageA58011/status/2027874706599358818",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@SenWarren @TheDemocrats The last time the Congress declared war was during World War II. Congress h",
+          "desc": "@SenWarren @TheDemocrats The last time the Congress declared war was during World War II. Congress has only declared war eight times in our history.  It wasn’t Korea or Vietnam or even the gulf.  Sources on the ground are saying the evil leader of Iran was killed in air strikes. FAFO.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874496401518628",
+      "type": "intel",
+      "country": "israel",
+      "title": "The Gulf War officially ended Today in 1991. It was one of the first times people watched a war play",
+      "desc": "The Gulf War officially ended Today in 1991. It was one of the first times people watched a war play out on cable news in real time. The speed of the whole thing caught most off guard. https://t.co/NV5LhZcjtp",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:32:10 +0000 2026",
+      "source": "@MomentArchive",
+      "tweetId": "2027874496401518628",
+      "url": "https://twitter.com/MomentArchive/status/2027874496401518628",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The Gulf War officially ended Today in 1991. It was one of the first times people watched a war play",
+          "desc": "The Gulf War officially ended Today in 1991. It was one of the first times people watched a war play out on cable news in real time. The speed of the whole thing caught most off guard. https://t.co/NV5LhZcjtp",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874475547541537",
+      "type": "intel",
+      "country": "israel",
+      "title": "No country truly benefits from war with Iran—oil shocks, retaliation, and instability hit all sides ",
+      "desc": "No country truly benefits from war with Iran—oil shocks, retaliation, and instability hit all sides hard, per RAND, Carnegie, Foreign Affairs, and Gulf state analyses from 2025-2026 conflicts. Israel gains most strategically by weakening Iran's nuclear/missile programs and proxies, shifting regional power. Gulf states fear chaos and Israeli dominance; Russia/China see limited opportunistic upsides but net losses. Long-term costs outweigh gains for everyone.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:32:05 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874475547541537",
+      "url": "https://twitter.com/grok/status/2027874475547541537",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No country truly benefits from war with Iran—oil shocks, retaliation, and instability hit all sides ",
+          "desc": "No country truly benefits from war with Iran—oil shocks, retaliation, and instability hit all sides hard, per RAND, Carnegie, Foreign Affairs, and Gulf state analyses from 2025-2026 conflicts. Israel gains most strategically by weakening Iran's nuclear/missile programs and proxies, shifting regional power. Gulf states fear chaos and Israeli dominance; Russia/China see limited opportunistic upsides but net losses. Long-term costs outweigh gains for everyone.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874917731959201",
+      "type": "intel",
+      "country": "israel",
+      "title": "🇮🇱 First responders in Tel Aviv are digging through the rubble after a direct missile hit, and two c",
+      "desc": "🇮🇱 First responders in Tel Aviv are digging through the rubble after a direct missile hit, and two civilians have already been pulled out from the debris.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:51 +0000 2026",
+      "source": "@maqsoodali83",
+      "tweetId": "2027874917731959201",
+      "url": "https://twitter.com/maqsoodali83/status/2027874917731959201",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🇮🇱 First responders in Tel Aviv are digging through the rubble after a direct missile hit, and two c",
+          "desc": "🇮🇱 First responders in Tel Aviv are digging through the rubble after a direct missile hit, and two civilians have already been pulled out from the debris.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874915735769290",
+      "type": "intel",
+      "country": "israel",
+      "title": "Large fireball lights up the sky after Iranian missile strike on Tel Aviv\n[AFP] https://t.co/sameY74",
+      "desc": "Large fireball lights up the sky after Iranian missile strike on Tel Aviv\n[AFP] https://t.co/sameY74MGi",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:50 +0000 2026",
+      "source": "@GroundNarrative",
+      "tweetId": "2027874915735769290",
+      "url": "https://twitter.com/GroundNarrative/status/2027874915735769290",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Large fireball lights up the sky after Iranian missile strike on Tel Aviv\n[AFP] https://t.co/sameY74",
+          "desc": "Large fireball lights up the sky after Iranian missile strike on Tel Aviv\n[AFP] https://t.co/sameY74MGi",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874904226598964",
+      "type": "intel",
+      "country": "israel",
+      "title": "Breaking News: over 40 civilians killed in Tel Aviv missile attack from Iran. https://t.co/zfpBwN20y",
+      "desc": "Breaking News: over 40 civilians killed in Tel Aviv missile attack from Iran. https://t.co/zfpBwN20yb",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:47 +0000 2026",
+      "source": "@foundation2006",
+      "tweetId": "2027874904226598964",
+      "url": "https://twitter.com/foundation2006/status/2027874904226598964",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Breaking News: over 40 civilians killed in Tel Aviv missile attack from Iran. https://t.co/zfpBwN20y",
+          "desc": "Breaking News: over 40 civilians killed in Tel Aviv missile attack from Iran. https://t.co/zfpBwN20yb",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874884047519902",
+      "type": "intel",
+      "country": "israel",
+      "title": "Some 20 people were wounded by the Iranian ballistic missile impact in Tel Aviv, according to first ",
+      "desc": "Some 20 people were wounded by the Iranian ballistic missile impact in Tel Aviv, according to first responders.\n\nAmong them is one person in critical condition, one in serious condition, and two in moderate condition. https://t.co/Sr3sGQ5dam",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:43 +0000 2026",
+      "source": "@Zionist_faithfu",
+      "tweetId": "2027874884047519902",
+      "url": "https://twitter.com/Zionist_faithfu/status/2027874884047519902",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Some 20 people were wounded by the Iranian ballistic missile impact in Tel Aviv, according to first ",
+          "desc": "Some 20 people were wounded by the Iranian ballistic missile impact in Tel Aviv, according to first responders.\n\nAmong them is one person in critical condition, one in serious condition, and two in moderate condition. https://t.co/Sr3sGQ5dam",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874850870857754",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iran must unleash hell. They don't have anything to lose.\n\nFire every fucking missile towards Tel Av",
+      "desc": "Iran must unleash hell. They don't have anything to lose.\n\nFire every fucking missile towards Tel Aviv now.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:35 +0000 2026",
+      "source": "@UTD_Tim",
+      "tweetId": "2027874850870857754",
+      "url": "https://twitter.com/UTD_Tim/status/2027874850870857754",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iran must unleash hell. They don't have anything to lose.\n\nFire every fucking missile towards Tel Av",
+          "desc": "Iran must unleash hell. They don't have anything to lose.\n\nFire every fucking missile towards Tel Aviv now.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874871246504137",
+      "type": "intel",
+      "country": "israel",
+      "title": "Breaking News 🚨 \n\nReports emerge of an Iranian drone strike targeting the iconic Burj Al Arab in Dub",
+      "desc": "Breaking News 🚨 \n\nReports emerge of an Iranian drone strike targeting the iconic Burj Al Arab in Dubai.\n#Iran #Tehran #طهران #Dubai",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:33:40 +0000 2026",
+      "source": "@AbdulGhaff47631",
+      "tweetId": "2027874871246504137",
+      "url": "https://twitter.com/AbdulGhaff47631/status/2027874871246504137",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Breaking News 🚨 \n\nReports emerge of an Iranian drone strike targeting the iconic Burj Al Arab in Dub",
+          "desc": "Breaking News 🚨 \n\nReports emerge of an Iranian drone strike targeting the iconic Burj Al Arab in Dubai.\n#Iran #Tehran #طهران #Dubai",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874523522207874",
+      "type": "intel",
+      "country": "israel",
+      "title": "🇮🇷 【💀 Desperate Lie Exposed】 Hardliner MP claims Khamenei is in full health commanding the war like ",
+      "desc": "🇮🇷 【💀 Desperate Lie Exposed】 Hardliner MP claims Khamenei is in full health commanding the war like the 12-day war — but Trump and Netanyahu confirm: Khamenei is DEAD, body located after US-Israel strike flattened his Tehran compound!\n\nOn Feb 28 2026 the opening barrage targeted the supreme leader’s secure residence right in Tehran heart. Satellite images show thick black smoke and total destruction, while regime media scrambles with survival spin to stop panic.\n\nTrump called it the greatest chance for Iranians to take their country back. Netanyahu said many signs the tyrant is no longer. Top officials wiped out too — Defense Minister Aziz Nasirzadeh, IRGC chief Mohammad Pakpour, senior adviser Ali Shamkhani all gone in the same operation. Protests exploding in cities with “Death to the Dictator” chants louder than ever as the economy collapses and years of repression finally snap.\n\nThis could be the tipping point. The Islamic Republic’s iron grip is cracking wide open. Millions who suffered for decades now see real hope for freedom. The long nightmare is ending and a new Iran is within reach. Change is coming — feel it.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:32:17 +0000 2026",
+      "source": "@WorldTrendCurat",
+      "tweetId": "2027874523522207874",
+      "url": "https://twitter.com/WorldTrendCurat/status/2027874523522207874",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🇮🇷 【💀 Desperate Lie Exposed】 Hardliner MP claims Khamenei is in full health commanding the war like ",
+          "desc": "🇮🇷 【💀 Desperate Lie Exposed】 Hardliner MP claims Khamenei is in full health commanding the war like the 12-day war — but Trump and Netanyahu confirm: Khamenei is DEAD, body located after US-Israel strike flattened his Tehran compound!\n\nOn Feb 28 2026 the opening barrage targeted the supreme leader’s secure residence right in Tehran heart. Satellite images show thick black smoke and total destruction, while regime media scrambles with survival spin to stop panic.\n\nTrump called it the greatest chance for Iranians to take their country back. Netanyahu said many signs the tyrant is no longer. Top officials wiped out too — Defense Minister Aziz Nasirzadeh, IRGC chief Mohammad Pakpour, senior adviser Ali Shamkhani all gone in the same operation. Protests exploding in cities with “Death to the Dictator” chants louder than ever as the economy collapses and years of repression finally snap.\n\nThis could be the tipping point. The Islamic Republic’s iron grip is cracking wide open. Millions who suffered for decades now see real hope for freedom. The long nightmare is ending and a new Iran is within reach. Change is coming — feel it.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874488696643969",
+      "type": "intel",
+      "country": "israel",
+      "title": "Reports from President Trump, Israeli officials, Fox News, Reuters, AP, CNN, and others confirm Ayat",
+      "desc": "Reports from President Trump, Israeli officials, Fox News, Reuters, AP, CNN, and others confirm Ayatollah Ali Khamenei was killed in today's joint US-Israeli strike on his Tehran compound. Iranian state media and FM claim he's safe and in command. Fast-developing with no public body footage yet—check live updates from all sides.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:32:08 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874488696643969",
+      "url": "https://twitter.com/grok/status/2027874488696643969",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Reports from President Trump, Israeli officials, Fox News, Reuters, AP, CNN, and others confirm Ayat",
+          "desc": "Reports from President Trump, Israeli officials, Fox News, Reuters, AP, CNN, and others confirm Ayatollah Ali Khamenei was killed in today's joint US-Israeli strike on his Tehran compound. Iranian state media and FM claim he's safe and in command. Fast-developing with no public body footage yet—check live updates from all sides.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874457713344939",
+      "type": "intel",
+      "country": "israel",
+      "title": "US & Israeli strikes hit Iranian targets today in Operation Epic Fury/Roaring Lion, aimed at nuclear",
+      "desc": "US & Israeli strikes hit Iranian targets today in Operation Epic Fury/Roaring Lion, aimed at nuclear/military sites and regime change. Trump & Israeli officials confirm Ayatollah Khamenei killed in Tehran strike; Iran says leaders safe & sound. Iranian state media claims 85 killed (mostly children) in Minab girls' school hit; videos authenticated but toll unverified independently amid fog of war. Regime's record of executing minors, punishing women for makeup/hijab, & anti-gay violence is well-documented by rights groups.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:32:01 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874457713344939",
+      "url": "https://twitter.com/grok/status/2027874457713344939",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US & Israeli strikes hit Iranian targets today in Operation Epic Fury/Roaring Lion, aimed at nuclear",
+          "desc": "US & Israeli strikes hit Iranian targets today in Operation Epic Fury/Roaring Lion, aimed at nuclear/military sites and regime change. Trump & Israeli officials confirm Ayatollah Khamenei killed in Tehran strike; Iran says leaders safe & sound. Iranian state media claims 85 killed (mostly children) in Minab girls' school hit; videos authenticated but toll unverified independently amid fog of war. Regime's record of executing minors, punishing women for makeup/hijab, & anti-gay violence is well-documented by rights groups.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027874405473194150",
+      "type": "intel",
+      "country": "israel",
+      "title": "The Fox News report sources this from a senior Israeli official confirming Khamenei's death after th",
+      "desc": "The Fox News report sources this from a senior Israeli official confirming Khamenei's death after the IDF strike hit his Tehran compound (reduced to rubble). \n\nPresident Trump echoed it on Truth Social, calling it confirmed via US-Israeli ops. \n\nIranian state media counters that leaders are \"safe and sound.\" Reports ongoing from both sides.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 22:31:49 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027874405473194150",
+      "url": "https://twitter.com/grok/status/2027874405473194150",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The Fox News report sources this from a senior Israeli official confirming Khamenei's death after th",
+          "desc": "The Fox News report sources this from a senior Israeli official confirming Khamenei's death after the IDF strike hit his Tehran compound (reduced to rubble). \n\nPresident Trump echoed it on Truth Social, calling it confirmed via US-Israeli ops. \n\nIranian state media counters that leaders are \"safe and sound.\" Reports ongoing from both sides.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027872559169978585",
       "type": "intel",
       "country": "israel",
@@ -23579,5 +24179,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-02-28T22:24:37.545395+00:00"
+  "lastUpdated": "2026-02-28T22:33:57.567134+00:00"
 }
