@@ -58,6 +58,11 @@ DEFAULT_CONFIG = {
         "hormuz blockade", "red sea interception", "persian gulf naval",
         "霍尔木兹 封锁", "红海 拦截", "波斯湾 航母",
 
+        # Maritime warnings and naval alerts
+        "vessel not allowed", "shipping warning", "maritime alert", "naval warning",
+        "strait closed", "waterway closed", "transit banned", "shipping lane closed",
+        "船只 禁止", "船舶 警告", "海峡 关闭", "航道 封锁",
+
         # Specific events
         "gulf country attacked", "gcc base strike", "middle east escalation",
         "海湾国家 被袭", "海湾 基地 打击",
@@ -76,7 +81,10 @@ DEFAULT_CONFIG = {
         "TheStudyofWar", "criticalthreats", "UANI",
 
         # High-credibility OSINT accounts
-        "Osinttechnical", "sentdefender", "Osint613", "IntelCrab"
+        "Osinttechnical", "sentdefender", "Osint613", "IntelCrab",
+
+        # Maritime security & naval monitoring (for Hormuz/Red Sea blockade alerts)
+        "UKMTO_Dubai", "IMB_Piracy", "NavalNews", "US5thFleet", "USNavalForcesCEN"
     ],
     "countryMapping": {
         "以色列": "israel",
@@ -160,7 +168,14 @@ EVENT_TYPE_PATTERNS = {
     ],
     "blockade": [
         r"封锁", r"拦截", r"扣押", r"登船",
-        r"blockade", r"intercept", r"seiz[uo]re", r"boarding"
+        r"blockade", r"intercept", r"seiz[uo]re", r"boarding",
+        # Maritime warning patterns - capture "warned" in naval/maritime context
+        r"vessel.*not.*allowed", r"shipping.*warning", r"maritime.*alert", r"naval.*warning",
+        r"ship.*banned", r"vessel.*banned", r"strait.*closed", r"waterway.*closed",
+        r"vhf.*warning", r"shipping.*lane.*closed", r"passage.*denied", r"transit.*banned",
+        # Chinese maritime warning patterns
+        r"船只.*禁止", r"船舶.*警告", r"海峡.*关闭", r"航道.*封锁",
+        r"通行.*禁止", r"航海.*警告"
     ],
     "airspace": [
         r"禁飞", r"封空", r"领空", r"防空",
