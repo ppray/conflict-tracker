@@ -248,6 +248,74 @@
 
   @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 
+  /* Data Toast Notification */
+  .data-toast {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: linear-gradient(135deg, rgba(0,68,255,0.15) 0%, rgba(0,255,136,0.1) 100%);
+    border: 1px solid rgba(0,255,136,0.4);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,255,136,0.2), inset 0 1px 0 rgba(255,255,255,0.1);
+    z-index: 10000;
+    animation: toastSlideIn 0.3s ease-out;
+    font-family: 'Share Tech Mono', monospace;
+    max-width: 320px;
+  }
+  .data-toast.toast-hiding { animation: toastSlideOut 0.3s ease-in forwards; }
+  @keyframes toastSlideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  @keyframes toastSlideOut {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+  }
+  .toast-icon {
+    font-size: 24px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+  }
+  .toast-content { flex: 1; }
+  .toast-title {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--accent-green);
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .toast-message {
+    font-size: 12px;
+    color: #c8e4f0;
+  }
+  .toast-close {
+    background: transparent;
+    border: none;
+    color: rgba(200,228,240,0.5);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s;
+  }
+  .toast-close:hover {
+    background: rgba(255,68,68,0.2);
+    color: #ff4444;
+  }
+
   .auto-toggle {
     display: flex;
     align-items: center;
@@ -878,7 +946,10 @@ const TRANSLATIONS = {
     // Popup
     popupSource: '来源',
     // Active zones
-    activeZonesFormat: '活跃区域: {count}'
+    activeZonesFormat: '活跃区域: {count}',
+    // Server reload
+    newDataReceived: '接收新数据',
+    newEventsLoaded: '已加载 {count} 条新事件'
   },
   en: {
     // Header
@@ -927,7 +998,10 @@ const TRANSLATIONS = {
     // Popup
     popupSource: 'Source',
     // Active zones
-    activeZonesFormat: 'Active Zones: {count}'
+    activeZonesFormat: 'Active Zones: {count}',
+    // Server reload
+    newDataReceived: 'NEW DATA RECEIVED',
+    newEventsLoaded: '{count} new events loaded'
   },
   ar: {
     // Header
@@ -976,7 +1050,10 @@ const TRANSLATIONS = {
     // Popup
     popupSource: 'المصدر',
     // Active zones
-    activeZonesFormat: 'المناطق النشطة: {count}'
+    activeZonesFormat: 'المناطق النشطة: {count}',
+    // Server reload
+    newDataReceived: 'بيانات جديدة',
+    newEventsLoaded: 'تم تحميل {count} أحداث جديدة'
   }
 };
 
@@ -1180,6 +1257,99 @@ async function loadData() {
     TICKER_TEXTS = serverTranslations.tickerTexts[currentLang];
 
     return false;
+  }
+}
+
+// ============================================================
+// SERVER DATA AUTO-RELOAD
+// ============================================================
+let serverReloadTimer = null;
+let lastServerUpdateTime = null;
+
+async function reloadServerData() {
+  try {
+    console.log('%c Reloading data from server... ', 'background:#4488ff;color:#fff;font-weight:bold;padding:2px 6px;');
+    const response = await fetch(`data/events.json?_t=${Date.now()}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+
+    const newEvents = data.events.map(e => ({
+      ...e,
+      time: new Date(e.time),
+      isNew: false
+    }));
+
+    const existingEventIds = new Set(MOCK_EVENTS.map(e => e.id));
+    const trulyNewEvents = newEvents.filter(e => !existingEventIds.has(e.id));
+
+    if (trulyNewEvents.length > 0) {
+      console.log(`%c Found ${trulyNewEvents.length} new events! `, 'background:#00ff88;color:#000;font-weight:bold;padding:4px 8px;');
+      trulyNewEvents.forEach(e => e.isNew = true);
+      const mergedEvents = [...trulyNewEvents, ...MOCK_EVENTS.filter(e => !newEvents.some(ne => ne.id === e.id))];
+      MOCK_EVENTS = mergedEvents.sort((a, b) => b.time - a.time).slice(0, 100);
+
+      if (data.templates && typeof data.templates === 'object') {
+        serverTranslations.templates = data.templates.zh || data.templates.en ? data.templates : {
+          zh: data.templates || [], en: data.templates || [], ar: data.templates || []
+        };
+      }
+      if (data.tickerTexts && typeof data.tickerTexts === 'object') {
+        serverTranslations.tickerTexts = data.tickerTexts.zh || data.tickerTexts.en ? data.tickerTexts : {
+          zh: data.tickerTexts || [], en: data.tickerTexts || [], ar: data.tickerTexts || []
+        };
+      }
+
+      NEW_EVENT_TEMPLATES = serverTranslations.templates[currentLang] || [];
+      TICKER_TEXTS = serverTranslations.tickerTexts[currentLang] || [];
+
+      Object.values(markerMap).forEach(marker => map.removeLayer(marker));
+      for (let k in markerMap) delete markerMap[k];
+      MOCK_EVENTS.forEach(e => createMarker(e));
+      renderEventList(MOCK_EVENTS);
+      updateTicker();
+      showNewDataNotification(trulyNewEvents.length);
+    } else {
+      console.log('%c No new events found ', 'color:#888;');
+    }
+    lastServerUpdateTime = new Date();
+    return trulyNewEvents.length;
+  } catch (error) {
+    console.warn('%c Server reload failed ', 'background:#ff4444;color:#fff;font-weight:bold;padding:2px 6px;', error.message);
+    return 0;
+  }
+}
+
+function showNewDataNotification(count) {
+  const existingToast = document.getElementById('data-toast');
+  if (existingToast) existingToast.remove();
+  const toast = document.createElement('div');
+  toast.id = 'data-toast';
+  toast.className = 'data-toast';
+  toast.innerHTML = `
+    <div class="toast-icon">📡</div>
+    <div class="toast-content">
+      <div class="toast-title">${t('newDataReceived') || 'NEW DATA RECEIVED'}</div>
+      <div class="toast-message">${t('newEventsLoaded', { count }) || `${count} new events loaded`}</div>
+    </div>
+    <button class="toast-close" onclick="this.parentElement.remove()">×</button>
+  `;
+  document.body.appendChild(toast);
+  setTimeout(() => {
+    toast.classList.add('toast-hiding');
+    setTimeout(() => toast.remove(), 300);
+  }, 5000);
+}
+
+function startServerReload(intervalMs = 300000) {
+  stopServerReload();
+  serverReloadTimer = setInterval(reloadServerData, intervalMs);
+  console.log(`%c Server auto-reload started (${intervalMs/1000}s interval) `, 'background:#00aaff;color:#000;font-weight:bold;padding:4px 8px;');
+}
+
+function stopServerReload() {
+  if (serverReloadTimer) {
+    clearInterval(serverReloadTimer);
+    serverReloadTimer = null;
   }
 }
 
@@ -1572,6 +1742,9 @@ async function init() {
 
   // Start auto refresh
   startAutoRefresh();
+
+  // Start server data auto-reload (every 5 minutes)
+  startServerReload(300000);
 
   // Threat level cycling (localized)
   const threatLevels = {
