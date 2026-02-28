@@ -1,6 +1,582 @@
 {
   "events": [
     {
+      "id": "2027892526888222911",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Seren1401 @yanisvaroufakis So what?! I hate our leader but I hate war, and I do not believe that US",
+      "desc": "@Seren1401 @yanisvaroufakis So what?! I hate our leader but I hate war, and I do not believe that US or Israel will bring freedom to Iran. So I truly wish for Iran not to loose the war.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:49 +0000 2026",
+      "source": "@Sarai198310",
+      "tweetId": "2027892526888222911",
+      "url": "https://twitter.com/Sarai198310/status/2027892526888222911",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Seren1401 @yanisvaroufakis So what?! I hate our leader but I hate war, and I do not believe that US",
+          "desc": "@Seren1401 @yanisvaroufakis So what?! I hate our leader but I hate war, and I do not believe that US or Israel will bring freedom to Iran. So I truly wish for Iran not to loose the war.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892524736512417",
+      "type": "intel",
+      "country": "israel",
+      "title": "Also important is that joining the United States against Iran will mean openly joining the United St",
+      "desc": "Also important is that joining the United States against Iran will mean openly joining the United States AND Israel—a new/unprecedented dynamic—against Iran. Bahrain and the UAE may have the stomach for this, but the other Gulf Arab states are unlikely to.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:48 +0000 2026",
+      "source": "@shahpas",
+      "tweetId": "2027892524736512417",
+      "url": "https://twitter.com/shahpas/status/2027892524736512417",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Also important is that joining the United States against Iran will mean openly joining the United St",
+          "desc": "Also important is that joining the United States against Iran will mean openly joining the United States AND Israel—a new/unprecedented dynamic—against Iran. Bahrain and the UAE may have the stomach for this, but the other Gulf Arab states are unlikely to.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892519611339218",
+      "type": "intel",
+      "country": "israel",
+      "title": "Damn! #Iran #Israel #BahrainAttack",
+      "desc": "Damn! #Iran #Israel #BahrainAttack",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:47 +0000 2026",
+      "source": "@BookNGold",
+      "tweetId": "2027892519611339218",
+      "url": "https://twitter.com/BookNGold/status/2027892519611339218",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Damn! #Iran #Israel #BahrainAttack",
+          "desc": "Damn! #Iran #Israel #BahrainAttack",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892515702247602",
+      "type": "intel",
+      "country": "israel",
+      "title": "@GrantCardone @realDonaldTrump Iran actually accepted and then Israel attacked....pls know the facts",
+      "desc": "@GrantCardone @realDonaldTrump Iran actually accepted and then Israel attacked....pls know the facts first. Ps. I am not siding either way just wanted to say this",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:46 +0000 2026",
+      "source": "@heretobrowse_",
+      "tweetId": "2027892515702247602",
+      "url": "https://twitter.com/heretobrowse_/status/2027892515702247602",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@GrantCardone @realDonaldTrump Iran actually accepted and then Israel attacked....pls know the facts",
+          "desc": "@GrantCardone @realDonaldTrump Iran actually accepted and then Israel attacked....pls know the facts first. Ps. I am not siding either way just wanted to say this",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892513231512016",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Jewtastic Why did US/Israel attack Iran last year - much before the 30k people were killed?",
+      "desc": "@Jewtastic Why did US/Israel attack Iran last year - much before the 30k people were killed?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:46 +0000 2026",
+      "source": "@SilverDudeMan",
+      "tweetId": "2027892513231512016",
+      "url": "https://twitter.com/SilverDudeMan/status/2027892513231512016",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Jewtastic Why did US/Israel attack Iran last year - much before the 30k people were killed?",
+          "desc": "@Jewtastic Why did US/Israel attack Iran last year - much before the 30k people were killed?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892511075602937",
+      "type": "intel",
+      "country": "israel",
+      "title": "Dozens of people gathered in front of Philadelphia City Hall on Saturday afternoon to protest the U.",
+      "desc": "Dozens of people gathered in front of Philadelphia City Hall on Saturday afternoon to protest the U.S. and Israeli joint military attack on Iran.\n\n@E_B_Neil @WHYYNews \nhttps://t.co/ju42SjlEs8",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:45 +0000 2026",
+      "source": "@Kenny_Cooper_Jr",
+      "tweetId": "2027892511075602937",
+      "url": "https://twitter.com/Kenny_Cooper_Jr/status/2027892511075602937",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Dozens of people gathered in front of Philadelphia City Hall on Saturday afternoon to protest the U.",
+          "desc": "Dozens of people gathered in front of Philadelphia City Hall on Saturday afternoon to protest the U.S. and Israeli joint military attack on Iran.\n\n@E_B_Neil @WHYYNews \nhttps://t.co/ju42SjlEs8",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892500271403317",
+      "type": "intel",
+      "country": "israel",
+      "title": "People's start evacuating Dubai after realising Tax Shelter Heaven is now Bomb Shelter after Iran at",
+      "desc": "People's start evacuating Dubai after realising Tax Shelter Heaven is now Bomb Shelter after Iran attack.\n\n#WorldWar3 l #Tehran l Qatar l Saudi Arab l Bahrain l Oman l US l Tel Aviv https://t.co/bQWwPlY6sA",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:43 +0000 2026",
+      "source": "@Mr_Bhagat08",
+      "tweetId": "2027892500271403317",
+      "url": "https://twitter.com/Mr_Bhagat08/status/2027892500271403317",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "People's start evacuating Dubai after realising Tax Shelter Heaven is now Bomb Shelter after Iran at",
+          "desc": "People's start evacuating Dubai after realising Tax Shelter Heaven is now Bomb Shelter after Iran attack.\n\n#WorldWar3 l #Tehran l Qatar l Saudi Arab l Bahrain l Oman l US l Tel Aviv https://t.co/bQWwPlY6sA",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892489965699087",
+      "type": "intel",
+      "country": "israel",
+      "title": "You heard it here first: “My gut says it will be this weekend,” @MarkHalperin said on Friday’s “Morn",
+      "desc": "You heard it here first: “My gut says it will be this weekend,” @MarkHalperin said on Friday’s “Morning Meeting” program. “Based on what I was just told, there are more indications that there’s going to be an attack this weekend on Iran.” Tune in here on Sunday, live at 5p ET for Mark's exclusive reporting from Palm Beach on the military operation. #Iran #Khamenei #DonaldTrump @2waytvapp",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:40 +0000 2026",
+      "source": "@2waytvapp",
+      "tweetId": "2027892489965699087",
+      "url": "https://twitter.com/2waytvapp/status/2027892489965699087",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "You heard it here first: “My gut says it will be this weekend,” @MarkHalperin said on Friday’s “Morn",
+          "desc": "You heard it here first: “My gut says it will be this weekend,” @MarkHalperin said on Friday’s “Morning Meeting” program. “Based on what I was just told, there are more indications that there’s going to be an attack this weekend on Iran.” Tune in here on Sunday, live at 5p ET for Mark's exclusive reporting from Palm Beach on the military operation. #Iran #Khamenei #DonaldTrump @2waytvapp",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892489160466524",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Jvnior Ok a few hours ago they dancing after attack Iran nie they cry ohhh nobody care :)",
+      "desc": "@Jvnior Ok a few hours ago they dancing after attack Iran nie they cry ohhh nobody care :)",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:40 +0000 2026",
+      "source": "@forry777aura",
+      "tweetId": "2027892489160466524",
+      "url": "https://twitter.com/forry777aura/status/2027892489160466524",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Jvnior Ok a few hours ago they dancing after attack Iran nie they cry ohhh nobody care :)",
+          "desc": "@Jvnior Ok a few hours ago they dancing after attack Iran nie they cry ohhh nobody care :)",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892488439271552",
+      "type": "intel",
+      "country": "israel",
+      "title": "JUST IN 🇮🇷🇺🇸: Repeated Explosions Across Tehran, Iran\n\nThe U.S. is carrying out a large-scale attack",
+      "desc": "JUST IN 🇮🇷🇺🇸: Repeated Explosions Across Tehran, Iran\n\nThe U.S. is carrying out a large-scale attack on the city.\n\nIran continues to strike U.S. bases. Footage shows the Patriot air defense system at Al Udeid Airbase in Qatar failing to intercept an Iranian missile.\n\nhttps://t.co/e6ttPKydjc",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:40 +0000 2026",
+      "source": "@WatchWorldNew",
+      "tweetId": "2027892488439271552",
+      "url": "https://twitter.com/WatchWorldNew/status/2027892488439271552",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "JUST IN 🇮🇷🇺🇸: Repeated Explosions Across Tehran, Iran\n\nThe U.S. is carrying out a large-scale attack",
+          "desc": "JUST IN 🇮🇷🇺🇸: Repeated Explosions Across Tehran, Iran\n\nThe U.S. is carrying out a large-scale attack on the city.\n\nIran continues to strike U.S. bases. Footage shows the Patriot air defense system at Al Udeid Airbase in Qatar failing to intercept an Iranian missile.\n\nhttps://t.co/e6ttPKydjc",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892511620907484",
+      "type": "intel",
+      "country": "israel",
+      "title": "The US-Israel strikes on Iran today, with Iranian missile retaliation on Israel and Gulf bases, mark",
+      "desc": "The US-Israel strikes on Iran today, with Iranian missile retaliation on Israel and Gulf bases, mark a sharp escalation after last year's 12-day war. Russia and China condemn it diplomatically and call for talks, with no military moves. Diverse analyses from Chatham House, CSIS, and others see high regional risk but low global spillover. My neutral estimate: 10 out of 100 for full WW3 breakout. Fluid situation.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:45 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027892511620907484",
+      "url": "https://twitter.com/grok/status/2027892511620907484",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The US-Israel strikes on Iran today, with Iranian missile retaliation on Israel and Gulf bases, mark",
+          "desc": "The US-Israel strikes on Iran today, with Iranian missile retaliation on Israel and Gulf bases, mark a sharp escalation after last year's 12-day war. Russia and China condemn it diplomatically and call for talks, with no military moves. Diverse analyses from Chatham House, CSIS, and others see high regional risk but low global spillover. My neutral estimate: 10 out of 100 for full WW3 breakout. Fluid situation.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892488368001152",
+      "type": "intel",
+      "country": "israel",
+      "title": "@AJENews IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Bu",
+      "desc": "@AJENews IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Burj Khalifa Bahrain quwait Dubai all gulf\nInnocent civilians area\nAnd own citizens call him protesters?\n\nThis is proof he working for Netanyahu and Trump agenda \n#Tehran #WorldWar3 https://t.co/ljRUPHuIpC",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:40 +0000 2026",
+      "source": "@Rapefreeindia00",
+      "tweetId": "2027892488368001152",
+      "url": "https://twitter.com/Rapefreeindia00/status/2027892488368001152",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@AJENews IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Bu",
+          "desc": "@AJENews IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Burj Khalifa Bahrain quwait Dubai all gulf\nInnocent civilians area\nAnd own citizens call him protesters?\n\nThis is proof he working for Netanyahu and Trump agenda \n#Tehran #WorldWar3 https://t.co/ljRUPHuIpC",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892488242139242",
+      "type": "intel",
+      "country": "israel",
+      "title": "@TheZeitgeistNZ Dream on! With my eldest son participating in the Gulf War 1 &amp; 2 and continued o",
+      "desc": "@TheZeitgeistNZ Dream on! With my eldest son participating in the Gulf War 1 &amp; 2 and continued on with the UN to investigate Iraq ability to cause terrorism, just as Iran has been undertaking for decades! You know nothing, but appear to have a lot to say, but really you know nothing!",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:40 +0000 2026",
+      "source": "@PCVBJF",
+      "tweetId": "2027892488242139242",
+      "url": "https://twitter.com/PCVBJF/status/2027892488242139242",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@TheZeitgeistNZ Dream on! With my eldest son participating in the Gulf War 1 &amp; 2 and continued o",
+          "desc": "@TheZeitgeistNZ Dream on! With my eldest son participating in the Gulf War 1 &amp; 2 and continued on with the UN to investigate Iraq ability to cause terrorism, just as Iran has been undertaking for decades! You know nothing, but appear to have a lot to say, but really you know nothing!",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892476120277403",
+      "type": "intel",
+      "country": "israel",
+      "title": "@magi_jay @Kasparov63 “Liberation,” à l'Américaine…\n\nhttps://t.co/TTrWUCe4Dh",
+      "desc": "@magi_jay @Kasparov63 “Liberation,” à l'Américaine…\n\nhttps://t.co/TTrWUCe4Dh",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:37 +0000 2026",
+      "source": "@magpiewdc",
+      "tweetId": "2027892476120277403",
+      "url": "https://twitter.com/magpiewdc/status/2027892476120277403",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@magi_jay @Kasparov63 “Liberation,” à l'Américaine…\n\nhttps://t.co/TTrWUCe4Dh",
+          "desc": "@magi_jay @Kasparov63 “Liberation,” à l'Américaine…\n\nhttps://t.co/TTrWUCe4Dh",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892333426184662",
+      "type": "intel",
+      "country": "israel",
+      "title": "@AJEnglish @TohidAsadi IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against ",
+      "desc": "@AJEnglish @TohidAsadi IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Burj Khalifa Bahrain quwait Dubai all gulf\nInnocent civilians area\nAnd own citizens call him protesters?\n\nThis is proof he working for Netanyahu and Trump agenda \n#Tehran #WorldWar3 https://t.co/iPneXWkvkm",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:03 +0000 2026",
+      "source": "@Rapefreeindia00",
+      "tweetId": "2027892333426184662",
+      "url": "https://twitter.com/Rapefreeindia00/status/2027892333426184662",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@AJEnglish @TohidAsadi IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against ",
+          "desc": "@AJEnglish @TohidAsadi IRGC Iran Khomeini #Khamenei is Zionist Trump agent  \nwar and attack against \nIraq Qatar Burj Khalifa Bahrain quwait Dubai all gulf\nInnocent civilians area\nAnd own citizens call him protesters?\n\nThis is proof he working for Netanyahu and Trump agenda \n#Tehran #WorldWar3 https://t.co/iPneXWkvkm",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892493468000767",
+      "type": "intel",
+      "country": "israel",
+      "title": "Mucci_Fe Fact check: False. No credible reports or US statements confirm an Iranian missile hitting ",
+      "desc": "Mucci_Fe Fact check: False. No credible reports or US statements confirm an Iranian missile hitting a US military support ship off Tel Aviv. CENTCOM confirms: no US Navy ships struck, armada fully operational. Iran targeted Israeli cities (Tel Aviv hits reported) and Gulf US bases (Bahrain etc.). Video shows distant sea smoke from likely missile debris or land impacts, not a ship strike. Chinese tourist clip misattributed.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:41 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027892493468000767",
+      "url": "https://twitter.com/grok/status/2027892493468000767",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Mucci_Fe Fact check: False. No credible reports or US statements confirm an Iranian missile hitting ",
+          "desc": "Mucci_Fe Fact check: False. No credible reports or US statements confirm an Iranian missile hitting a US military support ship off Tel Aviv. CENTCOM confirms: no US Navy ships struck, armada fully operational. Iran targeted Israeli cities (Tel Aviv hits reported) and Gulf US bases (Bahrain etc.). Video shows distant sea smoke from likely missile debris or land impacts, not a ship strike. Chinese tourist clip misattributed.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892480675369152",
+      "type": "intel",
+      "country": "israel",
+      "title": "Watch \"Missile strikes Tel Aviv\" on YouTube\n\nhttps://t.co/XaLZOWInyk",
+      "desc": "Watch \"Missile strikes Tel Aviv\" on YouTube\n\nhttps://t.co/XaLZOWInyk",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:38 +0000 2026",
+      "source": "@family_inmate",
+      "tweetId": "2027892480675369152",
+      "url": "https://twitter.com/family_inmate/status/2027892480675369152",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Watch \"Missile strikes Tel Aviv\" on YouTube\n\nhttps://t.co/XaLZOWInyk",
+          "desc": "Watch \"Missile strikes Tel Aviv\" on YouTube\n\nhttps://t.co/XaLZOWInyk",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892471816982985",
+      "type": "intel",
+      "country": "israel",
+      "title": "BREAKING 🚨\n\nSTOREFRONTS IN TEL AVIV DESTROYED WITHIN A 100 YARD RADIUS OF WHERE AN IRANIAN BALLISTIC",
+      "desc": "BREAKING 🚨\n\nSTOREFRONTS IN TEL AVIV DESTROYED WITHIN A 100 YARD RADIUS OF WHERE AN IRANIAN BALLISTIC MISSILE HIT https://t.co/RhfG0r9YDq",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:36 +0000 2026",
+      "source": "@NIMR561",
+      "tweetId": "2027892471816982985",
+      "url": "https://twitter.com/NIMR561/status/2027892471816982985",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "BREAKING 🚨\n\nSTOREFRONTS IN TEL AVIV DESTROYED WITHIN A 100 YARD RADIUS OF WHERE AN IRANIAN BALLISTIC",
+          "desc": "BREAKING 🚨\n\nSTOREFRONTS IN TEL AVIV DESTROYED WITHIN A 100 YARD RADIUS OF WHERE AN IRANIAN BALLISTIC MISSILE HIT https://t.co/RhfG0r9YDq",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892441890660532",
+      "type": "intel",
+      "country": "israel",
+      "title": "The video shows distant black smoke plumes over the sea from a Tel Aviv-area rooftop (Douyin/TikTok ",
+      "desc": "The video shows distant black smoke plumes over the sea from a Tel Aviv-area rooftop (Douyin/TikTok watermark confirms Chinese origin). \n\nHowever, no US, Israeli, or independent sources confirm an Iranian missile directly hitting a US military support ship off Tel Aviv today. Iran’s IRGC claims strikes on a US combat support vessel (and Bahrain’s 5th Fleet HQ), but US reports state minimal damage/no casualties at bases, with retaliation focused on Gulf sites—not Mediterranean waters near Israel. \n\nUnverified claim; footage likely misattributed amid broader strikes.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:29 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027892441890660532",
+      "url": "https://twitter.com/grok/status/2027892441890660532",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The video shows distant black smoke plumes over the sea from a Tel Aviv-area rooftop (Douyin/TikTok ",
+          "desc": "The video shows distant black smoke plumes over the sea from a Tel Aviv-area rooftop (Douyin/TikTok watermark confirms Chinese origin). \n\nHowever, no US, Israeli, or independent sources confirm an Iranian missile directly hitting a US military support ship off Tel Aviv today. Iran’s IRGC claims strikes on a US combat support vessel (and Bahrain’s 5th Fleet HQ), but US reports state minimal damage/no casualties at bases, with retaliation focused on Gulf sites—not Mediterranean waters near Israel. \n\nUnverified claim; footage likely misattributed amid broader strikes.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892413222863199",
+      "type": "intel",
+      "country": "israel",
+      "title": "😱🔥💯\nBIG BREAKING \nWe love Mahatma Gandhi. गांधी ही युद्ध रोक सकते हैं गांधी जी की जरूरत है।\nRUSSIA P",
+      "desc": "😱🔥💯\nBIG BREAKING \nWe love Mahatma Gandhi. गांधी ही युद्ध रोक सकते हैं गांधी जी की जरूरत है।\nRUSSIA PUTIN MISSILE बुर्ज खलीफा\nIran Qatar middle East Bahrain Kuwait Abu dhaabi Saudi Arabia Dubai gulf Iraq Doha Kashmir Jordan United Arab Emirates Tel Aviv Khamenei Burj Khalifa Drone attack\n#Iran #IranRevoIution2026 #Tehran\n#IsraelTerroristState \n #quatar #dubailife #iranisraelconflict\n#WorldWar3 \n#MiddleEastCrisis \n#IranWar #Khameneidead \n#Israel #UnitedStatesofamerica",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:22 +0000 2026",
+      "source": "@ALOKOMJI",
+      "tweetId": "2027892413222863199",
+      "url": "https://twitter.com/ALOKOMJI/status/2027892413222863199",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "😱🔥💯\nBIG BREAKING \nWe love Mahatma Gandhi. गांधी ही युद्ध रोक सकते हैं गांधी जी की जरूरत है।\nRUSSIA P",
+          "desc": "😱🔥💯\nBIG BREAKING \nWe love Mahatma Gandhi. गांधी ही युद्ध रोक सकते हैं गांधी जी की जरूरत है।\nRUSSIA PUTIN MISSILE बुर्ज खलीफा\nIran Qatar middle East Bahrain Kuwait Abu dhaabi Saudi Arabia Dubai gulf Iraq Doha Kashmir Jordan United Arab Emirates Tel Aviv Khamenei Burj Khalifa Drone attack\n#Iran #IranRevoIution2026 #Tehran\n#IsraelTerroristState \n #quatar #dubailife #iranisraelconflict\n#WorldWar3 \n#MiddleEastCrisis \n#IranWar #Khameneidead \n#Israel #UnitedStatesofamerica",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892532521144546",
+      "type": "intel",
+      "country": "israel",
+      "title": "@TheLaurenChen https://t.co/WP8vENlQ5X\n\nYou need a willing people ready to war.  Seems at least in D",
+      "desc": "@TheLaurenChen https://t.co/WP8vENlQ5X\n\nYou need a willing people ready to war.  Seems at least in Downtown Tehran, that's going to be kinda hard.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:50 +0000 2026",
+      "source": "@mikedlong5150",
+      "tweetId": "2027892532521144546",
+      "url": "https://twitter.com/mikedlong5150/status/2027892532521144546",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@TheLaurenChen https://t.co/WP8vENlQ5X\n\nYou need a willing people ready to war.  Seems at least in D",
+          "desc": "@TheLaurenChen https://t.co/WP8vENlQ5X\n\nYou need a willing people ready to war.  Seems at least in Downtown Tehran, that's going to be kinda hard.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892525718261828",
+      "type": "intel",
+      "country": "israel",
+      "title": "US President #DonaldTrump announced the death of #Iran Supreme Leader Ali #Khamenei. \n\n#Israel Defen",
+      "desc": "US President #DonaldTrump announced the death of #Iran Supreme Leader Ali #Khamenei. \n\n#Israel Defense Forces says a #Tehran strike also killed the IRGC chief, Iran’s Defense Minister &amp; head of Organization of Defensive Innovation and Research (SPND). https://t.co/zAYdQ45nmb",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:43:49 +0000 2026",
+      "source": "@Nikitashahii",
+      "tweetId": "2027892525718261828",
+      "url": "https://twitter.com/Nikitashahii/status/2027892525718261828",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US President #DonaldTrump announced the death of #Iran Supreme Leader Ali #Khamenei. \n\n#Israel Defen",
+          "desc": "US President #DonaldTrump announced the death of #Iran Supreme Leader Ali #Khamenei. \n\n#Israel Defense Forces says a #Tehran strike also killed the IRGC chief, Iran’s Defense Minister &amp; head of Organization of Defensive Innovation and Research (SPND). https://t.co/zAYdQ45nmb",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892309531168854",
+      "type": "intel",
+      "country": "israel",
+      "title": "A senior US security official confirmed that 40 Iranian security and regime figures were killed in t",
+      "desc": "A senior US security official confirmed that 40 Iranian security and regime figures were killed in the opening strike on downtown Tehran early Saturday.\n\nIranian Supreme Leader Ayatollah Ali Khamenei was confirmed dead by officials following an Israeli attack on his compound and main offices.\n\nA Defense Forces (IDF) spokesperson said other Iranian senior officials confirmed dead include:\n\nIranian Security Council secretary Ali Shamkhani: Shamkhani was one of the leaders of the Iranian security decision-making processes, and the personal advisor to Iranian Supreme Leader Ali Khamenei for security affairs.\n\nIslamic Revolutionary Guard Corps (IRGC) Cmdr. Mohammad Pakpour: Pakpour was commander of the IRGC since Operation ‘Rising Lion’ and one of the leaders of the “destruction of Israel” plan. As part of his role, Pakour commanded the main military force of Iran and was responsible for activating the strategic fire arrays against Israel, along with supporting and directing Iranian proxies. Pakpour also allegedly led the violent suppression of Iranian protestors over the past month.\n\nSaleh Asadi, senior intelligence officer of the Supreme Command of the Iranian Forces: Asadi was head of the Intelligence Directorate of the Khatam al-Anbiya emergency command. In his role, Asadi took part in plotting the Iranian strategy against Israel and the U.S. Asadi was allegedly heavily involved with the Iranian regime's plan to destroy the State of Israel.\n\nMohammad Shirazi, head of the Military Bureau of the Supreme Leader: Shirazi served as military bureau head since 1989. In his role, Shirazi was in charge of the relations between the senior commanders of the Iranian Armed Forces and the Supreme Leader, and was allegedly a major player within the leadership of the Iranian terror regime.\n\nIranian Defense Minister Aziz Nasirzadeh: Nasirzadeh served in several key roles, including commander of the Iranian Air Force and deputy commander of the General Staff of the Armed Forces. As defense minister, Nasirzadeh was responsible for Iran’s military industries, including the production of long-range surface-to-surface missiles and weapons that were transferred to Iranian proxies. He was also responsible for the Organization of Defensive Innovation and Research (SPND), which advanced projects related to nuclear, biological and chemical weapons.\n\nSPND chairman Hossein Jabal Amelian: Amelian was a veteran figure throughout the organization.\n\nFormer SPND chairman Reza Mozaffari-Nia: Mozaffari-Nia allegedly advanced the nuclear weapon production efforts.\n\n\"This is one of the largest regime 'decapitation operations' conducted in modern warfare history,\" \n\nUS intelligence managed to infiltrate the Iranian security echelon, making the strikes possible, according to the official.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:42:57 +0000 2026",
+      "source": "@JillMarinelli1",
+      "tweetId": "2027892309531168854",
+      "url": "https://twitter.com/JillMarinelli1/status/2027892309531168854",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "A senior US security official confirmed that 40 Iranian security and regime figures were killed in t",
+          "desc": "A senior US security official confirmed that 40 Iranian security and regime figures were killed in the opening strike on downtown Tehran early Saturday.\n\nIranian Supreme Leader Ayatollah Ali Khamenei was confirmed dead by officials following an Israeli attack on his compound and main offices.\n\nA Defense Forces (IDF) spokesperson said other Iranian senior officials confirmed dead include:\n\nIranian Security Council secretary Ali Shamkhani: Shamkhani was one of the leaders of the Iranian security decision-making processes, and the personal advisor to Iranian Supreme Leader Ali Khamenei for security affairs.\n\nIslamic Revolutionary Guard Corps (IRGC) Cmdr. Mohammad Pakpour: Pakpour was commander of the IRGC since Operation ‘Rising Lion’ and one of the leaders of the “destruction of Israel” plan. As part of his role, Pakour commanded the main military force of Iran and was responsible for activating the strategic fire arrays against Israel, along with supporting and directing Iranian proxies. Pakpour also allegedly led the violent suppression of Iranian protestors over the past month.\n\nSaleh Asadi, senior intelligence officer of the Supreme Command of the Iranian Forces: Asadi was head of the Intelligence Directorate of the Khatam al-Anbiya emergency command. In his role, Asadi took part in plotting the Iranian strategy against Israel and the U.S. Asadi was allegedly heavily involved with the Iranian regime's plan to destroy the State of Israel.\n\nMohammad Shirazi, head of the Military Bureau of the Supreme Leader: Shirazi served as military bureau head since 1989. In his role, Shirazi was in charge of the relations between the senior commanders of the Iranian Armed Forces and the Supreme Leader, and was allegedly a major player within the leadership of the Iranian terror regime.\n\nIranian Defense Minister Aziz Nasirzadeh: Nasirzadeh served in several key roles, including commander of the Iranian Air Force and deputy commander of the General Staff of the Armed Forces. As defense minister, Nasirzadeh was responsible for Iran’s military industries, including the production of long-range surface-to-surface missiles and weapons that were transferred to Iranian proxies. He was also responsible for the Organization of Defensive Innovation and Research (SPND), which advanced projects related to nuclear, biological and chemical weapons.\n\nSPND chairman Hossein Jabal Amelian: Amelian was a veteran figure throughout the organization.\n\nFormer SPND chairman Reza Mozaffari-Nia: Mozaffari-Nia allegedly advanced the nuclear weapon production efforts.\n\n\"This is one of the largest regime 'decapitation operations' conducted in modern warfare history,\" \n\nUS intelligence managed to infiltrate the Iranian security echelon, making the strikes possible, according to the official.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027892271992218087",
+      "type": "intel",
+      "country": "israel",
+      "title": "Dunia sedang melihat akhir dari sebuah era. Seperti yang Anda katakan, \"Kemenangan tidak diraih deng",
+      "desc": "Dunia sedang melihat akhir dari sebuah era. Seperti yang Anda katakan, \"Kemenangan tidak diraih dengan mengangkat tangan dan benturkan jidat,\" melainkan dengan keunggulan teknologi, intelijen yang dingin, dan realisme politik yang tajam.\n\nhttps://t.co/NVAOLcbNu9 https://t.co/pklOQi6y5X",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:42:48 +0000 2026",
+      "source": "@BelialSyntax",
+      "tweetId": "2027892271992218087",
+      "url": "https://twitter.com/BelialSyntax/status/2027892271992218087",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Dunia sedang melihat akhir dari sebuah era. Seperti yang Anda katakan, \"Kemenangan tidak diraih deng",
+          "desc": "Dunia sedang melihat akhir dari sebuah era. Seperti yang Anda katakan, \"Kemenangan tidak diraih dengan mengangkat tangan dan benturkan jidat,\" melainkan dengan keunggulan teknologi, intelijen yang dingin, dan realisme politik yang tajam.\n\nhttps://t.co/NVAOLcbNu9 https://t.co/pklOQi6y5X",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027890017868157363",
       "type": "intel",
       "country": "israel",
@@ -27779,5 +28355,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-02-28T23:33:58.555278+00:00"
+  "lastUpdated": "2026-02-28T23:43:57.772771+00:00"
 }
