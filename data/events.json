@@ -1,6 +1,606 @@
 {
   "events": [
     {
+      "id": "2027882469861536146",
+      "type": "intel",
+      "country": "israel",
+      "title": "Donald Trump: \"Hamaney, tarihteki en kötü insanlardan biriydi ve öldü.\"\n#savas #savaş #saldırı #sald",
+      "desc": "Donald Trump: \"Hamaney, tarihteki en kötü insanlardan biriydi ve öldü.\"\n#savas #savaş #saldırı #saldiri #Iran #Israel",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:51 +0000 2026",
+      "source": "@FynbBSK",
+      "tweetId": "2027882469861536146",
+      "url": "https://twitter.com/FynbBSK/status/2027882469861536146",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Donald Trump: \"Hamaney, tarihteki en kötü insanlardan biriydi ve öldü.\"\n#savas #savaş #saldırı #sald",
+          "desc": "Donald Trump: \"Hamaney, tarihteki en kötü insanlardan biriydi ve öldü.\"\n#savas #savaş #saldırı #saldiri #Iran #Israel",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882464446976139",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Osint613 It’s all happiness in Iran right now!\nThanks for helping to liberate Iranians from this te",
+      "desc": "@Osint613 It’s all happiness in Iran right now!\nThanks for helping to liberate Iranians from this terrorist regime. I hope the next steps go smooth. And pray for all the troops and civilians safety.\n\nLONG LIVE IRAN\nLONG LIVE THE KING\nLONG LIVE ISRAEL\n\n#THNXTRUMP\n#THXBIBI https://t.co/Bsj9frlvHD",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:50 +0000 2026",
+      "source": "@DayAfterAzadi",
+      "tweetId": "2027882464446976139",
+      "url": "https://twitter.com/DayAfterAzadi/status/2027882464446976139",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Osint613 It’s all happiness in Iran right now!\nThanks for helping to liberate Iranians from this te",
+          "desc": "@Osint613 It’s all happiness in Iran right now!\nThanks for helping to liberate Iranians from this terrorist regime. I hope the next steps go smooth. And pray for all the troops and civilians safety.\n\nLONG LIVE IRAN\nLONG LIVE THE KING\nLONG LIVE ISRAEL\n\n#THNXTRUMP\n#THXBIBI https://t.co/Bsj9frlvHD",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882449741513107",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iran has no land borders with Oman or the UAE (Dubai area). All contact is maritime via Persian Gulf",
+      "desc": "Iran has no land borders with Oman or the UAE (Dubai area). All contact is maritime via Persian Gulf/Strait of Hormuz/Gulf of Oman.\n\nAmid today's US/Israel strikes on Iran and Iran's retaliation (missiles on Gulf US bases + strikes hitting Dubai/Palm Jumeirah):\n\n- Iran’s IRGC radioed ships: \"no ship allowed\" through Strait of Hormuz. Tankers avoiding it; US urges caution.\n- UAE airspace partially closed; Dubai Intl Airport flights suspended.\n- Oman urging immediate halt to attacks, no direct strikes reported, monitoring its citizens.\n\nSituation fluid—check official advisories.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:46 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027882449741513107",
+      "url": "https://twitter.com/grok/status/2027882449741513107",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iran has no land borders with Oman or the UAE (Dubai area). All contact is maritime via Persian Gulf",
+          "desc": "Iran has no land borders with Oman or the UAE (Dubai area). All contact is maritime via Persian Gulf/Strait of Hormuz/Gulf of Oman.\n\nAmid today's US/Israel strikes on Iran and Iran's retaliation (missiles on Gulf US bases + strikes hitting Dubai/Palm Jumeirah):\n\n- Iran’s IRGC radioed ships: \"no ship allowed\" through Strait of Hormuz. Tankers avoiding it; US urges caution.\n- UAE airspace partially closed; Dubai Intl Airport flights suspended.\n- Oman urging immediate halt to attacks, no direct strikes reported, monitoring its citizens.\n\nSituation fluid—check official advisories.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882449129046447",
+      "type": "intel",
+      "country": "israel",
+      "title": "Yes, this video is real footage from tonight in Israel. It shows Iranian missiles incoming during th",
+      "desc": "Yes, this video is real footage from tonight in Israel. It shows Iranian missiles incoming during their retaliation to US/Israeli strikes on Iran—streaks in the sky, people reacting (including at what looks like an airport terminal), and bright explosions/interceptions over cities like Tel Aviv or Haifa. Multiple news outlets confirm the barrage and air defenses in action right now.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:46 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027882449129046447",
+      "url": "https://twitter.com/grok/status/2027882449129046447",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Yes, this video is real footage from tonight in Israel. It shows Iranian missiles incoming during th",
+          "desc": "Yes, this video is real footage from tonight in Israel. It shows Iranian missiles incoming during their retaliation to US/Israeli strikes on Iran—streaks in the sky, people reacting (including at what looks like an airport terminal), and bright explosions/interceptions over cities like Tel Aviv or Haifa. Multiple news outlets confirm the barrage and air defenses in action right now.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882447099064404",
+      "type": "intel",
+      "country": "israel",
+      "title": "@ChrisBellNor Heller Iran en Israel. Dette er en krig 100% på vegne av sekulære jøder. Slik som mini",
+      "desc": "@ChrisBellNor Heller Iran en Israel. Dette er en krig 100% på vegne av sekulære jøder. Slik som minimum 60% av all ondskap i verden.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:46 +0000 2026",
+      "source": "@EliasLF97",
+      "tweetId": "2027882447099064404",
+      "url": "https://twitter.com/EliasLF97/status/2027882447099064404",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@ChrisBellNor Heller Iran en Israel. Dette er en krig 100% på vegne av sekulære jøder. Slik som mini",
+          "desc": "@ChrisBellNor Heller Iran en Israel. Dette er en krig 100% på vegne av sekulære jøder. Slik som minimum 60% av all ondskap i verden.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882450269941901",
+      "type": "intel",
+      "country": "israel",
+      "title": "@RepThomasMassie @RepRoKhanna Trump has lost my support and that of most Americans. I am horrified a",
+      "desc": "@RepThomasMassie @RepRoKhanna Trump has lost my support and that of most Americans. I am horrified at this attack on Iran.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:47 +0000 2026",
+      "source": "@calfam04",
+      "tweetId": "2027882450269941901",
+      "url": "https://twitter.com/calfam04/status/2027882450269941901",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@RepThomasMassie @RepRoKhanna Trump has lost my support and that of most Americans. I am horrified a",
+          "desc": "@RepThomasMassie @RepRoKhanna Trump has lost my support and that of most Americans. I am horrified at this attack on Iran.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882446226886898",
+      "type": "intel",
+      "country": "israel",
+      "title": "@bundeskanzler According international law the Attack Is unlawful and Iran has the right to defend i",
+      "desc": "@bundeskanzler According international law the Attack Is unlawful and Iran has the right to defend itself. https://t.co/h3sJJfU4cT",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:46 +0000 2026",
+      "source": "@ExtraLabel",
+      "tweetId": "2027882446226886898",
+      "url": "https://twitter.com/ExtraLabel/status/2027882446226886898",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@bundeskanzler According international law the Attack Is unlawful and Iran has the right to defend i",
+          "desc": "@bundeskanzler According international law the Attack Is unlawful and Iran has the right to defend itself. https://t.co/h3sJJfU4cT",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882438790091139",
+      "type": "intel",
+      "country": "israel",
+      "title": "@MostlyPeaceful When did Iran attack the US?",
+      "desc": "@MostlyPeaceful When did Iran attack the US?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:44 +0000 2026",
+      "source": "@petesuth9",
+      "tweetId": "2027882438790091139",
+      "url": "https://twitter.com/petesuth9/status/2027882438790091139",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@MostlyPeaceful When did Iran attack the US?",
+          "desc": "@MostlyPeaceful When did Iran attack the US?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882423598428374",
+      "type": "intel",
+      "country": "israel",
+      "title": "The Democrats said nothing when the Islamo-Nazis in Iran were slaughtering their own people.  Now th",
+      "desc": "The Democrats said nothing when the Islamo-Nazis in Iran were slaughtering their own people.  Now that the Supreme Nazi has been sent to hell where he deservedly belongs, the Democrats attack President Trump and are on the side of the terrorists.  This is a sick and evil party...",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:40 +0000 2026",
+      "source": "@jimleonardbklyn",
+      "tweetId": "2027882423598428374",
+      "url": "https://twitter.com/jimleonardbklyn/status/2027882423598428374",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The Democrats said nothing when the Islamo-Nazis in Iran were slaughtering their own people.  Now th",
+          "desc": "The Democrats said nothing when the Islamo-Nazis in Iran were slaughtering their own people.  Now that the Supreme Nazi has been sent to hell where he deservedly belongs, the Democrats attack President Trump and are on the side of the terrorists.  This is a sick and evil party...",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882420414861568",
+      "type": "intel",
+      "country": "israel",
+      "title": "I'm glad Iran's dictator is dead. But our dictator has only just begun ...   https://t.co/p5CM08KHl3",
+      "desc": "I'm glad Iran's dictator is dead. But our dictator has only just begun ...   https://t.co/p5CM08KHl3",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:39 +0000 2026",
+      "source": "@Inqkriordan",
+      "tweetId": "2027882420414861568",
+      "url": "https://twitter.com/Inqkriordan/status/2027882420414861568",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "I'm glad Iran's dictator is dead. But our dictator has only just begun ...   https://t.co/p5CM08KHl3",
+          "desc": "I'm glad Iran's dictator is dead. But our dictator has only just begun ...   https://t.co/p5CM08KHl3",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882415377482220",
+      "type": "intel",
+      "country": "israel",
+      "title": "Historically, gold hasn't crashed during active major military conflicts—it acts as a safe-haven and",
+      "desc": "Historically, gold hasn't crashed during active major military conflicts—it acts as a safe-haven and typically rises or holds steady on uncertainty. \n\nExamples: Gulf War 1990-91 (spiked $384→$403/oz); Vietnam era (rose sharply post-1971); Ukraine 2022 (surge >$2k); recent Israel-Hamas/Iran tensions (new highs). \n\nMajor drops (e.g., 1980 post-peak) tied to Fed rate hikes/end of inflation fears, not ongoing wars. Record CB buying reinforces this.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:38 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027882415377482220",
+      "url": "https://twitter.com/grok/status/2027882415377482220",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Historically, gold hasn't crashed during active major military conflicts—it acts as a safe-haven and",
+          "desc": "Historically, gold hasn't crashed during active major military conflicts—it acts as a safe-haven and typically rises or holds steady on uncertainty. \n\nExamples: Gulf War 1990-91 (spiked $384→$403/oz); Vietnam era (rose sharply post-1971); Ukraine 2022 (surge >$2k); recent Israel-Hamas/Iran tensions (new highs). \n\nMajor drops (e.g., 1980 post-peak) tied to Fed rate hikes/end of inflation fears, not ongoing wars. Record CB buying reinforces this.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882390664696287",
+      "type": "intel",
+      "country": "israel",
+      "title": "\"The danger is that any miscalculation could push the region from an exchange of signals into an ope",
+      "desc": "\"The danger is that any miscalculation could push the region from an exchange of signals into an open war”  #Iran missiles brings war to Gulf doorstep; hardens support for US–Israel campaign - https://t.co/YpEkl7GtcB",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:32 +0000 2026",
+      "source": "@mokhbersahafi",
+      "tweetId": "2027882390664696287",
+      "url": "https://twitter.com/mokhbersahafi/status/2027882390664696287",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "\"The danger is that any miscalculation could push the region from an exchange of signals into an ope",
+          "desc": "\"The danger is that any miscalculation could push the region from an exchange of signals into an open war”  #Iran missiles brings war to Gulf doorstep; hardens support for US–Israel campaign - https://t.co/YpEkl7GtcB",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882274989941216",
+      "type": "intel",
+      "country": "israel",
+      "title": "@codeofvets Only because it had full sized Tootsie Rolls in it. I use to 'claim them' as mine during",
+      "desc": "@codeofvets Only because it had full sized Tootsie Rolls in it. I use to 'claim them' as mine during the Persian Gulf War. And I was the 3d Platoon Leader, D Coy, 82nd Engr Bn, 2d ACR at that time. I got my meal last of the 30 soldiers I led. I gave the Tootsie Rolls as an motivation tool.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:05 +0000 2026",
+      "source": "@TuttleDa",
+      "tweetId": "2027882274989941216",
+      "url": "https://twitter.com/TuttleDa/status/2027882274989941216",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@codeofvets Only because it had full sized Tootsie Rolls in it. I use to 'claim them' as mine during",
+          "desc": "@codeofvets Only because it had full sized Tootsie Rolls in it. I use to 'claim them' as mine during the Persian Gulf War. And I was the 3d Platoon Leader, D Coy, 82nd Engr Bn, 2d ACR at that time. I got my meal last of the 30 soldiers I led. I gave the Tootsie Rolls as an motivation tool.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882178290319614",
+      "type": "intel",
+      "country": "israel",
+      "title": "watching this man over the last year - its hard to believe that this is the same man that flew 39 co",
+      "desc": "watching this man over the last year - its hard to believe that this is the same man that flew 39 combat missions during Operation Desert Storm (the Gulf War) in 1991. These missions were over Iraq and Kuwait",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:02:42 +0000 2026",
+      "source": "@cfmom7044",
+      "tweetId": "2027882178290319614",
+      "url": "https://twitter.com/cfmom7044/status/2027882178290319614",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "watching this man over the last year - its hard to believe that this is the same man that flew 39 co",
+          "desc": "watching this man over the last year - its hard to believe that this is the same man that flew 39 combat missions during Operation Desert Storm (the Gulf War) in 1991. These missions were over Iraq and Kuwait",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882156736057384",
+      "type": "intel",
+      "country": "israel",
+      "title": "@kingstonp99 @visegrad24 Iran didn't prove anything, the first Gulf War 35 years ago did.",
+      "desc": "@kingstonp99 @visegrad24 Iran didn't prove anything, the first Gulf War 35 years ago did.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:02:37 +0000 2026",
+      "source": "@GNXperimental",
+      "tweetId": "2027882156736057384",
+      "url": "https://twitter.com/GNXperimental/status/2027882156736057384",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@kingstonp99 @visegrad24 Iran didn't prove anything, the first Gulf War 35 years ago did.",
+          "desc": "@kingstonp99 @visegrad24 Iran didn't prove anything, the first Gulf War 35 years ago did.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882448135094497",
+      "type": "intel",
+      "country": "israel",
+      "title": "👀 Massive Missile Strike in Tel Aviv\n\nA direct ballistic missile struck Tel Aviv, leaving a huge cra",
+      "desc": "👀 Massive Missile Strike in Tel Aviv\n\nA direct ballistic missile struck Tel Aviv, leaving a huge crater at the impact site. Emergency teams are responding while authorities assess damage and potential casualties. The city reels from the unprecedented attack. https://t.co/DDCHaiP2Vz",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:46 +0000 2026",
+      "source": "@Weisslbj333Leah",
+      "tweetId": "2027882448135094497",
+      "url": "https://twitter.com/Weisslbj333Leah/status/2027882448135094497",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "👀 Massive Missile Strike in Tel Aviv\n\nA direct ballistic missile struck Tel Aviv, leaving a huge cra",
+          "desc": "👀 Massive Missile Strike in Tel Aviv\n\nA direct ballistic missile struck Tel Aviv, leaving a huge crater at the impact site. Emergency teams are responding while authorities assess damage and potential casualties. The city reels from the unprecedented attack. https://t.co/DDCHaiP2Vz",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882439604113864",
+      "type": "intel",
+      "country": "israel",
+      "title": "Major damage in Tel Aviv, Israel following Iranian ballistic missile strike. https://t.co/O6UHatTlHl",
+      "desc": "Major damage in Tel Aviv, Israel following Iranian ballistic missile strike. https://t.co/O6UHatTlHl",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:44 +0000 2026",
+      "source": "@evne_rafi",
+      "tweetId": "2027882439604113864",
+      "url": "https://twitter.com/evne_rafi/status/2027882439604113864",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Major damage in Tel Aviv, Israel following Iranian ballistic missile strike. https://t.co/O6UHatTlHl",
+          "desc": "Major damage in Tel Aviv, Israel following Iranian ballistic missile strike. https://t.co/O6UHatTlHl",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882423803912488",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, this image is not real. It's a heavily manipulated or AI-generated depiction. \n\nToday's Iranian ",
+      "desc": "No, this image is not real. It's a heavily manipulated or AI-generated depiction. \n\nToday's Iranian missile strikes on Israel caused scattered damage, fires, and one fatality in the Tel Aviv area from a direct hit, with some explosions from interceptions. Real photos show limited fires and smoke, not city-wide apocalyptic flames like this.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:40 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027882423803912488",
+      "url": "https://twitter.com/grok/status/2027882423803912488",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, this image is not real. It's a heavily manipulated or AI-generated depiction. \n\nToday's Iranian ",
+          "desc": "No, this image is not real. It's a heavily manipulated or AI-generated depiction. \n\nToday's Iranian missile strikes on Israel caused scattered damage, fires, and one fatality in the Tel Aviv area from a direct hit, with some explosions from interceptions. Real photos show limited fires and smoke, not city-wide apocalyptic flames like this.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882403323076924",
+      "type": "intel",
+      "country": "israel",
+      "title": "The damage from the Tel Aviv strike matches a standard Iranian ballistic missile with a unitary high",
+      "desc": "The damage from the Tel Aviv strike matches a standard Iranian ballistic missile with a unitary high-explosive warhead—concentrated blast collapsing a building, killing 1 and wounding ~20. IDF alleges cluster submunitions in the broader barrage for indiscriminate effect, but on-site Israeli TV experts correctly note clusters wouldn't produce this single-point devastation (they scatter small bomblets widely). No confirmed new munition type; just typical escalation fallout.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:35 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027882403323076924",
+      "url": "https://twitter.com/grok/status/2027882403323076924",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The damage from the Tel Aviv strike matches a standard Iranian ballistic missile with a unitary high",
+          "desc": "The damage from the Tel Aviv strike matches a standard Iranian ballistic missile with a unitary high-explosive warhead—concentrated blast collapsing a building, killing 1 and wounding ~20. IDF alleges cluster submunitions in the broader barrage for indiscriminate effect, but on-site Israeli TV experts correctly note clusters wouldn't produce this single-point devastation (they scatter small bomblets widely). No confirmed new munition type; just typical escalation fallout.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882386403570103",
+      "type": "intel",
+      "country": "israel",
+      "title": "Tel Aviv was hit by an Iranian missile after Trump confirmed the Supreme Leader’s death! #IranWar ht",
+      "desc": "Tel Aviv was hit by an Iranian missile after Trump confirmed the Supreme Leader’s death! #IranWar https://t.co/C1Qe3mRv1o",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:31 +0000 2026",
+      "source": "@maxilham007",
+      "tweetId": "2027882386403570103",
+      "url": "https://twitter.com/maxilham007/status/2027882386403570103",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Tel Aviv was hit by an Iranian missile after Trump confirmed the Supreme Leader’s death! #IranWar ht",
+          "desc": "Tel Aviv was hit by an Iranian missile after Trump confirmed the Supreme Leader’s death! #IranWar https://t.co/C1Qe3mRv1o",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882439654445521",
+      "type": "intel",
+      "country": "israel",
+      "title": "🚨 BREAKING: Reports tells major strike targeting the Sorek desalination plant, the backbone of Israe",
+      "desc": "🚨 BREAKING: Reports tells major strike targeting the Sorek desalination plant, the backbone of Israel’s water infrastructure. As the world's largest facility of its kind.\n.\n.\n.\n.\n.\n.\nBahrain #Khamenei Qatar #Tehran \nAbu Dhabi\nGulf #Isreal Doha Tel Aviv https://t.co/LL3jfYYFXK",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:44 +0000 2026",
+      "source": "@mfs379",
+      "tweetId": "2027882439654445521",
+      "url": "https://twitter.com/mfs379/status/2027882439654445521",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🚨 BREAKING: Reports tells major strike targeting the Sorek desalination plant, the backbone of Israe",
+          "desc": "🚨 BREAKING: Reports tells major strike targeting the Sorek desalination plant, the backbone of Israel’s water infrastructure. As the world's largest facility of its kind.\n.\n.\n.\n.\n.\n.\nBahrain #Khamenei Qatar #Tehran \nAbu Dhabi\nGulf #Isreal Doha Tel Aviv https://t.co/LL3jfYYFXK",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882419345346697",
+      "type": "intel",
+      "country": "israel",
+      "title": "West Tehran strike https://t.co/YzqnOA1CBR",
+      "desc": "West Tehran strike https://t.co/YzqnOA1CBR",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:39 +0000 2026",
+      "source": "@Alexkennedy213",
+      "tweetId": "2027882419345346697",
+      "url": "https://twitter.com/Alexkennedy213/status/2027882419345346697",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "West Tehran strike https://t.co/YzqnOA1CBR",
+          "desc": "West Tehran strike https://t.co/YzqnOA1CBR",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882417789264044",
+      "type": "intel",
+      "country": "israel",
+      "title": "@TheRealThelmaJ1 Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali K",
+      "desc": "@TheRealThelmaJ1 Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:39 +0000 2026",
+      "source": "@KohlerDB",
+      "tweetId": "2027882417789264044",
+      "url": "https://twitter.com/KohlerDB/status/2027882417789264044",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@TheRealThelmaJ1 Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali K",
+          "desc": "@TheRealThelmaJ1 Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882267624812798",
+      "type": "intel",
+      "country": "israel",
+      "title": "@RepJeffries Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khame",
+      "desc": "@RepJeffries Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:03:03 +0000 2026",
+      "source": "@KohlerDB",
+      "tweetId": "2027882267624812798",
+      "url": "https://twitter.com/KohlerDB/status/2027882267624812798",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@RepJeffries Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khame",
+          "desc": "@RepJeffries Woo hoo\n\nA U.S. senior official confirms that Iran’s Supreme Leader Ayatollah Ali Khamenei, along with 5-10 top leaders, was killed after an Israeli strike in Tehran as part of a massive coordinated U.S.-Israeli military offensive called “Operation Epic Fury.”",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027882245860548877",
+      "type": "intel",
+      "country": "israel",
+      "title": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arab",
+      "desc": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arabia\n🚨 BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain\nIs world advancing towards World War,🫧\n#Tehran #Iran\nWatch full Video\nhttps://t.co/XksDnyklhf",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 23:02:58 +0000 2026",
+      "source": "@rajkumarjatiya",
+      "tweetId": "2027882245860548877",
+      "url": "https://twitter.com/rajkumarjatiya/status/2027882245860548877",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arab",
+          "desc": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arabia\n🚨 BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain\nIs world advancing towards World War,🫧\n#Tehran #Iran\nWatch full Video\nhttps://t.co/XksDnyklhf",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027879949282251100",
       "type": "intel",
       "country": "israel",
@@ -25379,5 +25979,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-02-28T22:53:59.930496+00:00"
+  "lastUpdated": "2026-02-28T23:03:59.628037+00:00"
 }
