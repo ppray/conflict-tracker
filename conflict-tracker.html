@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中东战况实时播报</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #050a0e;
+    --bg-secondary: #080f14;
+    --bg-panel: #0a1520;
+    --bg-card: #0d1b26;
+    --accent-green: #00ff88;
+    --accent-amber: #ffaa00;
+    --accent-red: #ff3344;
+    --accent-blue: #00aaff;
+    --text-primary: #c8e4f0;
+    --text-secondary: #5a8ca8;
+    --text-dim: #2a4a5a;
+    --border-color: #1a3a4a;
+    --border-glow: rgba(0,255,136,0.3);
+    --scan-line: rgba(0,255,136,0.03);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Rajdhani', sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Scan line overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      var(--scan-line) 2px,
+      var(--scan-line) 4px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* CRT vignette */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.7) 100%);
+    pointer-events: none;
+    z-index: 9998;
+  }
+
+  /* HEADER */
+  #header {
+    height: 52px;
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    position: relative;
+    z-index: 100;
+  }
+
+  #header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent-green), transparent);
+    opacity: 0.6;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .logo-mark svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app-title {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13px;
+    color: var(--accent-green);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  .app-subtitle {
+    font-size: 10px;
+    color: var(--text-secondary);
+    letter-spacing: 2px;
+  }
+
+  .header-center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .status-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-secondary);
+  }
+
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    box-shadow: 0 0 8px var(--accent-green);
+    animation: pulse-dot 1.5s ease-in-out infinite;
+  }
+
+  .status-dot.amber { background: var(--accent-amber); box-shadow: 0 0 8px var(--accent-amber); }
+  .status-dot.red { background: var(--accent-red); box-shadow: 0 0 8px var(--accent-red); }
+
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.7); }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Language switcher */
+  .lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(0,255,136,0.05);
+    border: 1px solid rgba(0,255,136,0.2);
+    padding: 3px 4px;
+    border-radius: 3px;
+  }
+
+  .lang-btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    padding: 4px 8px;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+    border-radius: 2px;
+  }
+
+  .lang-btn:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.05);
+  }
+
+  .lang-btn.active {
+    background: rgba(0,255,136,0.2);
+    color: var(--accent-green);
+  }
+
+  /* RTL support for Arabic */
+  body.rtl {
+    direction: rtl;
+  }
+
+  body.rtl .header-left {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .app-subtitle {
+    text-align: right;
+  }
+
+  body.rtl .event-meta {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .event-source-tag {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  body.rtl .event-footer {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .filter-bar {
+    flex-direction: row-reverse;
+  }
+
+  body.rtl .stat-item.strikes .stat-num,
+  body.rtl .stat-item.blockades .stat-num,
+  body.rtl .stat-item.airspace .stat-num,
+  body.rtl .stat-item.intel .stat-num {
+    direction: ltr;
+  }
+
+  .btn-refresh {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--accent-green);
+    border: 1px solid rgba(0,255,136,0.3);
+    background: rgba(0,255,136,0.05);
+    padding: 5px 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+
+  .btn-refresh:hover {
+    background: rgba(0,255,136,0.15);
+    border-color: var(--accent-green);
+    box-shadow: 0 0 15px rgba(0,255,136,0.2);
+  }
+
+  .btn-refresh.spinning .refresh-icon { animation: spin 0.6s linear; }
+
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+  .auto-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+
+  .toggle-switch {
+    width: 28px;
+    height: 14px;
+    background: rgba(0,255,136,0.2);
+    border: 1px solid rgba(0,255,136,0.4);
+    border-radius: 7px;
+    position: relative;
+    transition: background 0.3s;
+  }
+
+  .toggle-switch.active { background: rgba(0,255,136,0.4); }
+
+  .toggle-knob {
+    position: absolute;
+    top: 2px; left: 2px;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--accent-green);
+    transition: left 0.3s;
+    box-shadow: 0 0 5px var(--accent-green);
+  }
+
+  .toggle-switch.active .toggle-knob { left: 16px; }
+
+  /* MAIN LAYOUT */
+  #main {
+    display: flex;
+    height: calc(100vh - 52px - 28px);
+  }
+
+  /* MAP PANEL */
+  #map-panel {
+    flex: 0 0 62%;
+    position: relative;
+    border-right: 1px solid var(--border-color);
+    overflow: hidden;
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+    background: #050e16 !important;
+  }
+
+  /* Map corner decorations */
+  .map-corner {
+    position: absolute;
+    width: 20px; height: 20px;
+    z-index: 500;
+    pointer-events: none;
+  }
+  .map-corner.tl { top: 8px; left: 8px; border-top: 2px solid var(--accent-green); border-left: 2px solid var(--accent-green); }
+  .map-corner.tr { top: 8px; right: 8px; border-top: 2px solid var(--accent-green); border-right: 2px solid var(--accent-green); }
+  .map-corner.bl { bottom: 8px; left: 8px; border-bottom: 2px solid var(--accent-green); border-left: 2px solid var(--accent-green); }
+  .map-corner.br { bottom: 8px; right: 8px; border-bottom: 2px solid var(--accent-green); border-right: 2px solid var(--accent-green); }
+
+  .map-coords {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--accent-green);
+    opacity: 0.7;
+    z-index: 500;
+    pointer-events: none;
+    letter-spacing: 1px;
+  }
+
+  /* Radar sweep overlay */
+  .radar-sweep {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 500;
+    pointer-events: none;
+  }
+
+  .radar-sweep::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(0,255,136,0.3);
+    border-radius: 50%;
+  }
+
+  .radar-sweep::after {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 50%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent-green));
+    transform-origin: 0 50%;
+    animation: radar-rotate 3s linear infinite;
+    margin-top: -1px;
+  }
+
+  @keyframes radar-rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+  /* EVENTS PANEL */
+  #events-panel {
+    flex: 0 0 38%;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-panel);
+    overflow: hidden;
+  }
+
+  .panel-header {
+    padding: 12px 16px 10px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  .panel-title {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--accent-amber);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .event-count-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: var(--accent-red);
+    border: 1px solid var(--accent-red);
+    padding: 1px 7px;
+    letter-spacing: 1px;
+  }
+
+  /* Filters */
+  .filter-bar {
+    padding: 8px 16px;
+    display: flex;
+    gap: 6px;
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    padding: 3px 10px;
+    border: 1px solid var(--text-dim);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    text-transform: uppercase;
+  }
+
+  .filter-btn.active {
+    border-color: var(--accent-amber);
+    color: var(--accent-amber);
+    background: rgba(255,170,0,0.08);
+  }
+
+  .filter-btn:hover { border-color: var(--text-secondary); color: var(--text-primary); }
+
+  /* Event list */
+  #event-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px;
+  }
+
+  #event-list::-webkit-scrollbar { width: 4px; }
+  #event-list::-webkit-scrollbar-track { background: transparent; }
+  #event-list::-webkit-scrollbar-thumb { background: var(--text-dim); }
+
+  .event-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid transparent;
+    margin-bottom: 6px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .event-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.02) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .event-card:hover { border-color: var(--accent-green); background: rgba(0,255,136,0.03); transform: translateX(2px); }
+  .event-card.active { border-left-color: var(--accent-green); background: rgba(0,255,136,0.05); }
+
+  .event-card.type-strike { border-left-color: var(--accent-red); }
+  .event-card.type-strike:hover { border-color: var(--accent-red); background: rgba(255,51,68,0.05); }
+  .event-card.type-strike.active { border-left-color: var(--accent-red); }
+
+  .event-card.type-blockade { border-left-color: var(--accent-amber); }
+  .event-card.type-blockade:hover { border-color: var(--accent-amber); background: rgba(255,170,0,0.05); }
+
+  .event-card.type-airspace { border-left-color: var(--accent-blue); }
+  .event-card.type-airspace:hover { border-color: var(--accent-blue); background: rgba(0,170,255,0.05); }
+
+  .event-card.new-entry { animation: flash-in 0.6s ease-out; }
+  @keyframes flash-in {
+    0% { background: rgba(0,255,136,0.15); transform: translateX(-5px); opacity: 0; }
+    100% { background: var(--bg-card); transform: translateX(0); opacity: 1; }
+  }
+
+  .event-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+  }
+
+  .event-type-badge {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 8px;
+    padding: 1px 6px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .badge-strike { background: rgba(255,51,68,0.2); color: var(--accent-red); border: 1px solid rgba(255,51,68,0.4); }
+  .badge-blockade { background: rgba(255,170,0,0.15); color: var(--accent-amber); border: 1px solid rgba(255,170,0,0.4); }
+  .badge-airspace { background: rgba(0,170,255,0.15); color: var(--accent-blue); border: 1px solid rgba(0,170,255,0.4); }
+  .badge-intel { background: rgba(0,255,136,0.1); color: var(--accent-green); border: 1px solid rgba(0,255,136,0.3); }
+  .badge-diplomatic { background: rgba(200,228,240,0.1); color: var(--text-primary); border: 1px solid rgba(200,228,240,0.2); }
+
+  .event-source-tag {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 8px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    margin-left: auto;
+  }
+
+  .event-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+
+  .event-desc {
+    font-size: 11px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .event-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .event-time {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    color: var(--text-dim);
+  }
+
+  .event-location {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    color: var(--accent-green);
+    opacity: 0.7;
+  }
+
+  .event-new-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 8px;
+    color: var(--accent-red);
+    animation: blink 1s step-end infinite;
+    letter-spacing: 1px;
+  }
+
+  .event-title-link {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .event-title-link:hover {
+    color: var(--accent-green);
+    text-decoration: underline;
+  }
+
+  @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+  /* FOOTER */
+  #footer {
+    height: 28px;
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 100;
+  }
+
+  .footer-ticker {
+    flex: 1;
+    overflow: hidden;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .ticker-inner {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker-scroll 40s linear infinite;
+    color: rgba(255,170,0,0.5);
+  }
+
+  @keyframes ticker-scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  #last-updated {
+    color: var(--text-secondary);
+  }
+
+  /* Leaflet customization */
+  .leaflet-container { background: #03080d !important; }
+  .leaflet-tile { filter: brightness(0.35) saturate(0.4) hue-rotate(180deg); }
+  .leaflet-control-zoom { border: 1px solid var(--border-color) !important; background: var(--bg-card) !important; }
+  .leaflet-control-zoom a { background: var(--bg-card) !important; color: var(--accent-green) !important; border-color: var(--border-color) !important; }
+  .leaflet-control-zoom a:hover { background: rgba(0,255,136,0.1) !important; }
+  .leaflet-control-attribution { display: none; }
+
+  /* Custom popup */
+  .leaflet-popup-content-wrapper {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8), 0 0 10px rgba(0,255,136,0.1) !important;
+  }
+
+  .leaflet-popup-tip { background: var(--bg-card) !important; }
+  .leaflet-popup-content { color: var(--text-primary) !important; font-family: 'Rajdhani', sans-serif !important; margin: 10px 14px !important; }
+  .leaflet-popup-close-button { color: var(--accent-green) !important; }
+
+  .popup-content .popup-title { font-size: 13px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; letter-spacing: 0.5px; }
+  .popup-content .popup-type { font-family: 'Share Tech Mono', monospace; font-size: 9px; color: var(--accent-amber); margin-bottom: 6px; letter-spacing: 1px; }
+  .popup-content .popup-desc { font-size: 11px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
+  .popup-content .popup-time { font-family: 'Share Tech Mono', monospace; font-size: 9px; color: var(--text-dim); }
+  .popup-content .popup-link { color: var(--accent-green) !important; text-decoration: none; }
+  .popup-content .popup-link:hover { text-decoration: underline; color: var(--accent-blue) !important; }
+
+  /* Pulse marker animation */
+  @keyframes marker-pulse {
+    0% { transform: scale(0.5); opacity: 1; }
+    100% { transform: scale(2.5); opacity: 0; }
+  }
+
+  .pulse-ring {
+    position: absolute;
+    border-radius: 50%;
+    animation: marker-pulse 1.5s ease-out infinite;
+  }
+
+  /* Stats bar above events */
+  .stats-row {
+    padding: 8px 16px;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    flex: 1;
+  }
+
+  .stat-num {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+  }
+
+  .stat-item.strikes .stat-num { color: var(--accent-red); text-shadow: 0 0 10px rgba(255,51,68,0.5); }
+  .stat-item.blockades .stat-num { color: var(--accent-amber); text-shadow: 0 0 10px rgba(255,170,0,0.5); }
+  .stat-item.airspace .stat-num { color: var(--accent-blue); text-shadow: 0 0 10px rgba(0,170,255,0.5); }
+  .stat-item.intel .stat-num { color: var(--accent-green); text-shadow: 0 0 10px rgba(0,255,136,0.5); }
+
+  /* Region tag on map */
+  .map-region-label {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .region-label-text {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    color: rgba(0,255,136,0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(0,255,136,0.3);
+  }
+
+  /* No events */
+  .no-events {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    #main { flex-direction: column; height: calc(100vh - 52px - 28px); }
+    #map-panel { flex: 0 0 50%; border-right: none; border-bottom: 1px solid var(--border-color); }
+    #events-panel { flex: 0 0 50%; }
+    .header-center { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+  <div class="header-left">
+    <div class="logo-mark">
+      <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="15" cy="15" r="13" stroke="#00ff88" stroke-width="0.8" opacity="0.4"/>
+        <circle cx="15" cy="15" r="9" stroke="#00ff88" stroke-width="0.8" opacity="0.6"/>
+        <circle cx="15" cy="15" r="5" stroke="#00ff88" stroke-width="0.8"/>
+        <circle cx="15" cy="15" r="2" fill="#00ff88"/>
+        <line x1="15" y1="0" x2="15" y2="30" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+        <line x1="0" y1="15" x2="30" y2="15" stroke="#00ff88" stroke-width="0.4" opacity="0.3"/>
+        <line x1="15" y1="6" x2="15" y2="2" stroke="#00ff88" stroke-width="1.5" stroke-linecap="round"/>
+        <polygon points="15,5 14,8 16,8" fill="#00ff88"/>
+      </svg>
+    </div>
+    <div>
+      <div class="app-title">WARZONE TRACKER</div>
+      <div class="app-subtitle">中东战况实时播报系统 · DEMO</div>
+    </div>
+  </div>
+
+  <div class="header-center">
+    <div class="status-item">
+      <div class="status-dot"></div>
+      <span>LIVE FEED</span>
+    </div>
+    <div class="status-item">
+      <div class="status-dot amber"></div>
+      <span id="threat-level">威胁级别: 高</span>
+    </div>
+    <div class="status-item">
+      <div class="status-dot red"></div>
+      <span id="active-zones">活跃区域: 6</span>
+    </div>
+  </div>
+
+  <div class="header-right">
+    <div class="lang-switcher" id="lang-switcher">
+      <button class="lang-btn active" data-lang="zh">中文</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ar">عربي</button>
+    </div>
+    <div class="auto-toggle" id="auto-toggle-btn" title="自动刷新">
+      <div class="toggle-switch active" id="toggle-switch"><div class="toggle-knob"></div></div>
+      <span data-i18n="auto">AUTO</span>
+    </div>
+    <button class="btn-refresh" id="refresh-btn">
+      <span class="refresh-icon">↻</span> <span data-i18n="refresh">刷新</span>
+    </button>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div id="main">
+  <!-- MAP -->
+  <div id="map-panel">
+    <div class="map-corner tl"></div>
+    <div class="map-corner tr"></div>
+    <div class="map-corner bl"></div>
+    <div class="map-corner br"></div>
+    <div class="radar-sweep"></div>
+    <div id="map"></div>
+    <div class="map-coords" id="map-coords">32.000°N  35.000°E</div>
+  </div>
+
+  <!-- EVENTS -->
+  <div id="events-panel">
+    <div class="panel-header">
+      <div class="panel-title" data-i18n="panelTitle">⚡ 战情动态</div>
+      <div class="event-count-badge" id="event-badge" data-i18n="eventCount">EVENTS: 0</div>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-item strikes"><div class="stat-num" id="stat-strikes">0</div><div class="stat-label" data-i18n="statStrikes">打击</div></div>
+      <div class="stat-item blockades"><div class="stat-num" id="stat-blockades">0</div><div class="stat-label" data-i18n="statBlockades">封锁</div></div>
+      <div class="stat-item airspace"><div class="stat-num" id="stat-airspace">0</div><div class="stat-label" data-i18n="statAirspace">禁空</div></div>
+      <div class="stat-item intel"><div class="stat-num" id="stat-intel">0</div><div class="stat-label" data-i18n="statIntel">情报</div></div>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all" data-i18n="filterAll">全部</button>
+      <button class="filter-btn" data-filter="israel" data-i18n="filterIsrael">以色列</button>
+      <button class="filter-btn" data-filter="iran" data-i18n="filterIran">伊朗</button>
+      <button class="filter-btn" data-filter="usa" data-i18n="filterUsa">美国</button>
+      <button class="filter-btn" data-filter="strike" data-i18n="filterStrike">打击</button>
+      <button class="filter-btn" data-filter="blockade" data-i18n="filterBlockade">封锁</button>
+      <button class="filter-btn" data-filter="airspace" data-i18n="filterAirspace">禁空</button>
+    </div>
+
+    <div id="event-list">
+      <div class="no-events" data-i18n="loading">正在加载战情数据...</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+  <span data-i18n="disclaimer">⚠ 数据来源于公开信息，仅供参考，不代表官方立场</span>
+  <div class="footer-ticker">
+    <span class="ticker-inner" id="ticker-text" data-i18n="tickerLoading">正在加载滚动播报...</span>
+  </div>
+  <span id="last-updated" data-i18n="lastUpdated">最后更新: --:--:--</span>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ============================================================
+// INTERNATIONALIZATION (i18n)
+// ============================================================
+const TRANSLATIONS = {
+  zh: {
+    // Header
+    appTitle: 'WARZONE TRACKER',
+    appSubtitle: '中东战况实时播报系统 · DEMO',
+    liveFeed: 'LIVE FEED',
+    threatLevel: '威胁级别: 高',
+    activeZones: '活跃区域: 6',
+    auto: 'AUTO',
+    refresh: '刷新',
+    // Panel
+    panelTitle: '⚡ 战情动态',
+    eventCount: 'EVENTS: {count}',
+    statStrikes: '打击',
+    statBlockades: '封锁',
+    statAirspace: '禁空',
+    statIntel: '情报',
+    // Filters
+    filterAll: '全部',
+    filterIsrael: '以色列',
+    filterIran: '伊朗',
+    filterUsa: '美国',
+    filterStrike: '打击',
+    filterBlockade: '封锁',
+    filterAirspace: '禁空',
+    // Messages
+    loading: '正在加载战情数据...',
+    noEvents: '[ 无匹配事件 ]',
+    tickerLoading: '正在加载滚动播报...',
+    disclaimer: '⚠ 数据来源于公开信息，仅供参考，不代表官方立场',
+    lastUpdated: '最后更新: {time}',
+    // Event types
+    typeStrike: '打击',
+    typeBlockade: '封锁',
+    typeAirspace: '禁空',
+    typeIntel: '情报',
+    typeDiplomatic: '外交',
+    // Status
+    new: '■ NEW',
+    source: '来源',
+    // Time
+    justNow: '刚刚',
+    minutesAgo: '{m} 分钟前',
+    hoursAgo: '{h}时{m}分前',
+    hoursOnlyAgo: '{h}时前',
+    // Popup
+    popupSource: '来源',
+    // Active zones
+    activeZonesFormat: '活跃区域: {count}'
+  },
+  en: {
+    // Header
+    appTitle: 'WARZONE TRACKER',
+    appSubtitle: 'Middle East Conflict Monitor · DEMO',
+    liveFeed: 'LIVE FEED',
+    threatLevel: 'THREAT: HIGH',
+    activeZones: 'ACTIVE ZONES: 6',
+    auto: 'AUTO',
+    refresh: 'REFRESH',
+    // Panel
+    panelTitle: '⚡ SITUATION REPORT',
+    eventCount: 'EVENTS: {count}',
+    statStrikes: 'STRIKES',
+    statBlockades: 'BLOCKADES',
+    statAirspace: 'NO-FLY',
+    statIntel: 'INTEL',
+    // Filters
+    filterAll: 'ALL',
+    filterIsrael: 'ISRAEL',
+    filterIran: 'IRAN',
+    filterUsa: 'USA',
+    filterStrike: 'STRIKE',
+    filterBlockade: 'BLOCKADE',
+    filterAirspace: 'NO-FLY',
+    // Messages
+    loading: 'Loading conflict data...',
+    noEvents: '[ No matching events ]',
+    tickerLoading: 'Loading ticker...',
+    disclaimer: '⚠ Data from public sources, for reference only',
+    lastUpdated: 'Updated: {time}',
+    // Event types
+    typeStrike: 'STRIKE',
+    typeBlockade: 'BLOCKADE',
+    typeAirspace: 'NO-FLY',
+    typeIntel: 'INTEL',
+    typeDiplomatic: 'DIPLOMATIC',
+    // Status
+    new: '■ NEW',
+    source: 'Source',
+    // Time
+    justNow: 'Just now',
+    minutesAgo: '{m}m ago',
+    hoursAgo: '{h}h {m}m ago',
+    hoursOnlyAgo: '{h}h ago',
+    // Popup
+    popupSource: 'Source',
+    // Active zones
+    activeZonesFormat: 'Active Zones: {count}'
+  },
+  ar: {
+    // Header
+    appTitle: 'WARZONE TRACKER',
+    appSubtitle: 'نظام مراقبة الصراعات في الشرق الأوسط · تجريبي',
+    liveFeed: 'بث مباشر',
+    threatLevel: 'التهديد: مرتفع',
+    activeZones: 'المناطق النشطة: 6',
+    auto: 'تلقائي',
+    refresh: 'تحديث',
+    // Panel
+    panelTitle: '⚡ تقرير الموقف',
+    eventCount: 'الأحداث: {count}',
+    statStrikes: 'ضربات',
+    statBlockades: 'حصار',
+    statAirspace: 'منع طيران',
+    statIntel: 'معلومات',
+    // Filters
+    filterAll: 'الكل',
+    filterIsrael: 'إسرائيل',
+    filterIran: 'إيران',
+    filterUsa: 'أمريكا',
+    filterStrike: 'ضربة',
+    filterBlockade: 'حصار',
+    filterAirspace: 'منع طيران',
+    // Messages
+    loading: 'جاري تحميل بيانات الصراع...',
+    noEvents: '[ لا توجد أحداث مطابقة ]',
+    tickerLoading: 'جاري تحميل الشريط الإخباري...',
+    disclaimer: '⚠ البيانات من مصادر عامة، للمرجعية فقط',
+    lastUpdated: 'آخر تحديث: {time}',
+    // Event types
+    typeStrike: 'ضربة',
+    typeBlockade: 'حصار',
+    typeAirspace: 'منع طيران',
+    typeIntel: 'معلومات',
+    typeDiplomatic: 'دبلوماسي',
+    // Status
+    new: '■ جديد',
+    source: 'المصدر',
+    // Time
+    justNow: 'الآن',
+    minutesAgo: 'منذ {m} دقيقة',
+    hoursAgo: 'منذ {h} ساعة و{m} دقيقة',
+    hoursOnlyAgo: 'منذ {h} ساعة',
+    // Popup
+    popupSource: 'المصدر',
+    // Active zones
+    activeZonesFormat: 'المناطق النشطة: {count}'
+  }
+};
+
+// Store translated data from server
+let serverTranslations = {
+  events: {},
+  templates: { zh: [], en: [], ar: [] },
+  tickerTexts: { zh: [], en: [], ar: [] }
+};
+
+let currentLang = localStorage.getItem('warzone-lang') || 'zh';
+
+function t(key, params = {}) {
+  const dict = TRANSLATIONS[currentLang] || TRANSLATIONS.zh;
+  let text = dict[key] || TRANSLATIONS.zh[key] || key;
+  // Replace placeholders
+  Object.keys(params).forEach(param => {
+    text = text.replace(`{${param}}`, params[param]);
+  });
+  return text;
+}
+
+// Get localized content from event data
+function getLocalizedEventContent(event) {
+  const translations = event.translations || {};
+  const langContent = translations[currentLang] || {};
+
+  return {
+    title: langContent.title || event.title,
+    desc: langContent.desc || event.desc,
+    locationName: langContent.locationName || event.locationName
+  };
+}
+
+function updateLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem('warzone-lang', lang);
+
+  // RTL support for Arabic
+  document.body.classList.toggle('rtl', lang === 'ar');
+
+  // Update language button states
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+
+  // Update header
+  document.querySelector('.app-subtitle').textContent = t('appSubtitle');
+  document.getElementById('threat-level').textContent = t('threatLevel');
+  document.querySelector('#auto-toggle-btn span:last-child').textContent = t('auto');
+  document.querySelector('#refresh-btn span:last-child').textContent = t('refresh');
+
+  // Update panel
+  document.querySelector('.panel-title').textContent = t('panelTitle');
+  document.querySelector('.stat-label[data-i18n="statStrikes"]').textContent = t('statStrikes');
+  document.querySelector('.stat-label[data-i18n="statBlockades"]').textContent = t('statBlockades');
+  document.querySelector('.stat-label[data-i18n="statAirspace"]').textContent = t('statAirspace');
+  document.querySelector('.stat-label[data-i18n="statIntel"]').textContent = t('statIntel');
+
+  // Update filters
+  document.querySelector('.filter-btn[data-filter="all"]').textContent = t('filterAll');
+  document.querySelector('.filter-btn[data-filter="israel"]').textContent = t('filterIsrael');
+  document.querySelector('.filter-btn[data-filter="iran"]').textContent = t('filterIran');
+  document.querySelector('.filter-btn[data-filter="usa"]').textContent = t('filterUsa');
+  document.querySelector('.filter-btn[data-filter="strike"]').textContent = t('filterStrike');
+  document.querySelector('.filter-btn[data-filter="blockade"]').textContent = t('filterBlockade');
+  document.querySelector('.filter-btn[data-filter="airspace"]').textContent = t('filterAirspace');
+
+  // Update footer
+  document.querySelector('#footer > span:first-child').textContent = t('disclaimer');
+
+  // Re-render event list with new language
+  renderEventList(MOCK_EVENTS);
+  updateStats(MOCK_EVENTS);
+  updateLastUpdated();
+
+  // Update map popups with new language
+  Object.values(markerMap).forEach(marker => {
+    const event = MOCK_EVENTS.find(e => e.id === marker.eventId);
+    if (event) {
+      marker.setPopupContent(buildPopup(event));
+    }
+  });
+
+  // Update ticker with new language
+  updateTicker();
+}
+
+// Language switcher event listeners
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    updateLanguage(btn.dataset.lang);
+  });
+});
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+let MOCK_EVENTS = [];
+let NEW_EVENT_TEMPLATES = [];
+let TICKER_TEXTS = [];
+
+// Fallback data for when fetch fails (e.g., file:// protocol)
+const FALLBACK_DATA = {
+  events: [
+    { id: 1, type: 'strike', country: 'israel', title: '以色列空军对加沙北部发动打击', desc: '以色列国防军出动F-35战机，对加沙城北部哈马斯指挥设施实施精确打击，目标已被摧毁。', location: [31.5, 34.47], locationName: '加沙北部', time: '2025-02-28T14:30:00Z', source: 'IDF' },
+    { id: 2, type: 'blockade', country: 'iran', title: '伊朗革命卫队警告封锁霍尔木兹海峡', desc: '伊斯兰革命卫队海军在霍尔木兹海峡附近举行演习，警告若遭受攻击将封锁该战略要道。', location: [26.56, 56.27], locationName: '霍尔木兹海峡', time: '2025-02-28T13:55:00Z', source: 'IRGC' },
+    { id: 3, type: 'intel', country: 'usa', title: '美国情报：伊朗弹道导弹部队进入戒备', desc: '据美国防情报局消息，伊朗境内多处弹道导弹阵地人员活动显著增加，已进入一级战备状态。', location: [35.69, 51.39], locationName: '德黑兰周边', time: '2025-02-28T13:05:00Z', source: 'DIA' }
+  ],
+  templates: [
+    { type: 'strike', country: 'israel', title: '以色列无人机袭击约旦河西岸', desc: '以色列无人机对约旦河西岸武装目标发动精确打击，据报道已摧毁多辆车辆。', location: [32.0, 35.2], locationName: '约旦河西岸', source: 'IDF' }
+  ],
+  tickerTexts: [
+    '⚡ 以色列国防军：过去24小时内已对加沙地带实施超过150次空中打击',
+    '⚡ 伊朗外长召见以色列大使提出正式抗议',
+    '⚡ 美国务院：正通过外交渠道与各方保持沟通'
+  ]
+};
+
+async function loadData() {
+  try {
+    const response = await fetch('data/events.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+
+    MOCK_EVENTS = data.events.map(e => ({
+      ...e,
+      time: new Date(e.time),
+      isNew: false
+    }));
+
+    // Mark the two most recent events as new
+    if (MOCK_EVENTS.length >= 2) {
+      MOCK_EVENTS[0].isNew = true;
+      MOCK_EVENTS[1].isNew = true;
+    }
+
+    // Load multi-language templates
+    if (data.templates && typeof data.templates === 'object') {
+      // Check if templates has language structure (zh/en/ar)
+      if (data.templates.zh || data.templates.en || data.templates.ar) {
+        serverTranslations.templates = data.templates;
+      } else {
+        // Old format - convert to multi-language structure
+        serverTranslations.templates = {
+          zh: data.templates || [],
+          en: data.templates || [],
+          ar: data.templates || []
+        };
+      }
+    } else {
+      serverTranslations.templates = { zh: [], en: [], ar: [] };
+    }
+
+    // Load multi-language ticker texts
+    if (data.tickerTexts && typeof data.tickerTexts === 'object') {
+      // Check if tickerTexts has language structure
+      if (data.tickerTexts.zh || data.tickerTexts.en || data.tickerTexts.ar) {
+        serverTranslations.tickerTexts = data.tickerTexts;
+      } else {
+        // Old format - convert to multi-language structure
+        serverTranslations.tickerTexts = {
+          zh: data.tickerTexts || [],
+          en: data.tickerTexts || [],
+          ar: data.tickerTexts || []
+        };
+      }
+    } else {
+      serverTranslations.tickerTexts = { zh: [], en: [], ar: [] };
+    }
+
+    // Store for backward compatibility
+    NEW_EVENT_TEMPLATES = serverTranslations.templates[currentLang] || [];
+    TICKER_TEXTS = serverTranslations.tickerTexts[currentLang] || [];
+
+    console.log('%c DATA LOADED FROM data/events.json ', 'background:#00aaff;color:#000;font-weight:bold;padding:4px 8px;');
+    if (data.languages) {
+      console.log(`%c Available languages: ${data.languages.join(', ')}`, 'color:#00ff88;');
+    }
+    return true;
+  } catch (error) {
+    console.warn('%c Failed to load data, using fallback ', 'background:#ffaa00;color:#000;font-weight:bold;padding:4px 8px;', error.message);
+
+    // Use fallback data
+    MOCK_EVENTS = FALLBACK_DATA.events.map(e => ({
+      ...e,
+      time: new Date(e.time),
+      isNew: e.id <= 2
+    }));
+    serverTranslations.templates = {
+      zh: FALLBACK_DATA.templates || [],
+      en: FALLBACK_DATA.templates || [],
+      ar: FALLBACK_DATA.templates || []
+    };
+    serverTranslations.tickerTexts = {
+      zh: FALLBACK_DATA.tickerTexts || [],
+      en: FALLBACK_DATA.tickerTexts || [],
+      ar: FALLBACK_DATA.tickerTexts || []
+    };
+    NEW_EVENT_TEMPLATES = serverTranslations.templates[currentLang];
+    TICKER_TEXTS = serverTranslations.tickerTexts[currentLang];
+
+    return false;
+  }
+}
+
+// ============================================================
+// MAP SETUP
+// ============================================================
+const map = L.map('map', {
+  center: [28.0, 43.0],
+  zoom: 5,
+  zoomControl: true,
+  attributionControl: false,
+  preferCanvas: true
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18, minZoom: 3,
+  attribution: '© OpenStreetMap'
+}).addTo(map);
+
+// Update coords display
+map.on('mousemove', function(e) {
+  const lat = e.latlng.lat.toFixed(3);
+  const lng = e.latlng.lng.toFixed(3);
+  const latDir = lat >= 0 ? 'N' : 'S';
+  const lngDir = lng >= 0 ? 'E' : 'W';
+  document.getElementById('map-coords').textContent =
+    `${Math.abs(lat)}°${latDir}  ${Math.abs(lng)}°${lngDir}`;
+});
+
+// Add region labels
+function addRegionLabel(latlng, text) {
+  L.marker(latlng, {
+    icon: L.divIcon({
+      className: 'map-region-label',
+      html: `<div class="region-label-text">${text}</div>`,
+      iconAnchor: [0, 0]
+    }),
+    interactive: false
+  }).addTo(map);
+}
+
+addRegionLabel([39.5, 36], 'TURKEY');
+addRegionLabel([32.5, 53], 'IRAN');
+addRegionLabel([31.5, 35.2], 'ISRAEL');
+addRegionLabel([27.5, 43], 'SAUDI ARABIA');
+addRegionLabel([25.5, 56.5], 'UAE');
+addRegionLabel([17, 43.5], 'YEMEN');
+addRegionLabel([22, 35], 'RED SEA');
+addRegionLabel([26.5, 51], 'PERSIAN GULF');
+
+// Strait of Hormuz blockade indicator
+const hormuzLine = L.polyline([
+  [26.4, 56.0], [26.7, 56.6], [26.5, 57.2]
+], { color: '#ffaa00', weight: 3, opacity: 0.7, dashArray: '8,4' }).addTo(map);
+
+// Red Sea danger zone
+const redSeaZone = L.polygon([
+  [22, 36], [20, 37], [15, 42], [12, 44], [14, 45], [19, 40], [23, 38]
+], { color: '#ff3344', fillColor: '#ff3344', fillOpacity: 0.06, weight: 1, dashArray: '5,5' }).addTo(map);
+
+// Persian Gulf restricted area
+const pgZone = L.polygon([
+  [24, 50], [24, 57], [27, 57], [28, 56], [27, 50]
+], { color: '#ffaa00', fillColor: '#ffaa00', fillOpacity: 0.05, weight: 1, dashArray: '5,5' }).addTo(map);
+
+// ============================================================
+// MARKER CREATION
+// ============================================================
+const typeIcons = {
+  strike:   { color: '#ff3344', symbol: '✕', size: 14 },
+  blockade: { color: '#ffaa00', symbol: '⊘', size: 14 },
+  airspace: { color: '#00aaff', symbol: '△', size: 13 },
+  intel:    { color: '#00ff88', symbol: '◆', size: 12 },
+  diplomatic: { color: '#c8e4f0', symbol: '●', size: 11 },
+};
+
+const markerMap = {};
+
+function createMarker(event) {
+  const cfg = typeIcons[event.type] || typeIcons.intel;
+  const icon = L.divIcon({
+    className: '',
+    html: `
+      <div style="position:relative;width:${cfg.size+10}px;height:${cfg.size+10}px;">
+        <div class="pulse-ring" style="
+          width:${cfg.size+10}px;height:${cfg.size+10}px;
+          top:0;left:0;
+          border:2px solid ${cfg.color};
+          animation-delay:${Math.random()*1.5}s;
+        "></div>
+        <div style="
+          position:absolute;
+          top:5px;left:5px;
+          width:${cfg.size}px;height:${cfg.size}px;
+          background:${cfg.color}22;
+          border:1.5px solid ${cfg.color};
+          display:flex;align-items:center;justify-content:center;
+          font-size:${cfg.size*0.6}px;
+          color:${cfg.color};
+          font-family:'Share Tech Mono',monospace;
+          box-shadow: 0 0 8px ${cfg.color}66;
+        ">${cfg.symbol}</div>
+      </div>
+    `,
+    iconSize: [cfg.size + 10, cfg.size + 10],
+    iconAnchor: [(cfg.size + 10) / 2, (cfg.size + 10) / 2]
+  });
+
+  const marker = L.marker(event.location, { icon })
+    .addTo(map)
+    .bindPopup(buildPopup(event), { maxWidth: 240, className: 'dark-popup' });
+
+  marker.on('click', () => highlightEventCard(event.id));
+  marker.eventId = event.id;  // Store event ID for language switching
+  markerMap[event.id] = marker;
+  return marker;
+}
+
+function buildPopup(event) {
+  const timeStr = formatTime(event.time);
+  const badgeClass = `badge-${event.type}`;
+  const localized = getLocalizedEventContent(event);
+  const titleHtml = event.url
+    ? `<div class="popup-title"><a href="${event.url}" target="_blank" rel="noopener" class="popup-link">${localized.title}</a></div>`
+    : `<div class="popup-title">${localized.title}</div>`;
+  const sourceLink = event.url
+    ? `${t('popupSource')}: <a href="${event.url}" target="_blank" rel="noopener" class="popup-link">${event.source}</a>`
+    : `${t('popupSource')}: ${event.source}`;
+  return `<div class="popup-content">
+    <div class="popup-type">[${event.type.toUpperCase()}] · ${localized.locationName}</div>
+    ${titleHtml}
+    <div class="popup-desc">${localized.desc}</div>
+    <div class="popup-time">🕐 ${timeStr} · ${sourceLink}</div>
+  </div>`;
+}
+
+// ============================================================
+// EVENT LIST RENDERING
+// ============================================================
+let activeFilter = 'all';
+let activeCardId = null;
+
+function formatTime(date) {
+  const now = Date.now();
+  const diff = Math.floor((now - date.getTime()) / 60000);
+  if (diff < 1) return t('justNow');
+  if (diff < 60) return t('minutesAgo', { m: diff });
+  const h = Math.floor(diff / 60);
+  const m = diff % 60;
+  if (h < 24) {
+    if (m > 0) return t('hoursAgo', { h, m });
+    return t('hoursOnlyAgo', { h });
+  }
+  // For dates older than 24h, use locale-specific format
+  const locale = currentLang === 'zh' ? 'zh-CN' : currentLang === 'ar' ? 'ar-SA' : 'en-US';
+  return date.toLocaleString(locale, { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+
+function getBadgeClass(type) {
+  return `badge-${type}`;
+}
+
+function getBadgeText(type) {
+  const key = 'type' + type.charAt(0).toUpperCase() + type.slice(1);
+  return t(key);
+}
+
+function renderEventList(events) {
+  const list = document.getElementById('event-list');
+
+  const filtered = events.filter(e => {
+    if (activeFilter === 'all') return true;
+    if (activeFilter === 'strike') return e.type === 'strike';
+    if (activeFilter === 'blockade') return e.type === 'blockade';
+    if (activeFilter === 'airspace') return e.type === 'airspace';
+    return e.country === activeFilter;
+  });
+
+  if (filtered.length === 0) {
+    list.innerHTML = `<div class="no-events">${t('noEvents')}</div>`;
+    return;
+  }
+
+  list.innerHTML = '';
+  filtered.forEach(event => {
+    const card = document.createElement('div');
+    card.className = `event-card type-${event.type}${event.id === activeCardId ? ' active' : ''}${event.isNew ? ' new-entry' : ''}`;
+    card.dataset.id = event.id;
+
+    const localized = getLocalizedEventContent(event);
+    const titleHtml = event.url
+      ? `<a href="${event.url}" target="_blank" rel="noopener" class="event-title-link">${localized.title}</a>`
+      : `<div class="event-title">${localized.title}</div>`;
+
+    card.innerHTML = `
+      <div class="event-meta">
+        <span class="event-type-badge ${getBadgeClass(event.type)}">${getBadgeText(event.type)}</span>
+        ${event.isNew ? `<span class="event-new-label">${t('new')}</span>` : ''}
+        <span class="event-source-tag">[${event.source}]</span>
+      </div>
+      ${titleHtml}
+      <div class="event-desc">${localized.desc}</div>
+      <div class="event-footer">
+        <span class="event-time">🕐 ${formatTime(event.time)}</span>
+        <span class="event-location">📍 ${localized.locationName}</span>
+      </div>
+    `;
+
+    card.addEventListener('click', () => {
+      activeCardId = event.id;
+      highlightEventCard(event.id);
+      flyToEvent(event);
+    });
+
+    list.appendChild(card);
+  });
+
+  updateStats(events);
+}
+
+function updateStats(events) {
+  document.getElementById('stat-strikes').textContent = events.filter(e => e.type === 'strike').length;
+  document.getElementById('stat-blockades').textContent = events.filter(e => e.type === 'blockade').length;
+  document.getElementById('stat-airspace').textContent = events.filter(e => e.type === 'airspace').length;
+  document.getElementById('stat-intel').textContent = events.filter(e => e.type === 'intel').length;
+  document.getElementById('event-badge').textContent = t('eventCount', { count: events.length });
+  document.getElementById('active-zones').textContent = t('activeZonesFormat', { count: new Set(events.map(e=>e.country)).size * 2 });
+}
+
+function highlightEventCard(id) {
+  activeCardId = id;
+  document.querySelectorAll('.event-card').forEach(c => {
+    c.classList.toggle('active', parseInt(c.dataset.id) === id);
+  });
+}
+
+function flyToEvent(event) {
+  map.flyTo(event.location, 7, { animate: true, duration: 1.2 });
+  setTimeout(() => {
+    if (markerMap[event.id]) markerMap[event.id].openPopup();
+  }, 1300);
+}
+
+// ============================================================
+// FILTERS
+// ============================================================
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    renderEventList(MOCK_EVENTS);
+  });
+});
+
+// ============================================================
+// TICKER
+// ============================================================
+function updateTicker() {
+  // Get ticker texts for current language from server data
+  const tickerTexts = serverTranslations.tickerTexts[currentLang] || TICKER_TEXTS;
+  const shuffled = [...tickerTexts].sort(() => Math.random() - 0.5);
+  document.getElementById('ticker-text').textContent = shuffled.join('   |   ');
+}
+
+// ============================================================
+// REFRESH
+// ============================================================
+let autoRefresh = true;
+let refreshTimer = null;
+let mockEventIdCounter = 100;
+
+function simulateNewEvent() {
+  // Get templates for current language
+  const templates = serverTranslations.templates[currentLang] || NEW_EVENT_TEMPLATES;
+  const template = templates[Math.floor(Math.random() * templates.length)];
+
+  // Check if template has translations structure
+  const isMultiLang = template.translations !== undefined;
+
+  const newEvent = {
+    id: ++mockEventIdCounter,
+    type: template.type,
+    country: template.country,
+    location: template.location,
+    locationName: template.locationName,
+    source: template.source,
+    time: new Date(),
+    isNew: true,
+    url: template.url || '#',  // Add URL field
+    tweetId: template.tweetId || String(mockEventIdCounter)  // Add tweetId
+  };
+
+  // Handle both old and new template formats
+  if (isMultiLang) {
+    // New format with translations - keep ALL language translations
+    newEvent.translations = template.translations || {};
+    // Set default fields from current language
+    const langData = newEvent.translations[currentLang] || newEvent.translations.zh || {};
+    newEvent.title = langData.title || template.title;
+    newEvent.desc = langData.desc || template.desc;
+    newEvent.locationName = langData.locationName || template.locationName;
+  } else {
+    // Old format without translations
+    newEvent.title = template.title;
+    newEvent.desc = template.desc;
+    newEvent.locationName = template.locationName;
+  }
+
+  MOCK_EVENTS.unshift(newEvent);
+  if (MOCK_EVENTS.length > 20) MOCK_EVENTS.pop();
+
+  // Mark old events as not new
+  MOCK_EVENTS.forEach((e, i) => { if (i > 0) e.isNew = false; });
+
+  // Add marker
+  createMarker(newEvent);
+  renderEventList(MOCK_EVENTS);
+  updateLastUpdated();
+
+  // Flash new event red dot
+  const dot = document.querySelector('.status-dot.red');
+  if (dot) { dot.style.transform = 'scale(2)'; setTimeout(() => dot.style.transform = '', 300); }
+}
+
+function updateLastUpdated() {
+  const now = new Date();
+  const locale = currentLang === 'zh' ? 'zh-CN' : currentLang === 'ar' ? 'ar-SA' : 'en-US';
+  const timeStr = now.toLocaleTimeString(locale, { hour12: false });
+  document.getElementById('last-updated').textContent = t('lastUpdated', { time: timeStr });
+}
+
+function performRefresh() {
+  const btn = document.getElementById('refresh-btn');
+  btn.classList.add('spinning');
+  setTimeout(() => {
+    btn.classList.remove('spinning');
+    simulateNewEvent();
+    updateTicker();
+  }, 600);
+}
+
+document.getElementById('refresh-btn').addEventListener('click', performRefresh);
+
+// Auto toggle
+document.getElementById('auto-toggle-btn').addEventListener('click', () => {
+  autoRefresh = !autoRefresh;
+  const sw = document.getElementById('toggle-switch');
+  sw.classList.toggle('active', autoRefresh);
+  if (autoRefresh) startAutoRefresh();
+  else stopAutoRefresh();
+});
+
+function startAutoRefresh() {
+  refreshTimer = setInterval(performRefresh, 30000); // 30s
+}
+
+function stopAutoRefresh() {
+  if (refreshTimer) clearInterval(refreshTimer);
+}
+
+// ============================================================
+// INIT
+// ============================================================
+async function init() {
+  // Show loading state
+  document.getElementById('event-list').innerHTML = `<div class="no-events">${t('loading')}</div>`;
+
+  // Load data from JSON
+  await loadData();
+
+  // Apply saved language AFTER data is loaded
+  updateLanguage(currentLang);
+
+  // Render all markers
+  MOCK_EVENTS.forEach(e => createMarker(e));
+
+  // Render event list (will use current language)
+  renderEventList(MOCK_EVENTS);
+
+  // Update ticker
+  updateTicker();
+  setInterval(updateTicker, 20000);
+
+  // Update timestamps every minute
+  setInterval(() => renderEventList(MOCK_EVENTS), 60000);
+
+  // Update last updated
+  updateLastUpdated();
+
+  // Start auto refresh
+  startAutoRefresh();
+
+  // Threat level cycling (localized)
+  const threatLevels = {
+    zh: ['极高', '高', '中高', '高'],
+    en: ['CRITICAL', 'HIGH', 'ELEVATED', 'HIGH'],
+    ar: ['حرج', 'مرتفع', 'متوسط', 'مرتفع']
+  };
+  let lIdx = 0;
+  setInterval(() => {
+    lIdx = (lIdx + 1) % threatLevels[currentLang].length;
+    const prefix = currentLang === 'zh' ? '威胁级别: ' : currentLang === 'en' ? 'THREAT: ' : 'التهديد: ';
+    document.getElementById('threat-level').textContent = prefix + threatLevels[currentLang][lIdx];
+  }, 7000);
+
+  console.log('%c WARZONE TRACKER INITIALIZED ', 'background:#00ff88;color:#000;font-weight:bold;padding:4px 8px;');
+}
+
+init();
+</script>
+</body>
+</html>

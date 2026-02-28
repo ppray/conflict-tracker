@@ -1,0 +1,31 @@
+# Conflict Tracker - Crontab Configuration
+#
+# To install:
+#   1. Copy this file to your crontab:
+#      crontab -e
+#   2. Update the paths below to match your project location
+#   3. Paste the cron lines into your crontab
+#
+# Requirements:
+#   - Bird CLI must be installed and authenticated
+#   - Python 3 must be available
+#   - Scripts must be executable (chmod +x scripts/*.sh)
+
+# Fetch Twitter data every 15 minutes
+# Adjust the timing based on your rate limits and needs
+*/15 * * * * cd /Users/guoruidong/conflict-tracker && ./scripts/fetch-twitter-data.sh >> logs/fetch.log 2>&1
+
+# Fetch trending news every hour for ticker
+0 * * * * cd /Users/guoruidong/conflict-tracker && ./scripts/fetch-trending.sh >> logs/trending.log 2>&1
+
+# Optional: Fetch data every 30 minutes instead of every 15
+# */30 * * * * cd /path/to/conflict-tracker && ./scripts/fetch-twitter-data.sh >> logs/fetch.log 2>&1
+
+# Optional: Schedule specific times (e.g., every hour at :15 and :45)
+# 15,45 * * * * cd /path/to/conflict-tracker && ./scripts/fetch-twitter-data.sh >> logs/fetch.log 2>&1
+
+# Notes:
+#   - Logs are written to logs/ directory (create it first)
+#   - Check logs/fetch.log and logs/trending.log for debugging
+#   - Bird CLI uses your browser session, so rate limits apply
+#   - Start with longer intervals (30-60 min) and adjust as needed

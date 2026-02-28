@@ -1,0 +1,41 @@
+{
+  "keywords": [
+    "以色列 空袭",
+    "伊朗 打击",
+    "加沙 爆炸",
+    "霍尔木兹 封锁",
+    "红海 拦截",
+    "禁飞 以色列",
+    "情报 伊朗",
+    "卫星 以色列"
+  ],
+  "accounts": [
+    "IDF",
+    "CENTCOM",
+    "Reuters",
+    "APMiddleEast",
+    "AlJazeera",
+    "BBCNews",
+    "TimesofIsrael"
+  ],
+  "countryMapping": {
+    "以色列": "israel",
+    "israel": "israel",
+    "iran": "iran",
+    "伊朗": "iran",
+    "usa": "usa",
+    "美国": "usa",
+    "yemen": "iran",
+    "也门": "iran",
+    "gaza": "israel",
+    "加沙": "israel",
+    "lebanon": "israel",
+    "黎巴嫩": "israel",
+    "syria": "iran",
+    "叙利亚": "iran",
+    "saudi": "usa",
+    "沙特": "usa",
+    "uae": "usa",
+    "阿联酋": "usa"
+  }
+}
