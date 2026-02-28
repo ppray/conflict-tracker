@@ -1,6 +1,582 @@
 {
   "events": [
     {
+      "id": "2027807101033091313",
+      "type": "intel",
+      "country": "israel",
+      "title": "About time you said something about the US/ Israel/ UK attack on Iran - grow some cajones please",
+      "desc": "About time you said something about the US/ Israel/ UK attack on Iran - grow some cajones please",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:22 +0000 2026",
+      "source": "@italksplanguage",
+      "tweetId": "2027807101033091313",
+      "url": "https://twitter.com/italksplanguage/status/2027807101033091313",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "About time you said something about the US/ Israel/ UK attack on Iran - grow some cajones please",
+          "desc": "About time you said something about the US/ Israel/ UK attack on Iran - grow some cajones please",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807099556655285",
+      "type": "intel",
+      "country": "israel",
+      "title": "@GlobeEyeNews @grok what is being reported as the cause for this bombing? was jt part of the israel ",
+      "desc": "@GlobeEyeNews @grok what is being reported as the cause for this bombing? was jt part of the israel US attacks or a failed missile launch from Iran?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:22 +0000 2026",
+      "source": "@brittanysexton",
+      "tweetId": "2027807099556655285",
+      "url": "https://twitter.com/brittanysexton/status/2027807099556655285",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@GlobeEyeNews @grok what is being reported as the cause for this bombing? was jt part of the israel ",
+          "desc": "@GlobeEyeNews @grok what is being reported as the cause for this bombing? was jt part of the israel US attacks or a failed missile launch from Iran?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807098281599120",
+      "type": "intel",
+      "country": "israel",
+      "title": "#EpicFury didn't go so well\n#Iran #Israel https://t.co/DkQCzXdwhC",
+      "desc": "#EpicFury didn't go so well\n#Iran #Israel https://t.co/DkQCzXdwhC",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:21 +0000 2026",
+      "source": "@TheLittleG1",
+      "tweetId": "2027807098281599120",
+      "url": "https://twitter.com/TheLittleG1/status/2027807098281599120",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "#EpicFury didn't go so well\n#Iran #Israel https://t.co/DkQCzXdwhC",
+          "desc": "#EpicFury didn't go so well\n#Iran #Israel https://t.co/DkQCzXdwhC",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807096163733624",
+      "type": "intel",
+      "country": "israel",
+      "title": "Israeli army says about 200 fighter jets struck Iran, marking the “largest military flyover in the h",
+      "desc": "Israeli army says about 200 fighter jets struck Iran, marking the “largest military flyover in the history” of its air force.\n#Israel #IranUnderSevereAttacks #Airstrikes",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:21 +0000 2026",
+      "source": "@MuhHamza00",
+      "tweetId": "2027807096163733624",
+      "url": "https://twitter.com/MuhHamza00/status/2027807096163733624",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Israeli army says about 200 fighter jets struck Iran, marking the “largest military flyover in the h",
+          "desc": "Israeli army says about 200 fighter jets struck Iran, marking the “largest military flyover in the history” of its air force.\n#Israel #IranUnderSevereAttacks #Airstrikes",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807093621965104",
+      "type": "intel",
+      "country": "israel",
+      "title": "@jacksonhinklle Whether US/Israel or Iran – killing kids is never justified. This war needs to end b",
+      "desc": "@jacksonhinklle Whether US/Israel or Iran – killing kids is never justified. This war needs to end before more innocents die💔💔",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:20 +0000 2026",
+      "source": "@Tiwaytrcklty",
+      "tweetId": "2027807093621965104",
+      "url": "https://twitter.com/Tiwaytrcklty/status/2027807093621965104",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@jacksonhinklle Whether US/Israel or Iran – killing kids is never justified. This war needs to end b",
+          "desc": "@jacksonhinklle Whether US/Israel or Iran – killing kids is never justified. This war needs to end before more innocents die💔💔",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807097254007107",
+      "type": "intel",
+      "country": "israel",
+      "title": "#iran #savas #ıran #bahreyn #dubai #qatar #Tehran #Bvlgari #امن_الخليج_خط_احمر #saldiri #Israel #Don",
+      "desc": "#iran #savas #ıran #bahreyn #dubai #qatar #Tehran #Bvlgari #امن_الخليج_خط_احمر #saldiri #Israel #DonaldTrump #jordan #ürdün #hipersonik #missile #attack",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:21 +0000 2026",
+      "source": "@1ve5dakika",
+      "tweetId": "2027807097254007107",
+      "url": "https://twitter.com/1ve5dakika/status/2027807097254007107",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "#iran #savas #ıran #bahreyn #dubai #qatar #Tehran #Bvlgari #امن_الخليج_خط_احمر #saldiri #Israel #Don",
+          "desc": "#iran #savas #ıran #bahreyn #dubai #qatar #Tehran #Bvlgari #امن_الخليج_خط_احمر #saldiri #Israel #DonaldTrump #jordan #ürdün #hipersonik #missile #attack",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807094788018497",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iran Ka Khatarnak Attack 🇮🇷🇮🇷🇮🇷 https://t.co/c6qtT3RGYv",
+      "desc": "Iran Ka Khatarnak Attack 🇮🇷🇮🇷🇮🇷 https://t.co/c6qtT3RGYv",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:20 +0000 2026",
+      "source": "@Faiyyaz9Khan",
+      "tweetId": "2027807094788018497",
+      "url": "https://twitter.com/Faiyyaz9Khan/status/2027807094788018497",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iran Ka Khatarnak Attack 🇮🇷🇮🇷🇮🇷 https://t.co/c6qtT3RGYv",
+          "desc": "Iran Ka Khatarnak Attack 🇮🇷🇮🇷🇮🇷 https://t.co/c6qtT3RGYv",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807094603207075",
+      "type": "intel",
+      "country": "israel",
+      "title": "No nuclear attack on Iran. US & Israel launched conventional airstrikes today on Iranian missile sit",
+      "desc": "No nuclear attack on Iran. US & Israel launched conventional airstrikes today on Iranian missile sites, nuclear facilities & military targets to degrade capabilities & prevent nukes. Iran retaliating with ballistic missiles on Israel & US bases in region. Conflict escalating rapidly, per Reuters/NYT/Al Jazeera. The post uses stock missile photo for hype.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:20 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027807094603207075",
+      "url": "https://twitter.com/grok/status/2027807094603207075",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No nuclear attack on Iran. US & Israel launched conventional airstrikes today on Iranian missile sit",
+          "desc": "No nuclear attack on Iran. US & Israel launched conventional airstrikes today on Iranian missile sites, nuclear facilities & military targets to degrade capabilities & prevent nukes. Iran retaliating with ballistic missiles on Israel & US bases in region. Conflict escalating rapidly, per Reuters/NYT/Al Jazeera. The post uses stock missile photo for hype.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807091205996699",
+      "type": "intel",
+      "country": "israel",
+      "title": "Myself? I'm going to attack Iran so that you forget that I'm a pedophile",
+      "desc": "Myself? I'm going to attack Iran so that you forget that I'm a pedophile",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:20 +0000 2026",
+      "source": "@Macgaafar",
+      "tweetId": "2027807091205996699",
+      "url": "https://twitter.com/Macgaafar/status/2027807091205996699",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Myself? I'm going to attack Iran so that you forget that I'm a pedophile",
+          "desc": "Myself? I'm going to attack Iran so that you forget that I'm a pedophile",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807088911474983",
+      "type": "intel",
+      "country": "israel",
+      "title": "Since Pelosi joined Congress June 1987, major US-initiated conflicts include:\n\n- Panama (Dec 1989-Ja",
+      "desc": "Since Pelosi joined Congress June 1987, major US-initiated conflicts include:\n\n- Panama (Dec 1989-Jan 1990): 1 mo, US deaths 23, total ~550, cost ~$163M.\n- Gulf War (Jan-Feb 1991): 6 wks, US deaths 383, Iraqi ~20-35K, cost $61B.\n- Afghanistan (Oct 2001-Aug 2021): 20 yrs, US deaths ~2,461, total ~176K, cost ~$2.3T.\n- Iraq (Mar 2003-Dec 2011): 8 yrs, US deaths ~4,431, total ~200K+, cost ~$2T.\n- Libya (Mar-Oct 2011): 7 mo, US deaths 0, cost ~$1.1B.\n\nPlus Kosovo '99, ISIS ops 2014+, Yemen/Houthi 2023-25, Iran/Venezuela strikes 2025-26. Post-9/11 total: ~$8T, ~7K US deaths. Most had congressional AUMFs/funding.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:19 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027807088911474983",
+      "url": "https://twitter.com/grok/status/2027807088911474983",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Since Pelosi joined Congress June 1987, major US-initiated conflicts include:\n\n- Panama (Dec 1989-Ja",
+          "desc": "Since Pelosi joined Congress June 1987, major US-initiated conflicts include:\n\n- Panama (Dec 1989-Jan 1990): 1 mo, US deaths 23, total ~550, cost ~$163M.\n- Gulf War (Jan-Feb 1991): 6 wks, US deaths 383, Iraqi ~20-35K, cost $61B.\n- Afghanistan (Oct 2001-Aug 2021): 20 yrs, US deaths ~2,461, total ~176K, cost ~$2.3T.\n- Iraq (Mar 2003-Dec 2011): 8 yrs, US deaths ~4,431, total ~200K+, cost ~$2T.\n- Libya (Mar-Oct 2011): 7 mo, US deaths 0, cost ~$1.1B.\n\nPlus Kosovo '99, ISIS ops 2014+, Yemen/Houthi 2023-25, Iran/Venezuela strikes 2025-26. Post-9/11 total: ~$8T, ~7K US deaths. Most had congressional AUMFs/funding.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807086080368759",
+      "type": "intel",
+      "country": "israel",
+      "title": "The US has played a major role in several Middle East conflicts via direct interventions, aid, and a",
+      "desc": "The US has played a major role in several Middle East conflicts via direct interventions, aid, and alliances, but it's not the root of all wars there.\n\nKey examples: \n- Led 1991 Gulf War coalition to expel Iraq from Kuwait. \n- Invaded Iraq in 2003. \n- Marines in Lebanon 1982-83 (241 killed in bombing). \n- Airstrikes/ops vs ISIS in Iraq/Syria since 2014, and vs Iran-backed Houthis recently. \n- Annual ~$3.8B military aid to Israel + diplomatic backing in wars like 1967, 1973, 2006, and 2023-. Opposed Israel's 1956 Suez action. \n\nMany earlier conflicts (1948 Arab-Israeli, Iran-Iraq 1980s) were driven by local powers, borders, resources, and rivalries. US motives often include oil security, ally protection, and countering adversaries like Soviet Union or Iran. Outcomes mixed; involvement spans decades but doesn't explain every regional clash.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:18 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027807086080368759",
+      "url": "https://twitter.com/grok/status/2027807086080368759",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The US has played a major role in several Middle East conflicts via direct interventions, aid, and a",
+          "desc": "The US has played a major role in several Middle East conflicts via direct interventions, aid, and alliances, but it's not the root of all wars there.\n\nKey examples: \n- Led 1991 Gulf War coalition to expel Iraq from Kuwait. \n- Invaded Iraq in 2003. \n- Marines in Lebanon 1982-83 (241 killed in bombing). \n- Airstrikes/ops vs ISIS in Iraq/Syria since 2014, and vs Iran-backed Houthis recently. \n- Annual ~$3.8B military aid to Israel + diplomatic backing in wars like 1967, 1973, 2006, and 2023-. Opposed Israel's 1956 Suez action. \n\nMany earlier conflicts (1948 Arab-Israeli, Iran-Iraq 1980s) were driven by local powers, borders, resources, and rivalries. US motives often include oil security, ally protection, and countering adversaries like Soviet Union or Iran. Outcomes mixed; involvement spans decades but doesn't explain every regional clash.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807046700306570",
+      "type": "intel",
+      "country": "israel",
+      "title": "I don't know the exact numbers, but I would guess this was not even 1/10th of US Air Power.    This ",
+      "desc": "I don't know the exact numbers, but I would guess this was not even 1/10th of US Air Power.    This is not a gulf-war sized air armada or \"shock and awe\" (I still hate that term).     This is surgical.    It's rehearsed and mapped out using the best intelligence available.   \n\nAnother overlooked take-away is that the mix of new Western tech with old tech, when there is time to meticulously plan, is not very vulnerable to Russian or Chinese hardware.   We jam them, we destroy them, and we avoid them.    Israel has perfected this too using some US technology and their own.   Superior tactics + superior tech = victory.   \n\nHow many here on X and elsewhere were predicting the opposite of what happened because of the \"new\" Russian tech purchased by Iran after the last strikes?  As if it would be different than the last time.....   our capabilities seem to improve faster than the adversaries regardless of how much \"stuff\" they purchase from China and Russia.    \n\nIt seems beyond obvious that fixed assets are very vulnerable to US Air Power and the US has no \"near peer adversary\" right now when it comes to control of the sky or surgical strikes from above.   In fact, Israel might be the closest thing, not China or Russia, and they are an ally.   The biggest limit to our force projection is the stockpiles of munitions we have on hand.    \n\nThis is what true air superiority looks like and the modern doctrine employed by Trump is one that is completely unattached to the failed occupation and \"boots on the ground\" and \"hearts and minds\" model that led us into a multi-decade mess in the sandbox.   \n\nI don't see Trump as an \"invader\" or \"occupier\" and in fact he was one of the earliest and biggest critics of this way of thinking.   Despite this, most of the criticism of his action is based on this stale representation of war that he opposes.   While the jury is still out on the outcome, why can people not see that the playbook is far different than the failed strategies of past decades? \n\nYou don't have to occupy a country to change it.   If you consider the risks vs benefits here the obvious calculation is to degrade the mad mullah's hold on power and rely on the Persian people to overthrow them.    Therefore, to property follow this story as it plays out ignore those who continue to frame this based on the old model of prolonged occupation and land invasion and pay attention to those who see the new doctrine.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:09 +0000 2026",
+      "source": "@CTS1630",
+      "tweetId": "2027807046700306570",
+      "url": "https://twitter.com/CTS1630/status/2027807046700306570",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "I don't know the exact numbers, but I would guess this was not even 1/10th of US Air Power.    This ",
+          "desc": "I don't know the exact numbers, but I would guess this was not even 1/10th of US Air Power.    This is not a gulf-war sized air armada or \"shock and awe\" (I still hate that term).     This is surgical.    It's rehearsed and mapped out using the best intelligence available.   \n\nAnother overlooked take-away is that the mix of new Western tech with old tech, when there is time to meticulously plan, is not very vulnerable to Russian or Chinese hardware.   We jam them, we destroy them, and we avoid them.    Israel has perfected this too using some US technology and their own.   Superior tactics + superior tech = victory.   \n\nHow many here on X and elsewhere were predicting the opposite of what happened because of the \"new\" Russian tech purchased by Iran after the last strikes?  As if it would be different than the last time.....   our capabilities seem to improve faster than the adversaries regardless of how much \"stuff\" they purchase from China and Russia.    \n\nIt seems beyond obvious that fixed assets are very vulnerable to US Air Power and the US has no \"near peer adversary\" right now when it comes to control of the sky or surgical strikes from above.   In fact, Israel might be the closest thing, not China or Russia, and they are an ally.   The biggest limit to our force projection is the stockpiles of munitions we have on hand.    \n\nThis is what true air superiority looks like and the modern doctrine employed by Trump is one that is completely unattached to the failed occupation and \"boots on the ground\" and \"hearts and minds\" model that led us into a multi-decade mess in the sandbox.   \n\nI don't see Trump as an \"invader\" or \"occupier\" and in fact he was one of the earliest and biggest critics of this way of thinking.   Despite this, most of the criticism of his action is based on this stale representation of war that he opposes.   While the jury is still out on the outcome, why can people not see that the playbook is far different than the failed strategies of past decades? \n\nYou don't have to occupy a country to change it.   If you consider the risks vs benefits here the obvious calculation is to degrade the mad mullah's hold on power and rely on the Persian people to overthrow them.    Therefore, to property follow this story as it plays out ignore those who continue to frame this based on the old model of prolonged occupation and land invasion and pay attention to those who see the new doctrine.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807013334618429",
+      "type": "intel",
+      "country": "israel",
+      "title": "Musings On #Iraq This Day In Iraqi  History - Feb 28 Pres Bush announced Kuwait liberated Iraq defea",
+      "desc": "Musings On #Iraq This Day In Iraqi  History - Feb 28 Pres Bush announced Kuwait liberated Iraq defeated  Saddam claimed he beat the United States in Gulf War https://t.co/fyUnrIlsri https://t.co/DExWfTgIEh",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:01 +0000 2026",
+      "source": "@JoelWing2",
+      "tweetId": "2027807013334618429",
+      "url": "https://twitter.com/JoelWing2/status/2027807013334618429",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Musings On #Iraq This Day In Iraqi  History - Feb 28 Pres Bush announced Kuwait liberated Iraq defea",
+          "desc": "Musings On #Iraq This Day In Iraqi  History - Feb 28 Pres Bush announced Kuwait liberated Iraq defeated  Saddam claimed he beat the United States in Gulf War https://t.co/fyUnrIlsri https://t.co/DExWfTgIEh",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806944443183154",
+      "type": "intel",
+      "country": "israel",
+      "title": "@ConflictXtweets US  had played very smart,,just hy placing bases now entire gulf is involved in IRA",
+      "desc": "@ConflictXtweets US  had played very smart,,just hy placing bases now entire gulf is involved in IRAN war. Muslim killing Muslims",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:03:45 +0000 2026",
+      "source": "@amitvikram87",
+      "tweetId": "2027806944443183154",
+      "url": "https://twitter.com/amitvikram87/status/2027806944443183154",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@ConflictXtweets US  had played very smart,,just hy placing bases now entire gulf is involved in IRA",
+          "desc": "@ConflictXtweets US  had played very smart,,just hy placing bases now entire gulf is involved in IRAN war. Muslim killing Muslims",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806517324378376",
+      "type": "intel",
+      "country": "israel",
+      "title": "Lapid pictured in a bomb shelter (מקלט) after sirens sounded in Tel Aviv, warning of a coming missil",
+      "desc": "Lapid pictured in a bomb shelter (מקלט) after sirens sounded in Tel Aviv, warning of a coming missile barrage. Photo by me/Alexander Cornwell.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:02:03 +0000 2026",
+      "source": "@alexjcornwell",
+      "tweetId": "2027806517324378376",
+      "url": "https://twitter.com/alexjcornwell/status/2027806517324378376",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Lapid pictured in a bomb shelter (מקלט) after sirens sounded in Tel Aviv, warning of a coming missil",
+          "desc": "Lapid pictured in a bomb shelter (מקלט) after sirens sounded in Tel Aviv, warning of a coming missile barrage. Photo by me/Alexander Cornwell.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806197630357560",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, this isn't real footage of Tel Aviv's center after an Iranian missile strike today. \n\nIran launc",
+      "desc": "No, this isn't real footage of Tel Aviv's center after an Iranian missile strike today. \n\nIran launched missiles in retaliation for US/Israel strikes, with reports of interceptions over Tel Aviv, minor shrapnel injuries, and limited building damage nearby (e.g., Bnei Brak). No widespread fires or destruction like this in the city center. The video shows intense rooftop flames with cartoonish yellow figures—likely recycled from an unrelated fire or fabricated. \n\nCheck live news for verified updates.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:00:46 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027806197630357560",
+      "url": "https://twitter.com/grok/status/2027806197630357560",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, this isn't real footage of Tel Aviv's center after an Iranian missile strike today. \n\nIran launc",
+          "desc": "No, this isn't real footage of Tel Aviv's center after an Iranian missile strike today. \n\nIran launched missiles in retaliation for US/Israel strikes, with reports of interceptions over Tel Aviv, minor shrapnel injuries, and limited building damage nearby (e.g., Bnei Brak). No widespread fires or destruction like this in the city center. The video shows intense rooftop flames with cartoonish yellow figures—likely recycled from an unrelated fire or fabricated. \n\nCheck live news for verified updates.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806120417317343",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, this isn't real for today's events.\n\nThe video is recycled footage from Iran's June 2025 \"True P",
+      "desc": "No, this isn't real for today's events.\n\nThe video is recycled footage from Iran's June 2025 \"True Promise III\" missile strikes, where IRGC claimed hits on Glilot (near Tel Aviv) housing Unit 8200/Aman intel sites—some damage reported, but not total destruction per cross-checked sources.\n\nFeb 28, 2026 retaliation: Missiles fired at Israel; most intercepted. IDF/Reuters/AP/OSINT confirm sirens, debris, 1 minor injury in Tel Aviv area—no verified strike or destruction at Gelilot base.\n\nEscalation ongoing.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:00:28 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2027806120417317343",
+      "url": "https://twitter.com/grok/status/2027806120417317343",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, this isn't real for today's events.\n\nThe video is recycled footage from Iran's June 2025 \"True P",
+          "desc": "No, this isn't real for today's events.\n\nThe video is recycled footage from Iran's June 2025 \"True Promise III\" missile strikes, where IRGC claimed hits on Glilot (near Tel Aviv) housing Unit 8200/Aman intel sites—some damage reported, but not total destruction per cross-checked sources.\n\nFeb 28, 2026 retaliation: Missiles fired at Israel; most intercepted. IDF/Reuters/AP/OSINT confirm sirens, debris, 1 minor injury in Tel Aviv area—no verified strike or destruction at Gelilot base.\n\nEscalation ongoing.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806007674692056",
+      "type": "intel",
+      "country": "israel",
+      "title": "‘400 Seconds to Tel Aviv’: Despite international sanctions, how has Iran developed a hypersonic miss",
+      "desc": "‘400 Seconds to Tel Aviv’: Despite international sanctions, how has Iran developed a hypersonic missile capable of reaching Israel?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:00:01 +0000 2026",
+      "source": "@Khan_Saab10",
+      "tweetId": "2027806007674692056",
+      "url": "https://twitter.com/Khan_Saab10/status/2027806007674692056",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "‘400 Seconds to Tel Aviv’: Despite international sanctions, how has Iran developed a hypersonic miss",
+          "desc": "‘400 Seconds to Tel Aviv’: Despite international sanctions, how has Iran developed a hypersonic missile capable of reaching Israel?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027805917874683929",
+      "type": "intel",
+      "country": "israel",
+      "title": "BREAKING:\n\nIsrael shoots down an Iranian ballistic missile over Tel Aviv https://t.co/yVvTVHqWfu",
+      "desc": "BREAKING:\n\nIsrael shoots down an Iranian ballistic missile over Tel Aviv https://t.co/yVvTVHqWfu",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 17:59:40 +0000 2026",
+      "source": "@Rahul14941",
+      "tweetId": "2027805917874683929",
+      "url": "https://twitter.com/Rahul14941/status/2027805917874683929",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "BREAKING:\n\nIsrael shoots down an Iranian ballistic missile over Tel Aviv https://t.co/yVvTVHqWfu",
+          "desc": "BREAKING:\n\nIsrael shoots down an Iranian ballistic missile over Tel Aviv https://t.co/yVvTVHqWfu",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807062496055354",
+      "type": "intel",
+      "country": "israel",
+      "title": "MINUTES AGO: USS Ford Goes 'GHOST MODE' — 60 F-35s Strike Iran — Tehran ... https://t.co/1gkLSNpsY1 ",
+      "desc": "MINUTES AGO: USS Ford Goes 'GHOST MODE' — 60 F-35s Strike Iran — Tehran ... https://t.co/1gkLSNpsY1 via @YouTube",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:13 +0000 2026",
+      "source": "@Cpd110761",
+      "tweetId": "2027807062496055354",
+      "url": "https://twitter.com/Cpd110761/status/2027807062496055354",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "MINUTES AGO: USS Ford Goes 'GHOST MODE' — 60 F-35s Strike Iran — Tehran ... https://t.co/1gkLSNpsY1 ",
+          "desc": "MINUTES AGO: USS Ford Goes 'GHOST MODE' — 60 F-35s Strike Iran — Tehran ... https://t.co/1gkLSNpsY1 via @YouTube",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027807018275188743",
+      "type": "intel",
+      "country": "israel",
+      "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+      "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🥲",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:04:02 +0000 2026",
+      "source": "@boiseOrval14G42",
+      "tweetId": "2027807018275188743",
+      "url": "https://twitter.com/boiseOrval14G42/status/2027807018275188743",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+          "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🥲",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806991528431926",
+      "type": "intel",
+      "country": "israel",
+      "title": "Even Bahrainis are celebrating a successful strike at #US Naval base in #Bahrain\n\nBut the puppet rul",
+      "desc": "Even Bahrainis are celebrating a successful strike at #US Naval base in #Bahrain\n\nBut the puppet rulers are condemning #Iran\n\n#FreePalestine #SaveGaza\n#BangladeshStandsWithPalestine \n#BangladeshStandsWithIran\n#Tehran #US #IranUSWar #OpEpicFury\n#JusticeForHadi #امن_الخليج_خط_احمر https://t.co/Lc2HTAfFo1",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:03:56 +0000 2026",
+      "source": "@AbtahiAzmain",
+      "tweetId": "2027806991528431926",
+      "url": "https://twitter.com/AbtahiAzmain/status/2027806991528431926",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Even Bahrainis are celebrating a successful strike at #US Naval base in #Bahrain\n\nBut the puppet rul",
+          "desc": "Even Bahrainis are celebrating a successful strike at #US Naval base in #Bahrain\n\nBut the puppet rulers are condemning #Iran\n\n#FreePalestine #SaveGaza\n#BangladeshStandsWithPalestine \n#BangladeshStandsWithIran\n#Tehran #US #IranUSWar #OpEpicFury\n#JusticeForHadi #امن_الخليج_خط_احمر https://t.co/Lc2HTAfFo1",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806936964427974",
+      "type": "intel",
+      "country": "israel",
+      "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+      "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🙂",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:03:43 +0000 2026",
+      "source": "@boiseOrval14G42",
+      "tweetId": "2027806936964427974",
+      "url": "https://twitter.com/boiseOrval14G42/status/2027806936964427974",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+          "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🙂",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2027806852948414917",
+      "type": "intel",
+      "country": "israel",
+      "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+      "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🙃",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Sat Feb 28 18:03:23 +0000 2026",
+      "source": "@boiseOrval14G42",
+      "tweetId": "2027806852948414917",
+      "url": "https://twitter.com/boiseOrval14G42/status/2027806852948414917",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BI",
+          "desc": "US attacked #Iran Iran starts targeting all US airbases in Qatar Abu Dhabi Kuwait Saudi Arabia ￼. BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain Is world advancing towards World War 19 #Tehran #Iran Watch full Video From\nhttps://t.co/jXpjSuvRoL🙃",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027804467941478847",
       "type": "intel",
       "country": "israel",
@@ -7315,5 +7891,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-02-28T17:54:02.238842+00:00"
+  "lastUpdated": "2026-02-28T18:04:31.178457+00:00"
 }
