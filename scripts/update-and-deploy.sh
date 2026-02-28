@@ -9,9 +9,9 @@ cd "$PROJECT_DIR"
 
 echo "=== Update and Deploy - $(date) ==="
 
-# 1. 使用现有的脚本获取数据
-echo "Step 1: Fetching Twitter data..."
-./scripts/fetch-twitter-data.sh
+# 1. 使用安全的更新脚本获取数据
+echo "Step 1: Fetching Twitter data (safe mode)..."
+python3 ./scripts/safe-update.py
 
 # 2. 检查是否有变化
 if git diff --quiet data/events.json; then
