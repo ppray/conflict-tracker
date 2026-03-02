@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /data/
+Allow: /scripts/
+
+# Disallow backup directories
+Disallow: /data/backups/
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://conflict-tracker-three.vercel.app/sitemap.xml
