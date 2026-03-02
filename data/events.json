@@ -1,6 +1,606 @@
 {
   "events": [
     {
+      "id": "2028553428109005246",
+      "type": "intel",
+      "country": "israel",
+      "title": "At J Street summit, leading senate critic of Israel says Iran War \"opens a Pandora's box\" | @Etaneta",
+      "desc": "At J Street summit, leading senate critic of Israel says Iran War \"opens a Pandora's box\" | @Etanetan23 \nhttps://t.co/NoFhMbfcj1",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@haaretzcom",
+      "tweetId": "2028553428109005246",
+      "url": "https://twitter.com/haaretzcom/status/2028553428109005246",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "At J Street summit, leading senate critic of Israel says Iran War \"opens a Pandora's box\" | @Etaneta",
+          "desc": "At J Street summit, leading senate critic of Israel says Iran War \"opens a Pandora's box\" | @Etanetan23 \nhttps://t.co/NoFhMbfcj1",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553426758422928",
+      "type": "intel",
+      "country": "israel",
+      "title": "Ataques entre Estados Unidos, Israel e Irán generan incertidumbre sobre la participación iraní en el",
+      "desc": "Ataques entre Estados Unidos, Israel e Irán generan incertidumbre sobre la participación iraní en el Mundial 2026 y provocan suspensión de torneos en Qatar y retrasos para deportistas en Medio Oriente.\nhttps://t.co/D4Fkgdyl8t",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@Pagina_Nueve",
+      "tweetId": "2028553426758422928",
+      "url": "https://twitter.com/Pagina_Nueve/status/2028553426758422928",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Ataques entre Estados Unidos, Israel e Irán generan incertidumbre sobre la participación iraní en el",
+          "desc": "Ataques entre Estados Unidos, Israel e Irán generan incertidumbre sobre la participación iraní en el Mundial 2026 y provocan suspensión de torneos en Qatar y retrasos para deportistas en Medio Oriente.\nhttps://t.co/D4Fkgdyl8t",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553426481926401",
+      "type": "intel",
+      "country": "israel",
+      "title": "Más de 500 muertos en Irán por ataques de Estados Unidos e Israel, según la Media Luna Roja\n\nhttps:/",
+      "desc": "Más de 500 muertos en Irán por ataques de Estados Unidos e Israel, según la Media Luna Roja\n\nhttps://t.co/86rYXUm1Bk",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@estoescambio",
+      "tweetId": "2028553426481926401",
+      "url": "https://twitter.com/estoescambio/status/2028553426481926401",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Más de 500 muertos en Irán por ataques de Estados Unidos e Israel, según la Media Luna Roja\n\nhttps:/",
+          "desc": "Más de 500 muertos en Irán por ataques de Estados Unidos e Israel, según la Media Luna Roja\n\nhttps://t.co/86rYXUm1Bk",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553426372903230",
+      "type": "intel",
+      "country": "israel",
+      "title": "The U.S.-Israel conflict against Iran entered its third day on Monday, spreading across the Mideast ",
+      "desc": "The U.S.-Israel conflict against Iran entered its third day on Monday, spreading across the Mideast with Hezbollah entering the fray. https://t.co/slidgKvDo4",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@CBCbrief",
+      "tweetId": "2028553426372903230",
+      "url": "https://twitter.com/CBCbrief/status/2028553426372903230",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The U.S.-Israel conflict against Iran entered its third day on Monday, spreading across the Mideast ",
+          "desc": "The U.S.-Israel conflict against Iran entered its third day on Monday, spreading across the Mideast with Hezbollah entering the fray. https://t.co/slidgKvDo4",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553426368380967",
+      "type": "intel",
+      "country": "israel",
+      "title": "Iran denies role in Saudi oil field bombing at Ras Tanura refinery\n#RasTanura #KSA #Iran #Israel #US",
+      "desc": "Iran denies role in Saudi oil field bombing at Ras Tanura refinery\n#RasTanura #KSA #Iran #Israel #USA \nhttps://t.co/CHcjM08DiY",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@AlBawabaEnglish",
+      "tweetId": "2028553426368380967",
+      "url": "https://twitter.com/AlBawabaEnglish/status/2028553426368380967",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Iran denies role in Saudi oil field bombing at Ras Tanura refinery\n#RasTanura #KSA #Iran #Israel #US",
+          "desc": "Iran denies role in Saudi oil field bombing at Ras Tanura refinery\n#RasTanura #KSA #Iran #Israel #USA \nhttps://t.co/CHcjM08DiY",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553428209676492",
+      "type": "intel",
+      "country": "israel",
+      "title": "Retired US Amb Chas Freeman points out that the sickening vassal response by European leaders to the",
+      "desc": "Retired US Amb Chas Freeman points out that the sickening vassal response by European leaders to the unprovoked attack on Iran\n\n\"illustrates that Israel is a pan-Western colonial project in the Middle East.\"\nhttps://t.co/nHonVc0Qdx",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@IndyLassie",
+      "tweetId": "2028553428209676492",
+      "url": "https://twitter.com/IndyLassie/status/2028553428209676492",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Retired US Amb Chas Freeman points out that the sickening vassal response by European leaders to the",
+          "desc": "Retired US Amb Chas Freeman points out that the sickening vassal response by European leaders to the unprovoked attack on Iran\n\n\"illustrates that Israel is a pan-Western colonial project in the Middle East.\"\nhttps://t.co/nHonVc0Qdx",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553427203346676",
+      "type": "intel",
+      "country": "israel",
+      "title": "@WSJ ..a wise move, considering that the location of the U.S base has been deliberately used to atta",
+      "desc": "@WSJ ..a wise move, considering that the location of the U.S base has been deliberately used to attack other countries without regard for the risks you bear as a neighbouring country, a fellow muslim nation and a neighbour of Iran and its surroundings..",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:30:00 +0000 2026",
+      "source": "@martua_3",
+      "tweetId": "2028553427203346676",
+      "url": "https://twitter.com/martua_3/status/2028553427203346676",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@WSJ ..a wise move, considering that the location of the U.S base has been deliberately used to atta",
+          "desc": "@WSJ ..a wise move, considering that the location of the U.S base has been deliberately used to attack other countries without regard for the risks you bear as a neighbouring country, a fellow muslim nation and a neighbour of Iran and its surroundings..",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553409830236553",
+      "type": "intel",
+      "country": "israel",
+      "title": "@mr_mayank It has not been established if the missile originated from the U.S., Israel or IRGC. Ther",
+      "desc": "@mr_mayank It has not been established if the missile originated from the U.S., Israel or IRGC. There's not 165 coffins in your pic. Not all the dead were kids. Since the attack on Iran started at night, why was school in session the next day, esp. with the school near IRGC buildings?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:56 +0000 2026",
+      "source": "@garybkatz",
+      "tweetId": "2028553409830236553",
+      "url": "https://twitter.com/garybkatz/status/2028553409830236553",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@mr_mayank It has not been established if the missile originated from the U.S., Israel or IRGC. Ther",
+          "desc": "@mr_mayank It has not been established if the missile originated from the U.S., Israel or IRGC. There's not 165 coffins in your pic. Not all the dead were kids. Since the attack on Iran started at night, why was school in session the next day, esp. with the school near IRGC buildings?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553407645028831",
+      "type": "intel",
+      "country": "israel",
+      "title": "Property values going down now dubai 🚀🚀🚀👇🏼😂😂😂Comonnn iran 🇮🇷 one more missael attack to Bruj Khalifa",
+      "desc": "Property values going down now dubai 🚀🚀🚀👇🏼😂😂😂Comonnn iran 🇮🇷 one more missael attack to Bruj Khalifa 😂😂🚀🚀🚀",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:55 +0000 2026",
+      "source": "@Ashifkhan0o",
+      "tweetId": "2028553407645028831",
+      "url": "https://twitter.com/Ashifkhan0o/status/2028553407645028831",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Property values going down now dubai 🚀🚀🚀👇🏼😂😂😂Comonnn iran 🇮🇷 one more missael attack to Bruj Khalifa",
+          "desc": "Property values going down now dubai 🚀🚀🚀👇🏼😂😂😂Comonnn iran 🇮🇷 one more missael attack to Bruj Khalifa 😂😂🚀🚀🚀",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553404415725724",
+      "type": "intel",
+      "country": "israel",
+      "title": "@geertwilderspvv @netanyahu @grok ho attack on Gaza killed children and women's and how many childre",
+      "desc": "@geertwilderspvv @netanyahu @grok ho attack on Gaza killed children and women's and how many children are died In Iran due to bomb attacks?",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:54 +0000 2026",
+      "source": "@sa6644987",
+      "tweetId": "2028553404415725724",
+      "url": "https://twitter.com/sa6644987/status/2028553404415725724",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@geertwilderspvv @netanyahu @grok ho attack on Gaza killed children and women's and how many childre",
+          "desc": "@geertwilderspvv @netanyahu @grok ho attack on Gaza killed children and women's and how many children are died In Iran due to bomb attacks?",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553408689410327",
+      "type": "intel",
+      "country": "israel",
+      "title": "@WhaleInsider Iran’s warning shows its resolve and strength. Washington, Israel, and their Gulf and ",
+      "desc": "@WhaleInsider Iran’s warning shows its resolve and strength. Washington, Israel, and their Gulf and European puppets are exposed, while Tehran’s leadership remains calm, wise, and firmly in control.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:55 +0000 2026",
+      "source": "@WarReportHQ",
+      "tweetId": "2028553408689410327",
+      "url": "https://twitter.com/WarReportHQ/status/2028553408689410327",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@WhaleInsider Iran’s warning shows its resolve and strength. Washington, Israel, and their Gulf and ",
+          "desc": "@WhaleInsider Iran’s warning shows its resolve and strength. Washington, Israel, and their Gulf and European puppets are exposed, while Tehran’s leadership remains calm, wise, and firmly in control.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553408446165146",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, this claim isn't accurate. No credible news outlets, Kremlin statements, or official Russian sou",
+      "desc": "No, this claim isn't accurate. No credible news outlets, Kremlin statements, or official Russian sources report Putin announcing any new \"hypersonic nuclear space missiles\" arsenal today, nor saying he's \"ready for war with Trump.\" \n\nHe did phone Gulf leaders today about Middle East tensions post-Iran strikes, urging diplomacy. The photo is from an older missile display event. This seems like recycled alarmism.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:55 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553408446165146",
+      "url": "https://twitter.com/grok/status/2028553408446165146",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, this claim isn't accurate. No credible news outlets, Kremlin statements, or official Russian sou",
+          "desc": "No, this claim isn't accurate. No credible news outlets, Kremlin statements, or official Russian sources report Putin announcing any new \"hypersonic nuclear space missiles\" arsenal today, nor saying he's \"ready for war with Trump.\" \n\nHe did phone Gulf leaders today about Middle East tensions post-Iran strikes, urging diplomacy. The photo is from an older missile display event. This seems like recycled alarmism.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553269317152892",
+      "type": "intel",
+      "country": "israel",
+      "title": "It doesn’t matter how your Prime Minister arrived at his decision to let us down, he simply let us d",
+      "desc": "It doesn’t matter how your Prime Minister arrived at his decision to let us down, he simply let us down. He smells like a coward. You guys have done a lot better in the past.  I was staying with the Royal Marines, Diego Garcia during the first gulf war.  They were superior; this Prime Minister does not remind me of those gentlemen.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:22 +0000 2026",
+      "source": "@brian_stanfill",
+      "tweetId": "2028553269317152892",
+      "url": "https://twitter.com/brian_stanfill/status/2028553269317152892",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "It doesn’t matter how your Prime Minister arrived at his decision to let us down, he simply let us d",
+          "desc": "It doesn’t matter how your Prime Minister arrived at his decision to let us down, he simply let us down. He smells like a coward. You guys have done a lot better in the past.  I was staying with the Royal Marines, Diego Garcia during the first gulf war.  They were superior; this Prime Minister does not remind me of those gentlemen.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553247800365119",
+      "type": "intel",
+      "country": "israel",
+      "title": "Eight of the world's 12 largest maritime insurance clubs issued war-risk cancellation notices on Mar",
+      "desc": "Eight of the world's 12 largest maritime insurance clubs issued war-risk cancellation notices on March 1, 2026, for all vessels entering the Arabian Gulf, Gulf of Oman, and adjacent waters—most of them effective March 5—following a surge in regional conflict that led reinsurers to withdraw coverage capacity.\n#Forbes",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:17 +0000 2026",
+      "source": "@Forbes_MENA_",
+      "tweetId": "2028553247800365119",
+      "url": "https://twitter.com/Forbes_MENA_/status/2028553247800365119",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Eight of the world's 12 largest maritime insurance clubs issued war-risk cancellation notices on Mar",
+          "desc": "Eight of the world's 12 largest maritime insurance clubs issued war-risk cancellation notices on March 1, 2026, for all vessels entering the Arabian Gulf, Gulf of Oman, and adjacent waters—most of them effective March 5—following a surge in regional conflict that led reinsurers to withdraw coverage capacity.\n#Forbes",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553241248600148",
+      "type": "intel",
+      "country": "israel",
+      "title": "Maritime insurers cancel war risk cover in Gulf as Iran conflict disrupts shipping, sending some fre",
+      "desc": "Maritime insurers cancel war risk cover in Gulf as Iran conflict disrupts shipping, sending some freight costs surging https://t.co/6MiF34ogVQ",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:16 +0000 2026",
+      "source": "@JuliaKollewe",
+      "tweetId": "2028553241248600148",
+      "url": "https://twitter.com/JuliaKollewe/status/2028553241248600148",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Maritime insurers cancel war risk cover in Gulf as Iran conflict disrupts shipping, sending some fre",
+          "desc": "Maritime insurers cancel war risk cover in Gulf as Iran conflict disrupts shipping, sending some freight costs surging https://t.co/6MiF34ogVQ",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553403194921405",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, not fully. Missile strikes from Iran & Hezbollah on Israel are ongoing today (retaliation for US",
+      "desc": "No, not fully. Missile strikes from Iran & Hezbollah on Israel are ongoing today (retaliation for US/Israeli strikes on Iran that killed Khamenei & others). Sirens in Tel Aviv, hits reported in Beersheba (19 light injuries). Israel intercepting most; no widespread destruction.\n\nThe video shows massive urban fireballs but doesn't match verified footage—likely old, edited, or unrelated. Israel not being \"destroyed.\"",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:54 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553403194921405",
+      "url": "https://twitter.com/grok/status/2028553403194921405",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, not fully. Missile strikes from Iran & Hezbollah on Israel are ongoing today (retaliation for US",
+          "desc": "No, not fully. Missile strikes from Iran & Hezbollah on Israel are ongoing today (retaliation for US/Israeli strikes on Iran that killed Khamenei & others). Sirens in Tel Aviv, hits reported in Beersheba (19 light injuries). Israel intercepting most; no widespread destruction.\n\nThe video shows massive urban fireballs but doesn't match verified footage—likely old, edited, or unrelated. Israel not being \"destroyed.\"",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553358748119480",
+      "type": "intel",
+      "country": "israel",
+      "title": "This video shows real footage from Iran's recent missile attacks on Israel (Feb 28–March 2, 2026). S",
+      "desc": "This video shows real footage from Iran's recent missile attacks on Israel (Feb 28–March 2, 2026). Streaks in the red night sky are projectiles/interceptions over urban areas like Tel Aviv/Jerusalem, matching CNN, AP, and eyewitness reports of barrages hitting near Beit Shemesh.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:44 +0000 2026",
+      "source": "@Khuram_M_UpWork",
+      "tweetId": "2028553358748119480",
+      "url": "https://twitter.com/Khuram_M_UpWork/status/2028553358748119480",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "This video shows real footage from Iran's recent missile attacks on Israel (Feb 28–March 2, 2026). S",
+          "desc": "This video shows real footage from Iran's recent missile attacks on Israel (Feb 28–March 2, 2026). Streaks in the red night sky are projectiles/interceptions over urban areas like Tel Aviv/Jerusalem, matching CNN, AP, and eyewitness reports of barrages hitting near Beit Shemesh.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553304356040728",
+      "type": "intel",
+      "country": "israel",
+      "title": "No, the claim isn't accurate. Iran has launched retaliatory ballistic missile strikes on Israel over",
+      "desc": "No, the claim isn't accurate. Iran has launched retaliatory ballistic missile strikes on Israel over the past few days amid US-Israeli attacks that killed Khamenei and targeted Iranian sites. Confirmed hits caused damage and ~20 civilian deaths (e.g., Tel Aviv area, Beit Shemesh synagogue per Reuters/NYT/Al Jazeera). \n\nThe video is a dramatic compilation with hype overlays—real explosions occurred but cities like Tel Aviv/Haifa are not uninhabitable; shelters, services, and responses are active. Check official updates from those sources.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:31 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553304356040728",
+      "url": "https://twitter.com/grok/status/2028553304356040728",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "No, the claim isn't accurate. Iran has launched retaliatory ballistic missile strikes on Israel over",
+          "desc": "No, the claim isn't accurate. Iran has launched retaliatory ballistic missile strikes on Israel over the past few days amid US-Israeli attacks that killed Khamenei and targeted Iranian sites. Confirmed hits caused damage and ~20 civilian deaths (e.g., Tel Aviv area, Beit Shemesh synagogue per Reuters/NYT/Al Jazeera). \n\nThe video is a dramatic compilation with hype overlays—real explosions occurred but cities like Tel Aviv/Haifa are not uninhabitable; shelters, services, and responses are active. Check official updates from those sources.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553246701179340",
+      "type": "intel",
+      "country": "israel",
+      "title": "The video in question shows Iranian ballistic missile re-entry streaks and interceptions over Tel Av",
+      "desc": "The video in question shows Iranian ballistic missile re-entry streaks and interceptions over Tel Aviv from the March 1, 2026 evening barrage—right after US/Israeli strikes on Iran began Feb 28. \n\nReuters, CNN, Al Jazeera, NYT, AP, and IDF reports all confirm fresh impacts, sirens, fires, and casualties in the Tel Aviv area that night. \n\nThe 2025 12-day war had similar scenes, but this footage's timestamps, angles, and news matches align exactly with yesterday's events—not recycled clips.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:17 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553246701179340",
+      "url": "https://twitter.com/grok/status/2028553246701179340",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "The video in question shows Iranian ballistic missile re-entry streaks and interceptions over Tel Av",
+          "desc": "The video in question shows Iranian ballistic missile re-entry streaks and interceptions over Tel Aviv from the March 1, 2026 evening barrage—right after US/Israeli strikes on Iran began Feb 28. \n\nReuters, CNN, Al Jazeera, NYT, AP, and IDF reports all confirm fresh impacts, sirens, fires, and casualties in the Tel Aviv area that night. \n\nThe 2025 12-day war had similar scenes, but this footage's timestamps, angles, and news matches align exactly with yesterday's events—not recycled clips.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553041670975951",
+      "type": "intel",
+      "country": "israel",
+      "title": "@Iranarmyalimola @Avicenna_Razi Yes, real video hai. Iranian missile attacks ka fresh footage from T",
+      "desc": "@Iranarmyalimola @Avicenna_Razi Yes, real video hai. Iranian missile attacks ka fresh footage from Tel Aviv area, 28 Feb 2026 ka (last few days). Explosions, interceptions aur damage dikha raha hai, news mein bhi confirm hai. Not old.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:28:28 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553041670975951",
+      "url": "https://twitter.com/grok/status/2028553041670975951",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@Iranarmyalimola @Avicenna_Razi Yes, real video hai. Iranian missile attacks ka fresh footage from T",
+          "desc": "@Iranarmyalimola @Avicenna_Razi Yes, real video hai. Iranian missile attacks ka fresh footage from Tel Aviv area, 28 Feb 2026 ka (last few days). Explosions, interceptions aur damage dikha raha hai, news mein bhi confirm hai. Not old.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553255614328998",
+      "type": "intel",
+      "country": "israel",
+      "title": "🇮🇷 NEW: The wife of Ayatollah Khamenei, Mansoureh Khojaste Bagherzadeh, was martyred as a result of ",
+      "desc": "🇮🇷 NEW: The wife of Ayatollah Khamenei, Mansoureh Khojaste Bagherzadeh, was martyred as a result of her injuries from the same strike that killed her husband\n\n#IsraelIran #USA #IsraelIranConflict #IsraeliranWar #Tehran #Teheran #UAE #SaudiArabia #Kuwait\n\nFollow for Updates https://t.co/NZtaREmkU6",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:29:19 +0000 2026",
+      "source": "@righttowar",
+      "tweetId": "2028553255614328998",
+      "url": "https://twitter.com/righttowar/status/2028553255614328998",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "🇮🇷 NEW: The wife of Ayatollah Khamenei, Mansoureh Khojaste Bagherzadeh, was martyred as a result of ",
+          "desc": "🇮🇷 NEW: The wife of Ayatollah Khamenei, Mansoureh Khojaste Bagherzadeh, was martyred as a result of her injuries from the same strike that killed her husband\n\n#IsraelIran #USA #IsraelIranConflict #IsraeliranWar #Tehran #Teheran #UAE #SaudiArabia #Kuwait\n\nFollow for Updates https://t.co/NZtaREmkU6",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028553087657353541",
+      "type": "intel",
+      "country": "israel",
+      "title": "Actually, Iranian officials have stated missile bases and command centers exist in all provinces and",
+      "desc": "Actually, Iranian officials have stated missile bases and command centers exist in all provinces and cities, including the Tehran region. Recent reports from BBC Verify, satellite imagery, and strike assessments confirm IRGC facilities, air defenses, and security sites within Tehran—such as in the Grand Bazaar area, northwest districts, and suburbs like Wanak and Dastvareh. These are consistent with urban military infrastructure seen in many nations.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:28:39 +0000 2026",
+      "source": "@grok",
+      "tweetId": "2028553087657353541",
+      "url": "https://twitter.com/grok/status/2028553087657353541",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "Actually, Iranian officials have stated missile bases and command centers exist in all provinces and",
+          "desc": "Actually, Iranian officials have stated missile bases and command centers exist in all provinces and cities, including the Tehran region. Recent reports from BBC Verify, satellite imagery, and strike assessments confirm IRGC facilities, air defenses, and security sites within Tehran—such as in the Grand Bazaar area, northwest districts, and suburbs like Wanak and Dastvareh. These are consistent with urban military infrastructure seen in many nations.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028552869230547220",
+      "type": "intel",
+      "country": "israel",
+      "title": "A plume of smoke rises after a strike in Tehran, Iran, Sunday, March 1, 2026. https://t.co/Hi735ZSZ1",
+      "desc": "A plume of smoke rises after a strike in Tehran, Iran, Sunday, March 1, 2026. https://t.co/Hi735ZSZ18",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:27:47 +0000 2026",
+      "source": "@CAPT_TAREK",
+      "tweetId": "2028552869230547220",
+      "url": "https://twitter.com/CAPT_TAREK/status/2028552869230547220",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "A plume of smoke rises after a strike in Tehran, Iran, Sunday, March 1, 2026. https://t.co/Hi735ZSZ1",
+          "desc": "A plume of smoke rises after a strike in Tehran, Iran, Sunday, March 1, 2026. https://t.co/Hi735ZSZ18",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028552835021811893",
+      "type": "intel",
+      "country": "israel",
+      "title": "@cbrown9803 @NewswirePatriot Show me where she messaged Tehran nutcase.\n\nDozens of other major accou",
+      "desc": "@cbrown9803 @NewswirePatriot Show me where she messaged Tehran nutcase.\n\nDozens of other major accounts predicted this strike this week. It was pretty obvious once they fed soldiers lobster and started moving troops around.",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:27:39 +0000 2026",
+      "source": "@JaxTeller718",
+      "tweetId": "2028552835021811893",
+      "url": "https://twitter.com/JaxTeller718/status/2028552835021811893",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "@cbrown9803 @NewswirePatriot Show me where she messaged Tehran nutcase.\n\nDozens of other major accou",
+          "desc": "@cbrown9803 @NewswirePatriot Show me where she messaged Tehran nutcase.\n\nDozens of other major accounts predicted this strike this week. It was pretty obvious once they fed soldiers lobster and started moving troops around.",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
+      "id": "2028552610916274666",
+      "type": "intel",
+      "country": "israel",
+      "title": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arab",
+      "desc": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arabia\n🚨 BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain\nIs world advancing towards World War+53\n#Tehran #Iran\nWatch full 📷 \nhttps://t.co/nOdz8iiwPg",
+      "location": [
+        32.0,
+        35.0
+      ],
+      "locationName": "以色列",
+      "time": "Mon Mar 02 19:26:45 +0000 2026",
+      "source": "@SabasTurne83708",
+      "tweetId": "2028552610916274666",
+      "url": "https://twitter.com/SabasTurne83708/status/2028552610916274666",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arab",
+          "desc": "US attacked #Iran\nIran starts targeting all US airbases in Qatar Bahrain Abu Dhabi Kuwait Saudi Arabia\n🚨 BIG! Iranian missiles STRIKE the U.S. Navy’s 5th Fleet headquarters in Bahrain\nIs world advancing towards World War+53\n#Tehran #Iran\nWatch full 📷 \nhttps://t.co/nOdz8iiwPg",
+          "locationName": "以色列"
+        }
+      }
+    },
+    {
       "id": "2027910160211968276",
       "type": "intel",
       "country": "israel",
@@ -32411,5 +33011,5 @@
     "en",
     "ar"
   ],
-  "lastUpdated": "2026-03-01T00:54:02.782940+00:00"
+  "lastUpdated": "2026-03-02T19:30:10.659147+00:00"
 }
