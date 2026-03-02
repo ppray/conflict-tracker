@@ -1,19 +1,5 @@
 {
   "version": 2,
   "public": true,
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/robots.txt",
-      "destination": "/robots.txt"
-    },
-    {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
-    },
-    {
-      "source": "/",
-      "destination": "/conflict-tracker.html"
-    }
-  ]
+  "cleanUrls": true
 }

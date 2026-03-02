@@ -1,0 +1,273 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "strike",
+      "country": "israel",
+      "title": "以色列空军对加沙北部发动精确打击",
+      "desc": "以色列国防军出动F-35战机，对加沙城北部哈马斯指挥设施实施精确打击，目标已被摧毁。",
+      "location": [31.5, 34.47],
+      "locationName": "加沙北部",
+      "time": "2025-02-28T14:30:00Z",
+      "source": "@IDF",
+      "tweetId": "1234567890",
+      "url": "https://twitter.com/IDF/status/1234567890",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "以色列空军对加沙北部发动精确打击",
+          "desc": "以色列国防军出动F-35战机，对加沙城北部哈马斯指挥设施实施精确打击，目标已被摧毁。",
+          "locationName": "加沙北部"
+        },
+        "en": {
+          "title": "Israeli Air Force conducts precision strikes on northern Gaza",
+          "desc": "IDF F-35 fighter jets carried out precision strikes on Hamas command facilities in northern Gaza City. Target successfully destroyed.",
+          "locationName": "Northern Gaza"
+        },
+        "ar": {
+          "title": "القوات الجوية الإسرائيلية تنفذ ضربات دقيقة على شمال غزة",
+          "desc": "أطلقت القوات الإسرائيلية طائرات F-35 ضربات دقيقة على مرافق قيادة حماس في شمال مدينة غزة. تم تدمير الهدف بنجاح.",
+          "locationName": "شمال غزة"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "blockade",
+      "country": "iran",
+      "title": "伊朗革命卫队警告封锁霍尔木兹海峡",
+      "desc": "伊斯兰革命卫队海军在霍尔木兹海峡附近举行演习，警告若遭受攻击将封锁该战略要道。",
+      "location": [26.56, 56.27],
+      "locationName": "霍尔木兹海峡",
+      "time": "2025-02-28T13:55:00Z",
+      "source": "@IRGC_News",
+      "tweetId": "1234567891",
+      "url": "https://twitter.com/IRGC_News/status/1234567891",
+      "isNew": true,
+      "translations": {
+        "zh": {
+          "title": "伊朗革命卫队警告封锁霍尔木兹海峡",
+          "desc": "伊斯兰革命卫队海军在霍尔木兹海峡附近举行演习，警告若遭受攻击将封锁该战略要道。",
+          "locationName": "霍尔木兹海峡"
+        },
+        "en": {
+          "title": "IRGC warns of Strait of Hormuz blockade",
+          "desc": "Islamic Revolutionary Guard Corps Navy conducted drills near the Strait of Hormuz, warning the strategic waterway will be blocked if attacked.",
+          "locationName": "Strait of Hormuz"
+        },
+        "ar": {
+          "title": "الحرس الثوري الإيراني يحذر من إغلاق مضيق هرمز",
+          "desc": "أجرت بحرية الحرس الثوري الإيراني مناورات بالقرب من مضيق هرمز، وحذرت من أن الملاعب الاستراتيجي سيتم إغلاقه في حال تعرضها للهجوم.",
+          "locationName": "مضيق هرمز"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "intel",
+      "country": "usa",
+      "title": "美国情报：伊朗弹道导弹部队进入戒备",
+      "desc": "据美国防情报局消息，伊朗境内多处弹道导弹阵地人员活动显著增加，已进入一级战备状态。",
+      "location": [35.69, 51.39],
+      "locationName": "德黑兰周边",
+      "time": "2025-02-28T13:05:00Z",
+      "source": "@DefIntel",
+      "tweetId": "1234567892",
+      "url": "https://twitter.com/DefIntel/status/1234567892",
+      "isNew": false,
+      "translations": {
+        "zh": {
+          "title": "美国情报：伊朗弹道导弹部队进入戒备",
+          "desc": "据美国防情报局消息，伊朗境内多处弹道导弹阵地人员活动显著增加，已进入一级战备状态。",
+          "locationName": "德黑兰周边"
+        },
+        "en": {
+          "title": "US Intelligence: Iranian ballistic missile forces on high alert",
+          "desc": "According to the US Defense Intelligence Agency, personnel activity has increased significantly at multiple ballistic missile sites in Iran, now at highest alert level.",
+          "locationName": "Tehran area"
+        },
+        "ar": {
+          "title": "المخابرات الأمريكية: قوات الصواريخ الباليستية الإيرانية في حالة تأهب",
+          "desc": "وفقاً لوكالة الاستخبارات الدفاعية الأمريكية، زاد النشاط بشكل كبير في عدة مواقع للصواريخ الباليستية في إيران، وهي الآن في أعلى مستوى من التأهب.",
+          "locationName": "منطقة طهران"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "airspace",
+      "country": "israel",
+      "title": "以色列宣布扩大北部禁飞区",
+      "desc": "以色列民航局宣布扩大与黎巴嫩边境地区的禁飞区范围，禁止所有民用航班进入。",
+      "location": [33.18, 35.73],
+      "locationName": "戈兰高地",
+      "time": "2025-02-28T12:30:00Z",
+      "source": "@CAA_IL",
+      "tweetId": "1234567893",
+      "url": "https://twitter.com/CAA_IL/status/1234567893",
+      "isNew": false,
+      "translations": {
+        "zh": {
+          "title": "以色列宣布扩大北部禁飞区",
+          "desc": "以色列民航局宣布扩大与黎巴嫩边境地区的禁飞区范围，禁止所有民用航班进入。",
+          "locationName": "戈兰高地"
+        },
+        "en": {
+          "title": "Israel expands northern no-fly zone",
+          "desc": "Israel Civil Aviation Authority announced expansion of no-fly zone along the Lebanon border, prohibiting all civilian flights.",
+          "locationName": "Golan Heights"
+        },
+        "ar": {
+          "title": "إسرائيل توسع منطقة حظر الطيران في الشمال",
+          "desc": "أعلنت سلطة الطيران المدني الإسرائيلية توسيع منطقة حظر الطيران على طول الحدود اللبنانية، مع حظر جميع الرحلات المدنية.",
+          "locationName": "هضبة الجولان"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "diplomatic",
+      "country": "usa",
+      "title": "美国国务卿呼吁地区克制",
+      "desc": "美国国务卿发表声明，呼吁中东地区各方保持克制，通过外交途径解决分歧，避免局势进一步升级。",
+      "location": [38.90, -77.03],
+      "locationName": "华盛顿",
+      "time": "2025-02-28T11:00:00Z",
+      "source": "@StateDept",
+      "tweetId": "1234567894",
+      "url": "https://twitter.com/StateDept/status/1234567894",
+      "isNew": false,
+      "translations": {
+        "zh": {
+          "title": "美国国务卿呼吁地区克制",
+          "desc": "美国国务卿发表声明，呼吁中东地区各方保持克制，通过外交途径解决分歧，避免局势进一步升级。",
+          "locationName": "华盛顿"
+        },
+        "en": {
+          "title": "US Secretary of State calls for regional restraint",
+          "desc": "The US Secretary of State issued a statement calling on all parties in the Middle East to exercise restraint and resolve differences through diplomatic channels to avoid further escalation.",
+          "locationName": "Washington DC"
+        },
+        "ar": {
+          "title": "وزير الخارجية الأمريكي يدعو إلى ضبط النفس إقليمياً",
+          "desc": "أصدر وزير الخارجية الأمريكي بياناً دعا فيه جميع الأطراف في الشرق الأوسط إلى ضبط النفس وحل الخلافات عبر القنوات الدبلوماسية لتجنب المزيد من التصعيد.",
+          "locationName": "واشنطن"
+        }
+      }
+    }
+  ],
+  "templates": {
+    "zh": [
+      {
+        "type": "strike",
+        "country": "israel",
+        "title": "以色列无人机袭击约旦河西岸",
+        "desc": "以色列无人机对约旦河西岸武装目标发动精确打击，据报道已摧毁多辆车辆。",
+        "location": [32.0, 35.2],
+        "locationName": "约旦河西岸",
+        "source": "@IDF"
+      },
+      {
+        "type": "blockade",
+        "country": "iran",
+        "title": "伊朗舰艇在波斯湾集结",
+        "desc": "多艘伊朗革命卫队舰艇在波斯湾北部海域集结，可能进行联合演习。",
+        "location": [27.0, 52.0],
+        "locationName": "波斯湾",
+        "source": "@IRGC_Navy"
+      },
+      {
+        "type": "intel",
+        "country": "usa",
+        "title": "美军增派雷达系统至沙特",
+        "desc": "美国向沙特阿拉伯派遣先进雷达系统，加强对地区空中活动的监控能力。",
+        "location": [24.71, 46.68],
+        "locationName": "利雅得",
+        "source": "@CENTCOM"
+      }
+    ],
+    "en": [
+      {
+        "type": "strike",
+        "country": "israel",
+        "title": "Israeli drone strike in West Bank",
+        "desc": "Israeli drones carried out precision strikes on armed targets in the West Bank, reportedly destroying multiple vehicles.",
+        "location": [32.0, 35.2],
+        "locationName": "West Bank",
+        "source": "@IDF"
+      },
+      {
+        "type": "blockade",
+        "country": "iran",
+        "title": "IRGC vessels assembling in Persian Gulf",
+        "desc": "Multiple IRGC naval vessels assembling in northern Persian Gulf waters, possibly for joint drills.",
+        "location": [27.0, 52.0],
+        "locationName": "Persian Gulf",
+        "source": "@IRGC_Navy"
+      },
+      {
+        "type": "intel",
+        "country": "usa",
+        "title": "US deploys radar systems to Saudi Arabia",
+        "desc": "US dispatching advanced radar systems to Saudi Arabia to enhance regional aerial surveillance capabilities.",
+        "location": [24.71, 46.68],
+        "locationName": "Riyadh",
+        "source": "@CENTCOM"
+      }
+    ],
+    "ar": [
+      {
+        "type": "strike",
+        "country": "israel",
+        "title": "غارة إسرائيلية بطائرة مسيرة في الضفة الغربية",
+        "desc": "نفذت طائرات إسرائيلية بدون طيار ضربات دقيقة على أهداف مسلحة في الضفة الغربية، ودمرت عدة مركبات بحسب التقارير.",
+        "location": [32.0, 35.2],
+        "locationName": "الضفة الغربية",
+        "source": "@IDF"
+      },
+      {
+        "type": "blockade",
+        "country": "iran",
+        "title": "سفن الحرس الثوري تتجمع في الخليج الفارسي",
+        "desc": "تتجمع عدة سفن بحرية للحرس الثوري في المياه الشمالية للخليج الفارسي، وربما لإجراء مناورات مشتركة.",
+        "location": [27.0, 52.0],
+        "locationName": "الخليج الفارسي",
+        "source": "@IRGC_Navy"
+      },
+      {
+        "type": "intel",
+        "country": "usa",
+        "title": "الولايات المتحدة تنشر أنظمة رادار في السعودية",
+        "desc": "تقوم الولايات المتحدة بنقل أنظمة رادار متطورة إلى المملكة العربية السعودية لتعزيز قدرات المراقبة الجوية الإقليمية.",
+        "location": [24.71, 46.68],
+        "locationName": "الرياض",
+        "source": "@CENTCOM"
+      }
+    ]
+  },
+  "tickerTexts": {
+    "zh": [
+      "⚡ 以色列国防军：过去24小时内已对加沙地带实施超过150次空中打击",
+      "⚡ 伊朗外长召见以色列大使提出正式抗议",
+      "⚡ 美国务院：正通过外交渠道与各方保持沟通",
+      "⚡ 胡塞武装宣布在红海拦截商船",
+      "⚡ 卡塔尔呼吁召开海湾合作委员会紧急会议"
+    ],
+    "en": [
+      "⚡ IDF: Over 150 airstrikes carried out in Gaza in the past 24 hours",
+      "⚡ Iranian Foreign Minister summons Israeli ambassador to lodge formal protest",
+      "⚡ US State Department: Maintaining communication through diplomatic channels",
+      "⚡ Houthis announce interception of commercial vessel in Red Sea",
+      "⚡ Qatar calls for emergency GCC meeting"
+    ],
+    "ar": [
+      "⚡ الجيش الإسرائيلي: أكثر من 150 غارة جوية على غزة خلال الـ 24 ساعة الماضية",
+      "⚡ وزير الخارجية الإيراني يستدعي السفير الإسرائيلي لتقديم احتجاج رسمي",
+      "⚡ وزارة الخارجية الأمريكية: الحفاظ على التواصل من خلال القنوات الدبلوماسية",
+      "⚡ الحوثيون يعلنون اعتراض سفينة تجارية في البحر الأحمر",
+      "⚡ قطر تدعو إلى عقد اجتماع طارئ لمجلس التعاون الخليجي"
+    ]
+  },
+  "languages": ["zh", "en", "ar"],
+  "lastUpdated": "2025-02-28T14:30:00Z"
+}
