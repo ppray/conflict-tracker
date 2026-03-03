@@ -3,13 +3,14 @@
 Safe update script for events.json
 Ensures no existing events are lost
 Supports multi-language content generation (zh/en/ar)
+Filters to only include recent events (within MAX_AGE_HOURS)
 """
 
 import json
 import subprocess
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import shutil
 
@@ -41,7 +42,10 @@ KEYWORDS = [
 ]
 
 # Maximum tweets per keyword
-MAX_TWEETS = 5
+MAX_TWEETS = 10
+
+# Maximum age of events to include (in hours)
+MAX_AGE_HOURS = 24
 
 # Rate limiting for translation
 TRANSLATE_DELAY = 1.0
@@ -84,7 +88,12 @@ def translate_text(text, target_lang, source_lang='auto'):
 
 
 def create_translated_content(title, desc, location_name):
-    """Create translated versions of content for all supported languages."""
+    """Create translated versions of content for ALL supported languages.
+    
+    Key fix: Translates to ALL three languages (zh, en, ar) regardless of
+    the original language. Previously, English tweets were stored as-is in
+    the zh field, causing Chinese users to see English text.
+    """
     translated = {
         'zh': {'title': title, 'desc': desc, 'locationName': location_name},
         'en': {'title': title, 'desc': desc, 'locationName': location_name},
@@ -96,12 +105,14 @@ def create_translated_content(title, desc, location_name):
 
     # Detect original language
     original_lang = 'en'
-    if any(ord(c) > 127 and not ('\u0600' <= c <= '\u06FF') for c in title):
+    has_cjk = any('\u4e00' <= c <= '\u9fff' for c in title)
+    has_arabic = any('\u0600' <= c <= '\u06FF' for c in title)
+    if has_cjk:
         original_lang = 'zh'
-    elif any('\u0600' <= c <= '\u06FF' for c in title):
+    elif has_arabic:
         original_lang = 'ar'
 
-    # Translate to other languages
+    # Translate to ALL languages (including zh if source is not zh)
     for target_lang in LANGUAGES:
         if target_lang == original_lang:
             continue
@@ -121,6 +132,19 @@ def create_translated_content(title, desc, location_name):
                 translated[target_lang]['locationName'] = loc_trans
 
     return translated
+
+
+def parse_tweet_time(time_str):
+    """Parse tweet time string to datetime object."""
+    try:
+        # Format: "Mon Mar 02 20:24:23 +0000 2026"
+        return datetime.strptime(time_str, "%a %b %d %H:%M:%S %z %Y")
+    except (ValueError, TypeError):
+        try:
+            # ISO format fallback
+            return datetime.fromisoformat(time_str.replace('Z', '+00:00'))
+        except (ValueError, TypeError):
+            return None
 
 
 def search_tweets(query, count=10):
@@ -165,15 +189,31 @@ def main():
         print(f"✗ Error loading events: {e}", file=sys.stderr)
         return 1
 
+    # Time filter: only keep events from the last MAX_AGE_HOURS
+    cutoff_time = datetime.now(timezone.utc) - timedelta(hours=MAX_AGE_HOURS)
+    print(f"Time filter: only events after {cutoff_time.isoformat()}")
+
     # Search for new tweets
     new_events = []
+    skipped_old = 0
+    skipped_dup = 0
     for keyword in KEYWORDS:
         print(f"Searching: {keyword}")
         tweets = search_tweets(keyword, MAX_TWEETS)
 
         for tweet in tweets:
             tweet_id = tweet.get("id")
-            if not tweet_id or tweet_id in existing_tweet_ids:
+            if not tweet_id:
+                continue
+            if tweet_id in existing_tweet_ids:
+                skipped_dup += 1
+                continue
+
+            # Filter by time - skip old events
+            tweet_time_str = tweet.get("createdAt", "")
+            tweet_time = parse_tweet_time(tweet_time_str)
+            if tweet_time and tweet_time < cutoff_time:
+                skipped_old += 1
                 continue
 
             text = tweet.get("text", "")
@@ -223,7 +263,7 @@ def main():
             new_events.append(event)
             existing_tweet_ids.add(tweet_id)
 
-    print(f"✓ Found {len(new_events)} new events")
+    print(f"✓ Found {len(new_events)} new events (skipped {skipped_old} old, {skipped_dup} duplicates)")
 
     # CRITICAL: Keep ALL existing events, add new ones at the beginning
     all_events = new_events + existing_events

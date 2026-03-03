@@ -74,7 +74,13 @@ def translate_text(text, target_lang, source_lang='auto'):
 
 
 def complete_translations(event, verbose=False):
-    """Complete missing translations for an event."""
+    """Complete missing translations for an event.
+    
+    Handles three cases:
+    1. Missing en/ar translations -> translate from source
+    2. zh translation contains English text -> translate to Chinese
+    3. Already complete -> skip
+    """
     trans = event.get('translations', {})
 
     # Use direct fields as fallback for translation source
@@ -93,7 +99,44 @@ def complete_translations(event, verbose=False):
 
     changes = []
 
-    # Complete missing translations
+    # FIX: Check if zh title is actually English (no CJK characters)
+    zh_title = trans.get('zh', {}).get('title', '')
+    zh_needs_fix = zh_title and not any('\u4e00' <= c <= '\u9fff' for c in zh_title)
+    
+    if zh_needs_fix:
+        if 'zh' not in trans:
+            trans['zh'] = {}
+        # Use the English text as source for Chinese translation
+        en_source = trans.get('en', {}).get('title') or zh_title
+        title_trans = translate_text(en_source, 'zh', 'en')
+        if title_trans:
+            trans['zh']['title'] = title_trans
+            changes.append('zh.title')
+        
+        en_desc = trans.get('en', {}).get('desc') or trans.get('zh', {}).get('desc', source_desc)
+        if en_desc:
+            desc_short = en_desc[:200] + '...' if len(en_desc) > 200 else en_desc
+            desc_trans = translate_text(desc_short, 'zh', 'en')
+            if desc_trans:
+                trans['zh']['desc'] = desc_trans
+                changes.append('zh.desc')
+        
+        en_loc = trans.get('en', {}).get('locationName') or source_location
+        if en_loc:
+            loc_trans = translate_text(en_loc, 'zh', 'auto')
+            if loc_trans:
+                trans['zh']['locationName'] = loc_trans
+                changes.append('zh.locationName')
+        
+        # Also update the top-level fields to Chinese
+        if trans['zh'].get('title'):
+            event['title'] = trans['zh']['title']
+        if trans['zh'].get('desc'):
+            event['desc'] = trans['zh']['desc']
+        if trans['zh'].get('locationName'):
+            event['locationName'] = trans['zh']['locationName']
+
+    # Complete missing en/ar translations
     for target_lang in ['en', 'ar']:
         if target_lang not in trans:
             trans[target_lang] = {}
@@ -161,11 +204,17 @@ def main():
     missing_en = 0
     missing_ar = 0
     missing_both = 0
+    zh_is_english = 0
 
     for event in events:
         trans = event.get('translations', {})
         has_en = 'en' in trans and trans['en'].get('title')
         has_ar = 'ar' in trans and trans['ar'].get('title')
+        
+        # Check if zh title is actually English (no CJK characters)
+        zh_title = trans.get('zh', {}).get('title', '')
+        if zh_title and not any('\u4e00' <= c <= '\u9fff' for c in zh_title):
+            zh_is_english += 1
 
         if not has_en and not has_ar:
             missing_both += 1
@@ -180,15 +229,16 @@ def main():
     print(f"  Missing en: {missing_en}")
     print(f"  Missing ar: {missing_ar}")
     print(f"  Missing both: {missing_both}")
+    print(f"  ZH title is actually English (needs fix): {zh_is_english}")
     print()
 
-    if missing_both + missing_en + missing_ar == 0:
-        print("✓ All events already have complete translations!")
+    if missing_both + missing_en + missing_ar + zh_is_english == 0:
+        print("✓ All events already have complete and correct translations!")
         return 0
 
     # Ask for confirmation
-    total_to_translate = missing_en + missing_ar
-    print(f"This will translate approximately {total_to_translate} missing fields.")
+    total_to_translate = missing_en + missing_ar + zh_is_english
+    print(f"This will translate approximately {total_to_translate} events with missing/incorrect fields.")
     print(f"Estimated time: {total_to_translate * TRANSLATE_DELAY / 60:.1f} minutes")
     print()
 
@@ -209,8 +259,12 @@ def main():
         trans = event.get('translations', {})
         has_en = 'en' in trans and trans['en'].get('title')
         has_ar = 'ar' in trans and trans['ar'].get('title')
+        
+        # Also check if zh needs fixing
+        zh_title = trans.get('zh', {}).get('title', '')
+        zh_needs_fix = zh_title and not any('\u4e00' <= c <= '\u9fff' for c in zh_title)
 
-        if has_en and has_ar:
+        if has_en and has_ar and not zh_needs_fix:
             continue
 
         print(f"[{i+1}/{len(events)}] Event ID: {event.get('id', 'unknown')}")
